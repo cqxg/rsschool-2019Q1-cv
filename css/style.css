@@ -11,3 +11,9 @@ h1 {
 h2 {
   font-size: 20px;    
 }
+hr {
+  border: none; 
+  background-color: red;
+  color: red; 
+  height: 2px; 
+}
