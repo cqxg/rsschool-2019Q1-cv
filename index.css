@@ -297,3 +297,10 @@ li:before {
 	border: 1px solid #403F44;
 	margin-top: 30px;
 }
+
+.profile_picture{
+    width: 210px;
+    height: 240px;
+    margin:10px;
+    background: url(//s3-us-west-2.amazonaws.com/s.cdpn.io/86033/profile/profile-512_3.jpg) 100% /210px no-repeat;
+}
