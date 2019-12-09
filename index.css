@@ -278,9 +278,22 @@ li:before {
 }
     
 .header_menu a.no_border{
-		border-left: none;
+	border-left: none;
 }
     
 .header_menu a:hover {
 	color: #837c9a;
+}
+
+#left_nav h2 {
+	margin: 0;
+	font-size: 24px;
+}
+
+.profile_frame{
+	width: 230px;
+	height: 260px;
+	background: black;
+	border: 1px solid #403F44;
+	margin-top: 30px;
 }
