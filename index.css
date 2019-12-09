@@ -212,3 +212,75 @@ li:before {
 	border-top: 1px solid #403F44;
 	display: inline-block;
 }
+
+.logotype_name{
+	text-transform: uppercase;
+	font-size: 32px;
+	margin: 43px 0 0;
+}
+.logotype_occupation{
+	text-transform: uppercase;
+	margin-top: 5px;
+	color: #5ce2af;
+	font-size: 14px;
+	letter-spacing: 2px;
+	padding-left: 7px;
+}
+
+.download_print_buttons {
+	width: 225px;
+	height: 45px;
+	float: right;
+}
+
+.download_print_buttons a {
+	text-decoration: none;
+	font-size: 12px;
+	font-family: 'Lato', Helvetica, sans-serif;
+	font-style: italic;
+	line-height: 45px;
+	padding: 16px 17px;
+	background: #353638;
+}
+    
+.download_print_buttons a:hover {
+	background: #020609;
+}
+        
+.download_print_buttons .icon {
+	color: #02070a;
+	padding-right: 6px;
+	font-style: normal;
+	font-size: 18px;
+}
+        
+.icon-angle-double-right {
+	position: relative;
+	top: 2px;
+}
+        
+.download_print_buttons a:hover .icon {
+	color: #e4e3e8;
+}
+			
+.header_menu {
+	width: 699px;
+	margin-top: 40px;
+	margin-left: 5px;
+}
+
+.header_menu a{
+	text-decoration: none;
+	padding: 0 20px;
+	border-left: 1px solid #e4e3e8;
+	font-size: 16px;
+	font-weight: 400;
+}
+    
+.header_menu a.no_border{
+		border-left: none;
+}
+    
+.header_menu a:hover {
+	color: #837c9a;
+}
