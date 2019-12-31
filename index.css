@@ -427,6 +427,27 @@ li:before {
 	border-bottom-left-radius: 50px;
 }
 
+.highlight {
+    color: #29C782;
+    margin-right: 10px;
+}
+
+.env_wrap {
+    display: flex;
+    flex-direction: row;
+}
+
+.project_link {
+    text-decoration: none;
+    padding: 0 20px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.project_link:hover {
+	color: #837c9a;
+}
+
 .footer_name {
 	font-style: italic;
 	margin-top: 20px;
