@@ -444,7 +444,18 @@ li:before {
     font-weight: 400;
 }
 
+.education_link {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+}
+
 .project_link:hover {
+    color: #837c9a;
+}
+
+.education_link:hover {
 	color: #837c9a;
 }
 
