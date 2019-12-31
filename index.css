@@ -446,17 +446,17 @@ li:before {
 
 .education_link {
     text-decoration: none;
-    color: black;
+    color: rgb(133, 132, 132);
     font-size: 16px;
     font-weight: 500;
 }
 
 .project_link:hover {
-    color: #837c9a;
+    color: #9a7c7c;
 }
 
 .education_link:hover {
-	color: #837c9a;
+	color: #686379;
 }
 
 .back_highlight {
