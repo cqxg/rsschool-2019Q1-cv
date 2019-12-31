@@ -448,6 +448,15 @@ li:before {
 	color: #837c9a;
 }
 
+.back_highlight {
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 2px;
+    color: #000507;
+    text-align: center;
+    background-color: #48DA9B;
+}
+
 .footer_name {
 	font-style: italic;
 	margin-top: 20px;
