@@ -292,16 +292,16 @@ li:before {
 
 .profile_frame{
 	width: 230px;
-	height: 260px;
+	height: 340px;
 	background: black;
 	border: 1px solid #403F44;
-	margin-top: 30px;
+	margin-top: 20px;
 }
 
-.profile_picture{
+.profile_picture {
     width: 210px;
     height: 240px;
-    margin:10px;
+    margin: 10px;
     background: url(//s3-us-west-2.amazonaws.com/s.cdpn.io/86033/profile/profile-512_3.jpg) 100% /210px no-repeat;
 }
 
@@ -314,15 +314,15 @@ li:before {
 	width: 230px;
 }
 
-.contact_details_content h2 + p.purple{
+.contact_details_content h2 + p.purple {
 	margin-top: 10px;
 }
 
-.contact_details_content p{
+.contact_details_content p {
 	margin: 0;
 }
 
-.contact_details_content p.purple{
+.contact_details_content p.purple {
 	margin-top: 25px;
 }
 
@@ -386,7 +386,7 @@ li:before {
 	margin-top: 15px;
 }
 
-.get_social_content h2{
+.get_social_content h2 {
     margin-bottom: 8px;
 }
 
@@ -406,21 +406,14 @@ li:before {
 	display:none;
 }
 
-.social_icons .facebook:hover{
-	background: #3b5998;
-	color: #dfe3ee;
-	border-top-right-radius: 50px;
-	border-bottom-left-radius: 50px;
-}
-
-.social_icons .twitter:hover{
+.social_icons .github:hover {
     background: #00B0ED;
 	color: #fff;
 	border-top-left-radius: 50px;
 	border-bottom-right-radius: 50px;
 }
 
-.social_icons .linkedin:hover{
+.social_icons .linkedin:hover {
 	background: #007bb6;
 	color: #fff;
 	border-top-right-radius: 50px;
