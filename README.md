@@ -76,9 +76,4 @@ Environment: JavaScript, ReactJS, ReduxJS.
     -  Link: https://my4hat.herokuapp.com/  
     
 The project goal is to create chat UI for given websocket URL on ReactJS. Now in the development process significantly modified version of the chat. Soon she will be on the GH ;)
-Environment: JavaScript, ReactJS, HTML, CSS, Websocket.  
-
-|![NSolid](http://images.vfl.ru/ii/1579264461/66a6c62b/29232129.png)|
-|:--:|
-|  https://github.com/cqxg|
-
+Environment: JavaScript, ReactJS, HTML, CSS, Websocket.
