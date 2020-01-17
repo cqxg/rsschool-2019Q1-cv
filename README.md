@@ -69,3 +69,5 @@ Certificate of Completion: https://app.rs.school/certificate/cc6pbvqf
 
 -  Belarusian State Economic University, Minsk, Belarus, 2014-2018
 Specialist (Bachelor Degree) – Political science. 
+
+
