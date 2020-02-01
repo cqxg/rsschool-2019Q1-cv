@@ -73,7 +73,7 @@ Environment: JavaScript, ReactJS, ReduxJS.
 -----
 
   - Project: React Chat (2019)
-    -  Link: http://cqxg-chat.herokuapp.com/ 
+    -  Link: https://cqxg-chat.netlify.com/
     
-The project goal is to create chat UI for given websocket URL on ReactJS. Now in the development process significantly modified version of the chat. Soon she will be on the GH ;)
+The project goal is to create chat UI for given websocket URL on ReactJS.
 Environment: JavaScript, ReactJS, HTML, CSS, Websocket.
