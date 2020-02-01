@@ -1,4 +1,4 @@
-@import url(http://weloveiconfonts.com/api/?family=entypo|fontawesome);
+@import url(//weloveiconfonts.com/api/?family=entypo|fontawesome);
 
 [class*="entypo-"]:before {
   font-family: 'entypo', sans-serif;
@@ -101,7 +101,7 @@
 }
 
 body {
-	background: url(http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/dark_wall.png) repeat;
+	background: url(//subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/dark_wall.png) repeat;
 	margin: 0;
 }
 
@@ -345,7 +345,7 @@ li:before {
 	width: 30px;
 	height: 30px;
 	z-index: 9;
-	background: url(http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/dark_wall.png) repeat;
+	background: url(//subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/dark_wall.png) repeat;
     transform: rotate(45deg);
 }
     
@@ -357,7 +357,7 @@ li:before {
     width: 30px;
     height: 30px;
     z-index: 9;
-    background: url(http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/dark_wall.png) repeat;
+    background: url(//subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/dark_wall.png) repeat;
     transform: rotate(45deg);
 }
 
