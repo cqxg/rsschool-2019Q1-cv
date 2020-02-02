@@ -2,16 +2,6 @@ https://cqxg.github.io/Ihar_Ivaniuk_CV/
 
 ![N|Solid](http://images.vfl.ru/ii/1580601340/4cd35639/29403492.png)
 
-# Ihar Ivaniuk
-
-![N|Solid](http://images.vfl.ru/ii/1579256102/0c34e269/29230262.jpg)
-
-
-|   My   	| Contacts                	|
-|:------:	|-------------------------	|
-|  Phone 	| +375 29 627 40 39       	|
-|  Mail  	| cqxg@ynadex.ru          	|
-| GitHub 	| https://github.com/cqxg 	|
 # Summary of Qualifications 
 >Junior frontend-developer.
 > Eager to get working experience and to become a true professional in web development.
