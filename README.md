@@ -1,6 +1,6 @@
 https://cqxg.github.io/Ihar_Ivaniuk_CV/  
 
-![N|Solid](http://images.vfl.ru/ii/1580601340/4cd35639/29403492.png)
+![Alt text](http://images.vfl.ru/ii/1580601340/4cd35639/29403492.png)
 
 # Summary of Qualifications 
 >Junior frontend-developer.
@@ -30,44 +30,4 @@ https://cqxg.github.io/Ihar_Ivaniuk_CV/
 -  The Rolling Scopes School (https://school.rollingscopes.com/), 02.2019 – 08.2019
    - Certificate of Completion: https://app.rs.school/certificate/cc6pbvqf  
 
-![NSolid](http://images.vfl.ru/ii/1579265360/ded6a491/29232230.png)
-
-
-# Projects
-  - Project: Animation Editor App (2019)
-    -  Link:  https://cqxg.github.io/animation-editor/  
-    
-The goal of the project is to create an application that will include tools for drawing, animation then and creating .gif or .png images for download.
-Environment: HTML, CSS, JavaScript, Webpack, Canvas API.
-
------
-
-  - Project: Youtube client (2019)
-    -  Link: https://cqxg.github.io/search/  
-    
-The project goal is to create UI for searching videos on YouTube, using YouTube API.
-Environment: HTML, CSS, JavaScript, Webpack, Youtube API.
-
------
-
-  - Project: Culture Portal (2019)
-    -  Link: https://belarusian-directors.netlify.com/be/  
-    
-A small cultural portal about Belarusian directors. Made in a team with my friends.
-Environment: JavaScript, GatsbyJS, HTML, CSS, Bootstrap
-
------
-
-  - Project: Simple ToDo list (2019)
-    -  Link: https://simple-todo-list-with-react-re.herokuapp.com/  
-    
-The project goal is to create small ToDo application using React / Redux.
-Environment: JavaScript, ReactJS, ReduxJS.
-
------
-
-  - Project: React Chat (2019)
-    -  Link: https://cqxg-chat.netlify.com/
-    
-The project goal is to create chat UI for given websocket URL on ReactJS.
-Environment: JavaScript, ReactJS, HTML, CSS, Websocket.
+![Alt text](http://images.vfl.ru/ii/1579265360/ded6a491/29232230.png)
