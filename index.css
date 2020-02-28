@@ -101,7 +101,7 @@
 }
 
 body {
-	background: url(https://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/dark_wall.png) repeat;
+	background: url('./assets/dark_wall.webp') repeat;
 	margin: 0;
 }
 
