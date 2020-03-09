@@ -2,6 +2,7 @@ import React from 'react';
 
 import Header from './components/Header/Header'
 import LeftCol from './components/LeftCol/LeftCol'
+import Main from './components/Main/Main'
 import Footer from './components/Footer/Footer'
 
 
@@ -10,6 +11,7 @@ const App = () => (
         <Footer />
         <Header />
         <LeftCol />
+        <Main />
 
     </div>
 );
