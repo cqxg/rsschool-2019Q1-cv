@@ -1,20 +1,20 @@
 import React from 'react';
 
-import Header from './components/Header/Header'
-import LeftCol from './components/LeftCol/LeftCol'
-import Main from './components/Main/Main'
-import Footer from './components/Footer/Footer'
+import Header from './components/Header/Header';
+import LeftCol from './components/LeftCol/LeftCol';
+import Main from './components/Main/Main';
+import Footer from './components/Footer/Footer';
 
-import './Styles/styles.css'
+import './Styles/styles.css';
 
 const App = () => (
-    <div className="app-wrapper">
-        <Footer />
-        <Header />
-        <LeftCol />
-        <Main />
+  <div className="app-wrapper">
+    <Footer />
+    <Header />
+    <LeftCol />
+    <Main />
 
-    </div>
+  </div>
 );
 
 export default App;
