@@ -1,8 +1,9 @@
 import React from 'react';
+import Footer from './components/Footer/Footer'
 
 const App = () => (
     <div className="app-wrapper">
-        qq
+        <Footer />
     </div>
 );
 
