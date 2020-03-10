@@ -4,7 +4,6 @@ const LeftCol = () => {
     return (
         <div id="left_col">
             <div className="profile_frame">
-                {/* <img src="./assets/Photo.jpg" alt="profile picture"> </img> */}
             </div>
             <div className="hello_content">
                 <h2>Hello!</h2>
@@ -21,10 +20,10 @@ const LeftCol = () => {
                 <p>Minsk, Belarus</p>
                 <p>220095</p>
             </div>
-            <a href="mailto:cqxg@yandex.ru" class="send_message_button">
+            <a href="mailto:cqxg@yandex.ru" className="send_message_button">
                 <span className="cut1"></span>
                 <span className="cut2"></span>
-                <span className="content">Send me a message <span class="fontawesome-double-angle-right"></span></span>
+                <span className="content">Send me a message <span className="fontawesome-double-angle-right"></span></span>
             </a>
             <div class="get_social_content">
                 <h2>Get social</h2>
