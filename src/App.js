@@ -8,13 +8,13 @@ import Footer from './components/Footer/Footer';
 import './Styles/styles.css';
 
 const App = () => (
-  <div className="app-wrapper">
-    <Footer />
-    <Header />
-    <LeftCol />
-    <Main />
+    <div className="app-wrapper">
+        <Header />
+        <LeftCol />
+        <Main />
+        <Footer />
 
-  </div>
+    </div>
 );
 
 export default App;
