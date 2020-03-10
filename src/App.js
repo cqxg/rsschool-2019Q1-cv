@@ -5,15 +5,14 @@ import LeftCol from './components/LeftCol/LeftCol';
 import Main from './components/Main/Main';
 import Footer from './components/Footer/Footer';
 
-import './Styles/styles.css';
+import './styles/styles.css';
 
 const App = () => (
-    <div className="app-wrapper">
+    <div id="main_container">
         <Header />
         <LeftCol />
         <Main />
         <Footer />
-
     </div>
 );
 
