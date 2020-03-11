@@ -1,5 +1,7 @@
 import React from 'react';
 
+import Navbar from './Navbar';
+
 const Header = () => {
 
     const goPrint = () => {
@@ -24,10 +26,7 @@ const Header = () => {
                         </li>
                     </ul>
                     <div className="clear" />
-                    <ul className="header_menu horizontal_list">
-                        <li><a className="no_border purple" href="#">Profile</a></li>
-                        <li><a href="https://github.com/cqxg">Github</a></li>
-                    </ul>
+                    <Navbar />
                 </div>
             </div>
         </div>
