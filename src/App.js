@@ -9,12 +9,15 @@ import Footer from './components/Footer/Footer';
 import './styles/styles.css';
 
 const App = () => (
-  <div id="main_container">
-    <Header />
-    <LeftCol />
-    <Main />
-    <Footer />
-  </div>
+    <BrowserRouter>
+        <div id="main_container">
+            <Header />
+            <LeftCol />
+            <Main />
+            <Footer />
+        </div>
+    </BrowserRouter>
+
 );
 
 export default App;
