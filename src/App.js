@@ -3,7 +3,9 @@ import { BrowserRouter, Route } from 'react-router-dom';
 
 import Header from './components/Header/Header';
 import LeftCol from './components/LeftCol/LeftCol';
-import Main from './components/Main/Main';
+import Education from './components/Main/Education';
+import Profile from './components/Main/Profile';
+import Projects from './components/Main/Projects';
 import Footer from './components/Footer/Footer';
 
 import './styles/styles.css';
@@ -13,11 +15,12 @@ const App = () => (
         <div id="main_container">
             <Header />
             <LeftCol />
-            <Main />
+            <Route path="/profile" render={() => <Education />} />
+            <Route path="/education" render={() => <Profile />} />
+            <Route path="/projects" render={() => <Projects />} />
             <Footer />
         </div>
     </BrowserRouter>
-
 );
 
 export default App;
