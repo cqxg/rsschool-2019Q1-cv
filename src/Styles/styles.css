@@ -461,6 +461,10 @@ li:before {
     background-color: #48DA9B;
 }
 
+#footer {
+    margin-top: 25px;
+}
+
 .footer_name {
 	font-style: italic;
 	margin-top: 20px;
@@ -483,19 +487,4 @@ li:before {
 	top: -20px;
 	right: 70px;
 	cursor: default;
-}
-
-.philosophy_content {
-	margin-top: 20px;
-}
-
-.philosophy_content p {
-	margin: 0;
-	width: 370px;
-	float: left;
-}
-    
-.philosophy_content ul {
-	float: left;
-	padding-left: 40px;
 }

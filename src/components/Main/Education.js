@@ -1,9 +1,9 @@
 import React from 'react';
 
 const Education = () => (
-    <div>
+  <div>
         Education
-    </div>
+  </div>
 );
 
 export default Education;

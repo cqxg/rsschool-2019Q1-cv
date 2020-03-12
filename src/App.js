@@ -11,16 +11,16 @@ import Footer from './components/Footer/Footer';
 import './styles/styles.css';
 
 const App = () => (
-    <BrowserRouter>
-        <div id="main_container">
-            <Header />
-            <LeftCol />
-            <Route path="/profile" render={() => <Education />} />
-            <Route path="/education" render={() => <Profile />} />
-            <Route path="/projects" render={() => <Projects />} />
-            <Footer />
-        </div>
-    </BrowserRouter>
+  <BrowserRouter>
+    <div id="main_container">
+      <Header />
+      <LeftCol />
+      <Route path="/profile" render={() => <Education />} />
+      <Route path="/education" render={() => <Profile />} />
+      <Route path="/projects" render={() => <Projects />} />
+      <Footer />
+    </div>
+  </BrowserRouter>
 );
 
 export default App;
