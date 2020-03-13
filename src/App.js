@@ -15,8 +15,8 @@ const App = () => (
     <div id="main_container">
       <Header />
       <LeftCol />
-      <Route path="/profile" render={() => <Education />} />
-      <Route path="/education" render={() => <Profile />} />
+      <Route path="/profile" render={() => <Profile />} />
+      <Route path="/education" render={() => <Education />} />
       <Route path="/projects" render={() => <Projects />} />
       <Footer />
     </div>
