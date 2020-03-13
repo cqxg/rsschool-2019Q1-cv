@@ -1,0 +1,61 @@
+import React from 'react';
+
+const Projects = () => (
+    <div id="content_container">
+        <div class="last block">
+            <h2>Projects</h2>
+            <p class="back_highlight">! You can find many more interesting examples of my own projects on my <a
+                class="education_link " href="https://github.com/cqxg">Github</a>
+                    !</p>
+
+            <h4 class="highlight">Project: cqxg-chat (2020)</h4>
+            <p>Link:<a class="project_link" href="https://cqxg-chat.netlify.com/">cqxg-chat.netlify.com</a></p>
+            <p>The project goal is to create chat UI for given websocket URL on ReactJS.</p>
+            <div class="env_wrap">
+                <p class="highlight">Environment:</p>
+                <p>JavaScript, ReactJS, HTML, CSS, Websocket.</p>
+            </div>
+
+            <div class="horizontal_line">
+                <div class="line_left"></div>
+            </div>
+
+            <h4 class="highlight">Project: Animation Editor App (2019)</h4>
+            <p>Link:<a class="project_link"
+                href="https://cqxg.github.io/animation-editor/">cqxg.github.io/animation-editor</a></p>
+            <p>The goal of the project is to create an application that will include tools for drawing, animation
+                    then and creating .gif or .png images for download.</p>
+            <div class="env_wrap">
+                <p class="highlight">Environment:</p>
+                <p>HTML, CSS, JavaScript, Webpack, Canvas API.</p>
+            </div>
+
+            <div class="horizontal_line">
+                <div class="line_left"></div>
+            </div>
+
+            <h4 class="highlight">Project: Culture Portal (2019)</h4>
+            <p>Link:<a class="project_link"
+                href="https://belarusian-directors.netlify.com/">belarusian-directors.netlify.com</a></p>
+            <p>A small cultural portal about Belarusian directors. Made in a team with my friends.</p>
+            <div class="env_wrap">
+                <p class="highlight">Environment:</p>
+                <p> JavaScript, GatsbyJS, HTML, CSS, Bootstrap</p>
+            </div>
+
+            <div class="horizontal_line">
+                <div class="line_left"></div>
+            </div>
+
+            <h4 class="highlight">Project: Youtube client (2019)</h4>
+            <p>Link:<a class="project_link" href="https://cqxg.github.io/search/">cqxg.github.io/search</a></p>
+            <p>The project goal is to create UI for searching videos on YouTube, using YouTube API.</p>
+            <div class="env_wrap">
+                <p class="highlight">Environment:</p>
+                <p>HTML, CSS, JavaScript, Webpack, Youtube API.</p>
+            </div>
+        </div>
+    </div>
+);
+
+export default Projects;
