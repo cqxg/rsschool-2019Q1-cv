@@ -4,9 +4,9 @@ import { NavLink } from 'react-router-dom';
 const Navbar = () => (
   <nav>
     <ul className="header_menu horizontal_list">
-      <li><NavLink to="/profile">Profile</NavLink></li>
-      <li><NavLink to="/education" href="https://github.com/cqxg">Education</NavLink></li>
-      <li><NavLink to="/projects" href="https://github.com/cqxg">Projects</NavLink></li>
+      <li><NavLink to="/profile" activeClassName='active'>Profile</NavLink></li>
+      <li><NavLink to="/education" activeClassName='active' href="https://github.com/cqxg">Education</NavLink></li>
+      <li><NavLink to="/projects" activeClassName='active' href="https://github.com/cqxg">Projects</NavLink></li>
     </ul>
   </nav>
 );
