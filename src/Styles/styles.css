@@ -487,3 +487,17 @@ li:before {
 	right: 70px;
 	cursor: default;
 }
+.philosophy_content {
+	margin-top: 20px;
+}
+
+.philosophy_content p {
+	margin: 0;
+	width: 370px;
+	float: left;
+}
+    
+.philosophy_content ul {
+	float: left;
+	padding-left: 40px;
+}

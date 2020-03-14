@@ -5,11 +5,11 @@ const Profile = () => (
         <div className="block">
             <h1>Summary of Qualifications</h1>
             <blockquote className="profile_quote">
-                <p>Junior frontend-developer.</p>
                 <p>
-                    Eager to get working experience and to become a true professional in web development.
-                    Confident knowledge of HTML, CSS, JavaScript, React, Redux, Git and some other technology
-        </p>
+                    Results- oriented, meticulous and innovative Web Developer with 1
+                    years experience building various types of web application using
+                    HTML, CSS, JavaScript, React, Redux and other technology.
+                </p>
             </blockquote>
         </div>
         <div className="horizontal_line">
