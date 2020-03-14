@@ -12,6 +12,7 @@ const Profile = () => (
                 </p>
             </blockquote>
         </div>
+
         <div className="horizontal_line">
             <div className="line_left" />
             <div className="left_circle" />
@@ -19,6 +20,7 @@ const Profile = () => (
             <div className="right_circle" />
             <div className="line_right" />
         </div>
+
         <div className="block">
             <h2>Technical Skills</h2>
             <div className="philosophy_content">
@@ -48,6 +50,19 @@ const Profile = () => (
                 </ul>
                 <div className="clear" />
             </div>
+        </div>
+
+        <div class="horizontal_line">
+            <div class="line_left"></div>
+            <div class="left_circle"></div>
+            <div class="central_circle"></div>
+            <div class="right_circle"></div>
+            <div class="line_right"></div>
+        </div>
+
+        <div className="block">
+            <h2>Job Experience</h2>
+
         </div>
     </div>
 );
