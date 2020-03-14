@@ -276,10 +276,6 @@ li:before {
 	font-weight: 400;
 }
     
-.header_menu a.no_border{
-	border-left: none;
-}
-    
 .header_menu a:hover {
 	color: #837c9a;
 }
