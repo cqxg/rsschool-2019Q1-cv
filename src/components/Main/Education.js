@@ -1,15 +1,15 @@
 import React from 'react';
 import Certificate from '../../assets/Certificate.png';
-import University from '../../assets/university.png';
+import University from '../../assets/University.png';
 
 const Education = () => (
     <div id="content_container">
         <div className="block">
             <h2>Education</h2>
-            <a href="http://bseu.by/english/"><img src={University}
-                alt="" /></a>
-            <p>Belarusian State Economic University<a className="education_link" href="http://bseu.by/english/">{' '}
-            (Minsk,Belarus)</a>, 2014-2018</p>
+            <a href="http://bseu.by/english/"><img src={University} alt="" /></a>
+            <p>Belarusian State Economic University
+                <a className="education_link" href="http://bseu.by/english/">{' '}(Minsk,Belarus)</a>
+                , 2014-2018</p>
             <p>Specialist (Bachelor Degree) – Political science.</p>
 
             <div className="horizontal_line">
@@ -20,8 +20,7 @@ const Education = () => (
                 (school.rollingscopes)</a>, 02.2019 – 08.2019</p>
 
             <p>Certificate of Completion:</p>
-            <a href="https://app.rs.school/certificate/cc6pbvqf"><img src={Certificate}
-                alt="" /></a>
+            <a href="https://app.rs.school/certificate/cc6pbvqf"><img src={Certificate} alt="" /></a>
         </div>
     </div>
 );
