@@ -1,4 +1,5 @@
 import React from 'react';
+import Certificate from '../../assets/Certificate.png';
 
 const Education = () => (
     <div id="content_container">
@@ -8,7 +9,7 @@ const Education = () => (
                 (school.rollingscopes)</a>, 02.2019 – 08.2019</p>
 
             <p>Certificate of Completion:</p>
-            <a href="https://app.rs.school/certificate/cc6pbvqf"><img src="http://images.vfl.ru/ii/1585326116/9e91c295/30019402.png"
+            <a href="https://app.rs.school/certificate/cc6pbvqf"><img src={Certificate}
                 alt="" /></a>
 
             <div className="horizontal_line">
