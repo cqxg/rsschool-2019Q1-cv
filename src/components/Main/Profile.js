@@ -1,4 +1,5 @@
 import React from 'react';
+import Intelico from '../../assets/Intelico.png';
 
 const Profile = () => (
     <div id="content_container">
@@ -62,7 +63,7 @@ const Profile = () => (
 
         <div className="block">
             <h2>Job Experience</h2>
-
+            <a href="https://intelico.pro/" target='_blank'><img src={Intelico} alt="" /></a>
         </div>
     </div>
 );
