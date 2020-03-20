@@ -10,9 +10,9 @@ const LeftCol = () => (
         <div className="contact_details_content">
             <h2>Contact details</h2>
             <p className="purple">Phone:</p>
-            <a style={{textDecoration:'none'}} href="tel: +375 29 327 4039" type="tel">+375 29 327 4039</a>
+            <a style={{ textDecoration: 'none' }} href="tel: +375 29 327 4039" type="tel">+375 29 327 4039</a>
             <p className="purple">Email:</p>
-            <a style={{textDecoration:'none'}} href="mailto: cqxg@yandex.ru">cqxg@yandex.ru</a>
+            <a style={{ textDecoration: 'none' }} href="mailto: cqxg@yandex.ru">cqxg@yandex.ru</a>
             <p className="purple">Adress:</p>
             <p>Rokossovskogo, 60/1</p>
             <p>Minsk, Belarus</p>
