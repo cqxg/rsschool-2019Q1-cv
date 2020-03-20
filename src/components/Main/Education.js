@@ -6,7 +6,7 @@ const Education = () => (
     <div id="content_container">
         <div className="block">
             <h2>Education</h2>
-            <a href="http://bseu.by/english/"><img src={University} alt="" /></a>
+            <a href="http://bseu.by/english/" target='_blank'><img src={University} alt="" /></a>
             <p>Belarusian State Economic University
                 <a className="education_link" href="http://bseu.by/english/">{' '}(Minsk,Belarus)</a>
                 , 2014-2018</p>
