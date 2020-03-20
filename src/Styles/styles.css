@@ -232,6 +232,7 @@ li:before {
 }
 
 .download_print_buttons {
+    display: flex;
 	width: 225px;
 	height: 45px;
 	float: right;
