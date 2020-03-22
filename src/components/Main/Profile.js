@@ -1,5 +1,5 @@
 import React from 'react';
-import Intelico from '../../assets/Intelico.png';
+import Intelico from '../../assets/IntelicoEng.png';
 
 const Profile = () => (
     <div id="content_container">
