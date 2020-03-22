@@ -3,11 +3,16 @@ import React from 'react';
 const Projects = () => (
     <div id="content_container">
         <div className="last block">
-            <h2>Projects</h2>
+
+
             <p className="back_highlight">
                 ! You can find many more interesting examples of my own projects on my
-                <a className="education_link" href="https://github.com/cqxg">Github</a>!
+                <a className="education_link" href="https://github.com/cqxg"> Github</a> !
+                <br></br>
+                Please, in order to avoid misunderstandings, carefully read the descriptions and ask your questions
             </p>
+
+            <h2>Projects</h2>
 
             <h4 className="highlight">Project: cqxg-chat (2020)</h4>
             <p>Link:<a className="project_link" href="https://cqxg-chat.netlify.com/">cqxg-chat.netlify.com</a></p>
