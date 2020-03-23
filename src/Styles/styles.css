@@ -504,3 +504,111 @@ li:before {
 	float: left;
 	padding-left: 40px;
 }
+
+/* ------------------------------------------------- */
+
+.cbox,
+.input-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.input-container {
+  flex-direction: column;
+  height: 100px;
+}
+
+.input__content {
+  width: 200px;
+  height: 50px;
+  position: relative;
+}
+
+.input__content .add,
+.input__content .cbox,
+.input__content .message {
+  position: absolute;
+}
+
+.input__content .add,
+.input__content .message {
+  color: rgb(0, 0, 0);
+}
+
+.input__content .add {
+  top: -3px;
+  right: 25px;
+  transition: 0.6s all 0.3s;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+
+.message,
+.cbox {
+  outline: none;
+}
+
+.message::-webkit-search-cancel-button {
+  -webkit-appearance: none;
+  width: 20px;
+  height: 20px;
+  margin-right: 15px;
+  background: none;
+  background-repeat: no-repeat;
+}
+
+.cbox {
+  top: -10px;
+  right: -10px;
+  width: 30px;
+  height: 30px;
+  background: rgb(255, 0, 0);
+  border-radius: 100%;
+  -webkit-appearance: none;
+  z-index: 3;
+}
+
+.cbox:before, .cbox:after {
+  position: absolute;
+  content: '';
+  width: 20px;
+  height: 2px;
+  background: rgb(255, 255, 255);
+  transition: 0.4s all;
+}
+
+.cbox:after {
+  transform: rotate(90deg);
+}
+
+.cbox:checked ~ .message {
+  width: 300px;
+  height: 50px;
+  transition: 0.3s width, 0.3s height 0.2s;
+}
+
+.cbox:checked:before, .cbox:checked:after {
+  transform: rotate(360deg);
+  transition: 0.4s all;
+}
+
+.cbox:checked ~ .add {
+  font-size: 15px;
+  font-weight: bold;
+  transform: translateY(-16px);
+  transition: 0.3s all;
+}
+
+.message {
+  right: 0;
+  height: 0;
+  width: 0;
+  transition: 0.4s all;
+  background: none;
+  border: 2px solid rgb(0, 0, 0);
+  box-shadow: 0 20px 40px -14px rgb(0, 0, 0);
+  transition: 0.4s width 0.2s, 0.1s height;
+  font-size: 30px;
+  padding-left: 10px;
+}
