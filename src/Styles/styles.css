@@ -407,14 +407,14 @@ li:before {
 }
 
 .social_icons .github:hover {
-    background: #00B0ED;
+    background: #48DA9B;
 	color: #fff;
 	border-top-left-radius: 50px;
 	border-bottom-right-radius: 50px;
 }
 
 .social_icons .linkedin:hover {
-	background: #007bb6;
+	background: #48DA9B;
 	color: #fff;
 	border-top-right-radius: 50px;
 	border-bottom-left-radius: 50px;
