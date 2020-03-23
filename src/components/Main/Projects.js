@@ -3,14 +3,16 @@ import React from 'react';
 const Projects = () => (
     <div id="content_container">
         <div className="last block">
-
-
-            <p className="back_highlight">
-                ! You can find many more interesting examples of my own projects on my
+            <div class="input__content">
+                <input class="cbox" type="checkbox" />
+                <label class="add" for="cbox"></label>
+                <p className="back_highlight">
+                    ! You can find many more interesting examples of my own projects on my
                 <a className="education_link" href="https://github.com/cqxg"> Github</a> !
                 <br></br>
                 Please, in order to avoid misunderstandings, carefully read the descriptions and ask your questions
             </p>
+            </div>
 
             <h2>Projects</h2>
 
