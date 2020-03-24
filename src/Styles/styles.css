@@ -494,8 +494,6 @@ li:before {
 	padding-left: 40px;
 }
 
-/* ------------------------------------------------- */
-
 .cbox,
 .input-container {
   display: flex;
@@ -512,8 +510,7 @@ li:before {
 }
 
 .input__content .add,
-.input__content .cbox,
-.input__content .message {
+.input__content .cbox {
   position: absolute;
 }
 

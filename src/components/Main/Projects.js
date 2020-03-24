@@ -5,7 +5,6 @@ const Projects = () => (
         <div className="last block">
             <div class="input__content">
                 <input class="cbox" type="checkbox" />
-                {/* <input class="message" type="search" id="textInput" /> */}
                 <p className="back_highlight">
                     ! You can find many more interesting examples of my own projects on my
                 <a className="education_link" href="https://github.com/cqxg"> Github</a> !
