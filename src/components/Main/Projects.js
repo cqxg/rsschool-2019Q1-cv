@@ -1,5 +1,6 @@
 import React from 'react';
-import Chat from '../../assets/chat.gif'
+import Chat from '../../assets/chat.gif';
+import Editor from '../../assets/Editor.png'
 
 const Projects = () => (
     <div id="content_container">
@@ -16,8 +17,8 @@ const Projects = () => (
             <h2>Projects</h2>
 
             <h4 className="highlight">cqxg-chat (2020)</h4>
-            <p>Repository:<a className="project_link" href="https://github.com/cqxg/cqxg_chat">github.com/cqxg/cqxg_chat</a></p>
-            <a href="https://cqxg-chat.netlify.com/" target='_blank'><img src={Chat} alt="" /></a>
+            <p>Repository:<a className="project_link" target='_blank' href="https://github.com/cqxg/cqxg_chat">github.com/cqxg/cqxg_chat</a></p>
+            <a href="https://cqxg-chat.netlify.com/" target='_blank'><img src={Chat} alt="chat" /></a>
             <p>The project goal is to create chat UI for given websocket URL on ReactJS.</p>
             <p className="highlight">(Click on the pic, to see deployment)</p>
 
@@ -30,10 +31,13 @@ const Projects = () => (
                 <div className="line_left" />
             </div>
 
-            <h4 className="highlight">Project: Animation Editor App (2019)</h4>
-            <p>Link:<a className="project_link" href="https://cqxg.github.io/animation-editor/">cqxg.github.io/animation-editor</a></p>
+            <h4 className="highlight">Animation Editor App (2019)</h4>
+            <p>Repository:<a className="project_link" target='_blank' href="https://github.com/cqxg/animation-app">github.com/cqxg/animation-app</a></p>
+            <a href="https://cqxg.github.io/animation-app/dist/" target='_blank'><img src={Editor} alt="editor" /></a>
             <p>The goal of the project is to create an application that will include tools for drawing, animation
                 then and creating .gif or .png images for download.</p>
+            <p className="highlight">(Click on the pic, to see deployment)</p>
+
             <div className="env_wrap">
                 <p className="highlight">Environment:</p>
                 <p>HTML, CSS, JavaScript, Webpack, Canvas API.</p>
