@@ -1,4 +1,5 @@
 import React from 'react';
+import Chat from '../../assets/chat.gif'
 
 const Projects = () => (
     <div id="content_container">
@@ -7,19 +8,22 @@ const Projects = () => (
                 <input class="cbox" type="checkbox" />
                 <p className="back_highlight">
                     ! You can find many more interesting examples of my own projects on my
-                <a className="education_link" href="https://github.com/cqxg"> Github</a> !
+                <a className="education_link" target='_blank' href="https://github.com/cqxg"> Github</a> !
                 Please, in order to avoid misunderstandings, carefully read the descriptions and ask your questions
             </p>
             </div>
 
             <h2>Projects</h2>
 
-            <h4 className="highlight">Project: cqxg-chat (2020)</h4>
-            <p>Link:<a className="project_link" href="https://cqxg-chat.netlify.com/">cqxg-chat.netlify.com</a></p>
+            <h4 className="highlight">cqxg-chat (2020)</h4>
+            <p>Repository:<a className="project_link" href="https://github.com/cqxg/cqxg_chat">github.com/cqxg/cqxg_chat</a></p>
+            <a href="https://cqxg-chat.netlify.com/" target='_blank'><img src={Chat} alt="" /></a>
             <p>The project goal is to create chat UI for given websocket URL on ReactJS.</p>
+            <p className="highlight">(Click on the pic, to see deployment)</p>
+
             <div className="env_wrap">
                 <p className="highlight">Environment:</p>
-                <p>JavaScript, ReactJS, HTML, CSS, Websocket.</p>
+                <p>JavaScript, ReactJS, SCSS, Websocket.</p>
             </div>
 
             <div className="horizontal_line">

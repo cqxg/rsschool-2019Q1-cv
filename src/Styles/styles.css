@@ -444,12 +444,9 @@ li:before {
     font-weight: 500;
 }
 
+.education_link:hover,
 .project_link:hover {
-    color: #9a7c7c;
-}
-
-.education_link:hover {
-	color: #686379;
+	color: #29C782;
 }
 
 #footer {
