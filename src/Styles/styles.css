@@ -558,24 +558,17 @@ li:before {
   transform: rotate(90deg);
 }
 
-/* .cbox:checked ~ .back_highlight {
-    visibility: visible;
-    translate: 1;
-    transition:visibility 0s linear 0.5s,opacity 0.5s linear;
-} */
-
 .cbox:checked ~ .back_highlight{
+    display: block;
     animation-name: back_highlight;
     -webkit-animation-name: back_highlight;  
  
-    animation-duration: 1s; 
+    animation-duration: 1.5s; 
     -webkit-animation-duration: 1s;
  
     animation-timing-function: ease;    
     -webkit-animation-timing-function: ease;    
- 
-    visibility: visible !important;                     
-}
+ }
  
 @keyframes back_highlight {
     0% {
@@ -632,7 +625,7 @@ li:before {
 }
 
 .back_highlight {
-    visibility: hidden;
+    display: none;
     padding: 10px;
     font-size: 17px;
     color: #303c2d;
