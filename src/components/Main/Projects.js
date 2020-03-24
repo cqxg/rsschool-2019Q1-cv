@@ -1,6 +1,7 @@
 import React from 'react';
 import Chat from '../../assets/chat.gif';
-import Editor from '../../assets/Editor.png'
+import Editor from '../../assets/Editor.png';
+import Culture from '../../assets/Culture.png';
 
 const Projects = () => (
     <div id="content_container">
@@ -47,9 +48,13 @@ const Projects = () => (
                 <div className="line_left" />
             </div>
 
-            <h4 className="highlight">Project: Culture Portal (2019)</h4>
-            <p>Link: <a className="project_link" href="https://belarusian-directors.netlify.com/">belarusian-directors.netlify.com</a></p>
-            <p>A small cultural portal about Belarusian directors. Made in a team with my friends.</p>
+            <h4 className="highlight">Culture Portal (2019)</h4>
+            <p>Repository: <a className="project_link" target='_blank' href="https://github.com/cqxg/Culture-Portal">github.com/cqxg/Culture-Portal</a></p>
+            <a href="https://belarusian-directors.netlify.com/" target='_blank'><img src={Culture} alt="editor" /></a>
+            <p>A small cultural portal about Belarusian directors.
+            The goal of this project was to try collaboration for the first time using a version control system and all collaboration methods.
+                Made in a team with my friends.</p>
+            <p className="highlight">(Click on the pic, to see deployment)</p>
             <div className="env_wrap">
                 <p className="highlight">Environment:</p>
                 <p> JavaScript, GatsbyJS, HTML, CSS, Bootstrap</p>
