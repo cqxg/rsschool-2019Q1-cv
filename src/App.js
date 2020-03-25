@@ -1,4 +1,5 @@
 import React from 'react';
+import { Redirect } from 'react-router'
 import { BrowserRouter, Route } from 'react-router-dom';
 
 import Header from './components/Header/Header';
@@ -18,6 +19,7 @@ const App = () => (
             <Route path="/profile" render={() => <Profile />} />
             <Route path="/education" render={() => <Education />} />
             <Route path="/projects" render={() => <Projects />} />
+            <Redirect to="/profile" />
             <Footer />
         </div>
     </BrowserRouter>
