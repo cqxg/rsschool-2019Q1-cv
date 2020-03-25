@@ -2,6 +2,7 @@ import React from 'react';
 import Chat from '../../assets/chat.gif';
 import Editor from '../../assets/Editor.png';
 import Culture from '../../assets/Culture.png';
+import ArrOfArr from '../../assets/arrOfArr.png';
 
 const Projects = () => (
     <div id="content_container">
@@ -50,7 +51,7 @@ const Projects = () => (
 
             <h4 className="highlight">Culture Portal (2019)</h4>
             <p>Repository: <a className="project_link" target='_blank' href="https://github.com/cqxg/Culture-Portal">github.com/cqxg/Culture-Portal</a></p>
-            <a href="https://belarusian-directors.netlify.com/" target='_blank'><img src={Culture} alt="editor" /></a>
+            <a href="https://belarusian-directors.netlify.com/" target='_blank'><img src={Culture} alt="culture" /></a>
             <p>A small cultural portal about Belarusian directors.
             The goal of this project was to try collaboration for the first time using a version control system and all collaboration methods.
                 Made in a team with my friends.</p>
@@ -64,9 +65,14 @@ const Projects = () => (
                 <div className="line_left" />
             </div>
 
-            <h4 className="highlight">Project: Youtube client (2019)</h4>
-            <p>Link: <a className="project_link" href="https://cqxg.github.io/search/">cqxg.github.io/search</a></p>
-            <p>The project goal is to create UI for searching videos on YouTube, using YouTube API.</p>
+            <h4 className="highlight">Work with arrays (2019)</h4>
+            <p>Repository: <a className="project_link" target='_blank' href="https://github.com/cqxg/Work_with_arrays">github.com/cqxg/Work_with_arrays</a></p>
+            <a href="https://cqxg.github.io/Work_with_arrays/" target='_blank'><img src={ArrOfArr} alt="arrays" /></a>
+            <p>This is a small, but rather entertaining application, was once created as a test task.
+            Its purpose is to show the ability to work with arrays, and not impress the appearance of the interface.
+            In this application, I read information (abstractly, "pseudo-coordinates") from the input.txt file,
+                parsing them according to certain rules, and accordingly fill the arrays. By displaying them on the screen, I get a picture.</p>
+            <p className="highlight">(Click on the pic, to see deployment)</p>
             <div className="env_wrap">
                 <p className="highlight">Environment:</p>
                 <p>HTML, CSS, JavaScript, Webpack, Youtube API.</p>
