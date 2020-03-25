@@ -8,6 +8,13 @@
   font-family: 'FontAwesome', sans-serif;
 }
 
+:root {
+    --main-color: #48DA9B;
+    --second-color: #29C782;
+}
+
+/* -------- #48DA9B #29C782  ---------- */
+
 .clear {
 	clear: both;
 }
@@ -108,7 +115,7 @@ body {
 h1,h2,h3, h4 {
 	font-family: 'Lato', Helvetica, sans-serif;
 	font-weight: 300;
-	color: #48DA9B;
+	color: var(--main-color);
 }
     
 h1 {
@@ -132,14 +139,14 @@ h4 {
 }
 
 .active {
-    color: #48DA9B;
+    color: var(--main-color);
 }
 
 blockquote {
 	font-style: italic;
 	margin: 25px 0;
 	padding-left: 20px;
-	border-left: 2px solid #48DA9B;
+	border-left: 2px solid var(--main-color);
 }
 	
 blockquote, p , a, li {
@@ -282,7 +289,7 @@ li:before {
 }
     
 .header_menu a:hover {
-	color: #48DA9B;
+	color: var(--main-color);
 }
 
 #left_nav h2 {
@@ -330,7 +337,7 @@ li:before {
 .special_button {
 	margin-top: 25px;
 	display: block;
-	background: #48DA9B;
+	background: var(--main-color);
 	width: 230px;
 	height: 50px;
 	position: relative;
@@ -379,7 +386,7 @@ li:before {
 
 .send_message_button:hover,
 .special_button:hover {
-	background: #29C782;
+	background: var(--second-color);
 }
 
 .get_social_content {
@@ -407,21 +414,21 @@ li:before {
 }
 
 .social_icons .github:hover {
-    background: #48DA9B;
+    background: var(--main-color);
 	color: #fff;
 	border-top-left-radius: 50px;
 	border-bottom-right-radius: 50px;
 }
 
 .social_icons .linkedin:hover {
-	background: #48DA9B;
+	background: var(--main-color);
 	color: #fff;
 	border-top-right-radius: 50px;
 	border-bottom-left-radius: 50px;
 }
 
 .highlight {
-    color: #29C782;
+    color: var(--second-color);
     margin-right: 10px;
 }
 
@@ -446,7 +453,7 @@ li:before {
 
 .education_link:hover,
 .project_link:hover {
-	color: #29C782;
+	color: var(--second-color);
 }
 
 #footer {
@@ -533,7 +540,7 @@ li:before {
   right: -10px;
   width: 30px;
   height: 30px;
-  background: #48DA9B;
+  background: var(--main-color);
   border-radius: 100%;
   -webkit-appearance: none;
   z-index: 3;
@@ -627,5 +634,5 @@ li:before {
     text-align: center;
     border-radius: 10px;
     border: 3px solid #212121e8;
-    background-color: #b3ffdeba;
+    background-color: #dcfffb;
 }
