@@ -7,8 +7,8 @@ import ArrOfArr from '../../assets/arrOfArr.png';
 const Projects = () => (
     <div id="content_container">
         <div className="last block">
-            <div class="input__content">
-                <input class="cbox" type="checkbox" />
+            <div className="input__content">
+                <input className="cbox" type="checkbox" />
                 <p className="back_highlight">
                     ! You can find many more interesting examples of my own projects on my
                 <a className="education_link" target='_blank' href="https://github.com/cqxg"> Github</a> !
