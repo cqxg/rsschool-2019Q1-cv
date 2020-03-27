@@ -53,12 +53,12 @@ const Profile = () => (
             </div>
         </div>
 
-        <div class="horizontal_line">
-            <div class="line_left"></div>
-            <div class="left_circle"></div>
-            <div class="central_circle"></div>
-            <div class="right_circle"></div>
-            <div class="line_right"></div>
+        <div className="horizontal_line">
+            <div className="line_left"></div>
+            <div className="left_circle"></div>
+            <div className="central_circle"></div>
+            <div className="right_circle"></div>
+            <div className="line_right"></div>
         </div>
 
         <div className="block">
