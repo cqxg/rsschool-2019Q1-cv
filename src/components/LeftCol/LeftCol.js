@@ -30,13 +30,13 @@ const LeftCol = () => (
             <h2>Get social</h2>
             <ul className="social_icons horizontal_list">
                 <li>
-                    <a className="github" href="https://github.com/cqxg">
+                    <a className="github" target='_blank' href="https://github.com/cqxg">
                         <span className="entypo-github-circled" />
                         <span className="invisible">GitHub</span>
                     </a>
                 </li>
                 <li>
-                    <a className="linkedin" href="https://www.linkedin.com/in/ihar-ivaniuk/">
+                    <a className="linkedin" target='_blank' href="https://www.linkedin.com/in/ihar-ivaniuk/">
                         <span className="entypo-linkedin-circled" />
                         <span className="invisible">LinkedIn</span>
                     </a>
