@@ -212,9 +212,10 @@ li:before {
 }
 
 #content_container {
-	width: 699px;
-	border-left: 1px solid #403F44;
-	float: left;
+    float: left;
+    width: 699px;
+    border-left: 1px solid #403F44;
+
 }
 
 #footer {

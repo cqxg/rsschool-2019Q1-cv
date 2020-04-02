@@ -9,7 +9,7 @@ import Profile from './components/Main/Profile';
 import Projects from './components/Main/Projects';
 import Footer from './components/Footer/Footer';
 
-import './styles/styles.css';
+import './Styles/styles.css';
 
 const App = () => (
     <BrowserRouter>
