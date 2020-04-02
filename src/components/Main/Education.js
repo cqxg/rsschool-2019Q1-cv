@@ -1,6 +1,6 @@
 import React from 'react';
 import Certificate from '../../assets/Certificate.png';
-import University from '../../assets/University.png';
+import University from '../../assets/university.png';
 
 const Education = () => (
     <div id="content_container">
