@@ -97,10 +97,10 @@
 }
 
 .central_circle{
-	width: 26px;
-	height: 26px;		
-	top: 0px;
-	left: 322px;
+    top: 0px;
+    width: 26px;
+    left: 322px;
+    height: 26px;		
 }
 
 .right_circle{
