@@ -28,8 +28,8 @@
 }
 
 .block h1 {
+    font-weight: 200;
 	margin-left: -5px;
-	font-weight: 200;
 }
 
 .last.block {
@@ -51,21 +51,21 @@
 }
 
 .horizontal_list li { 
-	padding-left: 0; 
-	text-indent: 0;
+    text-indent: 0;
+    padding-left: 0; 
 }
 
 .horizontal_line{
-	margin: 34px 0 0 30px;
 	height: 26px;
-	position: relative;	
+    position: relative;
+    margin: 34px 0 0 30px;
 }
 
 .line_left,
 .line_right{
-	border-top: 1px solid #434247;
 	width: 305px;
-	margin-top: 13px;
+    margin-top: 13px;
+    border-top: 1px solid #434247;
 }
 
 .line_left{
