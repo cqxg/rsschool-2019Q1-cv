@@ -9,6 +9,26 @@ const Header = () => {
         window.print();
     };
 
+    const activateRu = (e) => {
+        const ru = document.querySelector('.ru');
+        const en = document.querySelector('.en');
+
+        if (e.currentTarget.classList.contains('ru')) {
+            ru.classList.add("active");
+            en.classList.remove("active");
+        };
+    };
+
+    const activateEn = (e) => {
+        const ru = document.querySelector('.ru');
+        const en = document.querySelector('.en');
+        
+        if (e.currentTarget.classList.contains('en')) {
+            en.classList.add("active");
+            ru.classList.remove("active");
+        };
+    };
+
     return (
         <div id="header">
             <div className="header_logotype_container">
@@ -17,8 +37,10 @@ const Header = () => {
             </div>
             <div className="header_menu_container">
                 <div className='locale'>
-                    <div className='en' onClick={() => i18n.changeLanguage('en')}>EN</div>
-                    <div className='ru' onClick={() => i18n.changeLanguage('ru')}>RU</div>
+                    <div className='en active' onClickCapture={() => i18n.changeLanguage('en')}
+                        onClick={(e) => activateEn(e)}>EN</div>
+                    <div className='ru' onClickCapture={() => i18n.changeLanguage('ru')}
+                        onClick={(e) => activateRu(e)}>RU</div>
                 </div>
                 <ul className="download_print_buttons horizontal_list">
                     <li><a href="./assets/Ihar_Ivaniuk_CV.pdf" download><span className="icon entypo-download" />Download CV</a></li>
@@ -27,7 +49,7 @@ const Header = () => {
                 <div className="clear" />
                 <Navbar />
             </div>
-        </div>
+        </div >
     );
 };
 

@@ -139,7 +139,7 @@ h4 {
 }
 
 .active {
-    color: var(--main-color);
+    color: #48DA9B!important;
 }
 
 blockquote {
@@ -191,15 +191,22 @@ li:before {
 
 .locale {
     display: flex;
-    color: white;
+    color: #e4e3e8;
+    font-size: 12px;
+    cursor: pointer;
     margin-left: 20px;
     position: absolute;
-    font-size: 12px;
 }
 
 .ru,
 .en {
-    margin: 5px 
+    margin: 5px;
+    color: #837c9a;
+}
+
+.ru:hover,
+.en:hover {
+    color:  var(--main-color); 
 }
     
 .header_logotype_container {
