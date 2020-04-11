@@ -1,8 +1,8 @@
 const I18N = {
     EN: {
         NAME: 'Ihar',
-        SURNAME: 'Ivanuk',
-
+        SURNAME: ' Ivanuk',
+        POSITION: 'Web Developer',
     },
 
     RU: {
