@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Suspense } from 'react';
 import { Redirect } from 'react-router'
 import { BrowserRouter, Route } from 'react-router-dom';
 
@@ -21,8 +21,9 @@ const App = () => (
             <Route path="/projects" render={() => <Projects />} />
             <Redirect to="/profile" />
             <Footer />
+            <Suspense />
         </div>
-    </BrowserRouter>
+    </BrowserRouter >
 );
 
 export default App;
