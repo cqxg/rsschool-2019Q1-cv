@@ -12,18 +12,19 @@ import Footer from './components/Footer/Footer';
 import './Styles/styles.css';
 
 const App = () => (
-    <BrowserRouter>
-        <div id="main_container">
-            <Header />
-            <LeftCol />
-            <Route path="/profile" render={() => <Profile />} />
-            <Route path="/education" render={() => <Education />} />
-            <Route path="/projects" render={() => <Projects />} />
-            <Redirect to="/profile" />
-            <Footer />
-            <Suspense />
-        </div>
-    </BrowserRouter >
+    <Suspense fallback="loading">
+        <BrowserRouter>
+            <div id="main_container">
+                <Header />
+                <LeftCol />
+                <Route path="/profile" render={() => <Profile />} />
+                <Route path="/education" render={() => <Education />} />
+                <Route path="/projects" render={() => <Projects />} />
+                <Redirect to="/profile" />
+                <Footer />
+            </div>
+        </BrowserRouter >
+    </Suspense>
 );
 
 export default App;
