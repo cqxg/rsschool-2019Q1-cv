@@ -5,11 +5,14 @@ const I18N = {
         POSITION: 'Web Developer',
         DOWNLOAD_CV: 'Download CV',
         PRINT_CV: 'Print CV',
-
     },
 
     RU: {
-
+        NAME: 'Игорь',
+        SURNAME: ' Иванюк',
+        POSITION: 'веб разработчик',
+        DOWNLOAD_CV: 'Скачать CV',
+        PRINT_CV: 'Распечатать CV',
     }
 }
 
