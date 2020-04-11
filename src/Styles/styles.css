@@ -188,6 +188,19 @@ li:before {
 	height: 130px;
 	border-bottom: 1px solid #403F44;
 }
+
+.locale {
+    display: flex;
+    color: white;
+    margin-left: 20px;
+    position: absolute;
+    font-size: 12px;
+}
+
+.ru,
+.en {
+    margin: 5px 
+}
     
 .header_logotype_container {
 	width: 260px;
@@ -226,12 +239,10 @@ li:before {
 }
 
 .logotype_name{
-	text-transform: uppercase;
 	font-size: 32px;
 	margin: 43px 0 0;
 }
 .logotype_occupation{
-	text-transform: uppercase;
 	margin-top: 5px;
 	color: #5ce2af;
 	font-size: 14px;
