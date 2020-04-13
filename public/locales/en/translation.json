@@ -6,5 +6,15 @@
     "projects": "Projects",
     "education": "Education",
     "dwnloadCV": "Download CV",
-    "printCV": "Print CV"
+    "printCV": "Print CV",
+    "hello": "Hello!",
+    "greeting": "I'm passionate about technology and self-development, hardworker and a fast-learner.",
+    "contact": "Contact details",
+    "phone": "Phone:",
+    "mail": "Email:",
+    "adress": "Adress:",
+    "street": "Rokossovskogo, 60/1",
+    "place": "Minsk, Belarus",
+    "sendMeMess": "Send me a message",
+    "social": "Get social"
 }
