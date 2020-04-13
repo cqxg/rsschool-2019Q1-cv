@@ -1,9 +1,10 @@
 {
-    "fullName": {
-      "name": "Игорь",
-      "surname": " Иванюк"
-    },
-    "currentPosition": {
-      "position": "веб разработчик"
-    }
-  }
+    "name": "Игорь",
+    "surname": " Иванюк",
+    "position": "WEB DEVELOPER",
+    "profile": "Профиль",
+    "projects": "Проекты",
+    "education": "Образование",
+    "dwnloadCV": "Скачать",
+    "printCV": "Печать"
+}

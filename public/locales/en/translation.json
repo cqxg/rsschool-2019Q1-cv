@@ -1,9 +1,10 @@
 {
-    "fullName": {
-      "name": "IHAR",
-      "surname": "IVANIUK"
-    },
-    "currentPosition": {
-      "position": "WEB DEVELOPER"
-    }
-  }
+    "name": "IHAR",
+    "surname": "IVANIUK",
+    "position": "WEB DEVELOPER",
+    "profile": "Profile",
+    "projects": "Projects",
+    "education": "Education",
+    "dwnloadCV": "Download CV",
+    "printCV": "Print CV"
+}
