@@ -49,7 +49,7 @@ const Header = () => {
                 <div className="clear" />
                 <Navbar />
             </div>
-        </div >
+        </div>
     );
 };
 
