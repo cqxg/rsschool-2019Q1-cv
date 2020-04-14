@@ -2,6 +2,7 @@ import React from 'react';
 import Certificate from '../../assets/educationScreens/Certificate.png';
 import University from '../../assets/educationScreens/university.png';
 import BecomeJS from '../../assets/educationScreens/become.png';
+import ImproveJS from '../../assets/educationScreens/improve.png';
 
 const Education = () => (
     <div id="content_container">
@@ -29,6 +30,7 @@ const Education = () => (
 
             <p>LinkedIn Learning Certificates :</p>
             <a href="https://app.rs.school/certificate/cc6pbvqf" target='_blank'><img src={BecomeJS} alt="" /></a>
+            <a href="https://app.rs.school/certificate/cc6pbvqf" target='_blank'><img src={ImproveJS} alt="" /></a>
         </div>
 
         
