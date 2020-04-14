@@ -1,8 +1,9 @@
 import React from 'react';
-import Chat from '../../assets/chat.gif';
-import Editor from '../../assets/Editor.png';
-import Culture from '../../assets/Culture.png';
-import ArrOfArr from '../../assets/arrOfArr.png';
+
+import Chat from '../../assets/projectScreens/chat.gif';
+import Editor from '../../assets/projectScreens/editor.gif';
+import Culture from '../../assets/projectScreens/culture.gif';
+import ArrOfArr from '../../assets/projectScreens/arr.gif';
 
 const Projects = () => (
     <div id="content_container">

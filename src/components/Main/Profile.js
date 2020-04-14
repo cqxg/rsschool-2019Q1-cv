@@ -1,71 +1,73 @@
 import React from 'react';
-import Intelico from '../../assets/IntelicoEng.png';
+import { useTranslation } from 'react-i18next';
 
-const Profile = () => (
-    <div id="content_container">
-        <div className="block">
-            <h1>Summary of Qualifications</h1>
-            <blockquote className="profile_quote">
-                <p>
-                    Results- oriented, meticulous and innovative Web Developer with 1
-                    years experience building various types of web application using
-                    HTML, CSS, JavaScript, React, Redux and other technology.
-                </p>
-            </blockquote>
-        </div>
+import Intelico from '../../assets/jobScreens/IntelicoEng.png';
 
-        <div className="horizontal_line">
-            <div className="line_left" />
-            <div className="left_circle" />
-            <div className="central_circle" />
-            <div className="right_circle" />
-            <div className="line_right" />
-        </div>
+const Profile = () => {
+    const { t } = useTranslation();
 
-        <div className="block">
-            <h2>Technical Skills</h2>
-            <div className="philosophy_content">
-                <p>Programming languages and technologies:</p>
-                <ul>
-                    <li>JavaScript, HTML, CSS</li>
-                </ul>
+    return (
+        <div id="content_container">
+            <div className="block">
+                <h2>{t('summary')}</h2>
+                <blockquote className="profile_quote">
+                    <p>{t('summaryDesc')}</p>
+                </blockquote>
+            </div>
 
-                <p>Frameworks and Libraries:</p>
-                <ul>
-                    <li>React, Redux, etc.</li>
-                </ul>
+            <div className="horizontal_line">
+                <div className="line_left" />
+                <div className="left_circle" />
+                <div className="central_circle" />
+                <div className="right_circle" />
+                <div className="line_right" />
+            </div>
 
-                <p>Other skills:</p>
-                <ul>
-                    <li>GIT, Webpack, etc.</li>
-                </ul>
+            <div className="block">
+                <h2>{t('skills')}</h2>
+                <div className="philosophy_content">
+                    <p>{t('languages')}</p>
+                    <ul>
+                        <li>{t('languagesDesc')}</li>
+                    </ul>
 
-                <p>Tools:</p>
-                <ul>
-                    <li>VS Code, Figma, PS, etc.</li>
-                </ul>
+                    <p>{t('frameworks')}</p>
+                    <ul>
+                        <li>{t('frameworksDesc')}</li>
+                    </ul>
 
-                <p>Programming practices:</p>
-                <ul>
-                    <li>Agile, Kanban, Code review</li>
-                </ul>
-                <div className="clear" />
+                    <p>{t('other')}</p>
+                    <ul>
+                        <li>{t('otherDesc')}</li>
+                    </ul>
+
+                    <p>{t('tools')}</p>
+                    <ul>
+                        <li>{t('toolsDesc')}</li>
+                    </ul>
+
+                    <p>{t('practices')}</p>
+                    <ul>
+                        <li>{t('practicesDesc')}</li>
+                    </ul>
+                    <div className="clear" />
+                </div>
+            </div>
+
+            <div className="horizontal_line">
+                <div className="line_left"></div>
+                <div className="left_circle"></div>
+                <div className="central_circle"></div>
+                <div className="right_circle"></div>
+                <div className="line_right"></div>
+            </div>
+
+            <div className="block">
+                <h2>{t('job')}</h2>
+                <a href="https://intelico.pro/" target='_blank'><img src={Intelico} alt="" /></a>
             </div>
         </div>
-
-        <div className="horizontal_line">
-            <div className="line_left"></div>
-            <div className="left_circle"></div>
-            <div className="central_circle"></div>
-            <div className="right_circle"></div>
-            <div className="line_right"></div>
-        </div>
-
-        <div className="block">
-            <h2>Job Experience</h2>
-            <a href="https://intelico.pro/" target='_blank'><img src={Intelico} alt="" /></a>
-        </div>
-    </div>
-);
+    )
+};
 
 export default Profile;

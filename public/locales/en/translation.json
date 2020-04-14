@@ -17,5 +17,19 @@
     "place": "Minsk, Belarus",
     "sendMeMess": "Send me a message",
     "social": "Get social",
-    "footer": "Ihar Ivaniuk CV 2020"
+    "footer": "Ihar Ivaniuk CV 2020",
+    "summary": "Summary of Qualifications",
+    "summaryDesc": "Results- oriented, meticulous and innovative Web Developer with 1 years experience building various types of web application using HTML, CSS, JavaScript, React, Redux and other technology.",
+    "skills": "Technical Skills",
+    "languages": "Programming languages and technologies:",
+    "frameworks": "Frameworks and Libraries:",
+    "other": "Other skills:",
+    "tools": "Tools:",
+    "practices": "Programming practices:",
+    "languagesDesc": "JavaScript, HTML, CSS",
+    "frameworksDesc": "React, Redux, etc.",
+    "otherDesc": "GIT, Webpack, etc.",
+    "toolsDesc": "VS Code, Figma, PS, etc.",
+    "practicesDesc": "Agile, Kanban, Code review",
+    "job": "Work Experience"
 }
