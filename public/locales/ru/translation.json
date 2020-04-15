@@ -1,7 +1,7 @@
 {
     "name": "Игорь",
     "surname": " Иванюк",
-    "position": "WEB DEVELOPER",
+    "position": "вэб разработчик",
     "profile": "Профиль",
     "projects": "Проекты",
     "education": "Образование",
@@ -15,7 +15,7 @@
     "adress": "Адрес:",
     "street": "Рокоссовского, 60/1",
     "place": "Минск, Беларусь",
-    "sendMeMess": "Отправить мне письмо",
+    "sendMeMess": "Отправить мне письмо ",
     "social": "",
     "footer": "Игорь Иванюк CV 2020",
     "summary": "О квалификации",

@@ -3,7 +3,6 @@ import Certificate from '../../assets/educationScreens/Certificate.png';
 import University from '../../assets/educationScreens/university.png';
 import BecomeJS from '../../assets/educationScreens/become.png';
 import ImproveJS from '../../assets/educationScreens/improve.png';
-import AdvanceJS from '../../assets/educationScreens/adv.png';
 
 const Education = () => (
     <div id="content_container">
@@ -30,12 +29,13 @@ const Education = () => (
             </div>
 
             <p>LinkedIn Learning Certificates :</p>
-            <a href="https://app.rs.school/certificate/cc6pbvqf" target='_blank'><img src={BecomeJS} alt="" /></a>
-            <a href="https://app.rs.school/certificate/cc6pbvqf" target='_blank'><img src={ImproveJS} alt="" /></a>
-            <a href="https://app.rs.school/certificate/cc6pbvqf" target='_blank'><img src={AdvanceJS} alt="" /></a>
-        </div>
 
-        
+            <p>(More certificates from <a className="education_link" target='_blank' href="https://www.linkedin.com/in/ihar-ivaniuk/">
+                LinkedIn</a>)</p>
+
+            <a href="https://drive.google.com/file/d/13MmwFFVtxIIvQy-A9OD5c8EKhPfcDZGN/view?usp=sharing" target='_blank'><img src={BecomeJS} alt="" /></a>
+            <a href="https://drive.google.com/file/d/1ChhH52JEvcQEjZw73d_irAGU0vFsnTuY/view?usp=sharing" target='_blank'><img src={ImproveJS} alt="" /></a>
+        </div>
     </div>
 );
 
