@@ -2,7 +2,7 @@
 @font-face {
     font-family: 'MyFont';
     src: local('MyFont'), url(./latoFont/Lato-Light.ttf) format('woff');
-  }
+}
 
 [class*="entypo-"]:before {
   font-family: 'entypo', sans-serif;

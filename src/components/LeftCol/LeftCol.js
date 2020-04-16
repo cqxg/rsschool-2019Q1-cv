@@ -27,7 +27,6 @@ const LeftCol = () => {
                 <span className="cut2" />
                 <span className="content">
                     {t('sendMeMess')}
-                    <span className="fontawesome-double-angle-right" />
                 </span>
             </a>
             <div className="get_social_content">
