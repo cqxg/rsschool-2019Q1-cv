@@ -1,4 +1,8 @@
 @import url(//weloveiconfonts.com/api/?family=entypo|fontawesome);
+@font-face {
+    font-family: 'MyFont';
+    src: local('MyFont'), url(./latoFont/Lato-Light.ttf) format('woff');
+  }
 
 [class*="entypo-"]:before {
   font-family: 'entypo', sans-serif;
@@ -126,7 +130,7 @@ body {
 }
 
 h1,h2,h3, h4 {
-	font-family: 'Lato', Helvetica, sans-serif;
+	font-family: 'MyFont', Helvetica, sans-serif;
 	font-weight: 300;
 	color: var(--main-color);
 }
@@ -163,7 +167,7 @@ blockquote {
 }
 	
 blockquote, p , a, li {
-	font-family: 'Lato', Helvetica, sans-serif;
+	font-family: 'MyFont', Helvetica, sans-serif;
 	font-weight: 300;
 	font-size: 15px;
 	color: #e4e3e8;
@@ -236,7 +240,7 @@ li:before {
 }
         
 .header_menu_container a {
-	font-family: 'Lato', Helvetica, sans-serif;
+	font-family: 'MyFont', Helvetica, sans-serif;
 }
 
 #left_col {
@@ -407,7 +411,7 @@ li:before {
     height: 40px;
     position: absolute;
     z-index: 2;
-    font: 18px 'Lato', Arial, sans-serif;
+    font: 18px 'MyFont', Arial, sans-serif;
     margin: 0;
     padding: 16px 0 0;
     top: -4px;
