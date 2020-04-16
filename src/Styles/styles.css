@@ -76,6 +76,19 @@
 	float: right;
 }
 
+.df {
+    display: flex;
+    align-items: baseline;
+}
+
+.ml5 {
+    margin-left: 5px;
+}
+
+.mt0 {
+    margin-top: 0;
+}
+
 .left_circle, 
 .central_circle, 
 .right_circle {
