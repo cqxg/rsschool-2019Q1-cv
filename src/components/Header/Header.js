@@ -5,6 +5,7 @@ import Navbar from './Navbar';
 
 const Header = () => {
     const { t, i18n } = useTranslation();
+
     const goPrint = () => {
         window.print();
     };
@@ -17,6 +18,8 @@ const Header = () => {
             ru.classList.add("active");
             en.classList.remove("active");
         };
+
+        i18n.changeLanguage('ru');
     };
 
     const activateEn = (e) => {
@@ -27,6 +30,8 @@ const Header = () => {
             en.classList.add("active");
             ru.classList.remove("active");
         };
+
+        i18n.changeLanguage('en');
     };
 
     return (
@@ -37,10 +42,8 @@ const Header = () => {
             </div>
             <div className="header_menu_container">
                 <div className='locale'>
-                    <div className='en active' onClickCapture={() => i18n.changeLanguage('en')}
-                        onClick={(e) => activateEn(e)}>EN</div>
-                    <div className='ru' onClickCapture={() => i18n.changeLanguage('ru')}
-                        onClick={(e) => activateRu(e)}>RU</div>
+                    <div className='en active' onClick={(e) => activateEn(e)}>EN</div>
+                    <div className='ru' onClick={(e) => activateRu(e)}>RU</div>
                 </div>
                 <ul className="download_print_buttons horizontal_list">
                     <li><a href="./assets/Ihar_Ivaniuk_CV.pdf" download><span className="icon entypo-download" />{t('dwnloadCV')}</a></li>
