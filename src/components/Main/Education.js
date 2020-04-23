@@ -5,6 +5,7 @@ import Certificate from '../../assets/educationScreens/Certificate.png';
 import University from '../../assets/educationScreens/university.png';
 import BecomeJS from '../../assets/educationScreens/become.png';
 import ImproveJS from '../../assets/educationScreens/improve.png';
+import ReactJS from '../../assets/educationScreens/react.png';
 
 const Education = () => {
     const { t } = useTranslation();
@@ -40,6 +41,7 @@ const Education = () => {
 
                 <a href="https://drive.google.com/file/d/13MmwFFVtxIIvQy-A9OD5c8EKhPfcDZGN/view?usp=sharing" target='_blank'><img src={BecomeJS} alt="" /></a>
                 <a href="https://drive.google.com/file/d/1ChhH52JEvcQEjZw73d_irAGU0vFsnTuY/view?usp=sharing" target='_blank'><img src={ImproveJS} alt="" /></a>
+                <a href="https://drive.google.com/file/d/1PaXNX-NPl1UvjqyPz3m9EoixK--y0XUv/view?usp=sharing" target='_blank'><img src={ReactJS} alt="" /></a>
             </div>
         </div>
     )
