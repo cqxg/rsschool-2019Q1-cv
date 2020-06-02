@@ -16,7 +16,7 @@ const Projects = () => {
                     <input className="cbox" type="checkbox" />
                     <p className="back_highlight">
                         {t('notyEnc')}
-                        <a className="education_link" target='_blank' href="https://github.com/cqxg"> Github</a> !
+                        <a className="education_link" target='_blank' rel='noopener noreferrer' href="https://github.com/cqxg"> Github</a> !
                         <br />
                         {t('notyDesc')}
                     </p>
@@ -25,8 +25,8 @@ const Projects = () => {
                 <h2>{t('projects')}</h2>
 
                 <h4 className="highlight">cqxg-chat (2020)</h4>
-                <p>{t('repo')}<a className="project_link" target='_blank' href="https://github.com/cqxg/cqxg_chat">github.com/cqxg/cqxg_chat</a></p>
-                <a href="https://cqxg-chat.netlify.com/" target='_blank'><img src={Chat} alt="chat" /></a>
+                <p>{t('repo')}<a className="project_link" target='_blank' rel='noopener noreferrer' href="https://github.com/cqxg/cqxg_chat">github.com/cqxg/cqxg_chat</a></p>
+                <a href="https://cqxg-chat.netlify.com/" target='_blank' rel='noopener noreferrer'><img src={Chat} alt="chat" /></a>
                 <p>{t('chatDesc')}</p>
 
                 <p className="highlight ml5">{t('deployment')}</p>
@@ -41,8 +41,8 @@ const Projects = () => {
                 </div>
 
                 <h4 className="highlight">Animation Editor App (2019)</h4>
-                <p>{t('repo')}<a className="project_link" target='_blank' href="https://github.com/cqxg/animation-app">github.com/cqxg/animation-app</a></p>
-                <a href="https://cqxg.github.io/animation-app/dist/" target='_blank'><img src={Editor} alt="editor" /></a>
+                <p>{t('repo')}<a className="project_link" target='_blank' rel='noopener noreferrer' href="https://github.com/cqxg/animation-app">github.com/cqxg/animation-app</a></p>
+                <a href="https://cqxg.github.io/animation-app/dist/" target='_blank' rel='noopener noreferrer'><img src={Editor} alt="editor" /></a>
                 <p>{t('editorDesc')}</p>
                 <p className="highlight">{t('deployment')}</p>
 
@@ -56,8 +56,8 @@ const Projects = () => {
                 </div>
 
                 <h4 className="highlight">Culture Portal (2019)</h4>
-                <p>{t('repo')} <a className="project_link" target='_blank' href="https://github.com/cqxg/Culture-Portal">github.com/cqxg/Culture-Portal</a></p>
-                <a href="https://belarusian-directors.netlify.com/" target='_blank'><img src={Culture} alt="culture" /></a>
+                <p>{t('repo')} <a className="project_link" target='_blank' rel='noopener noreferrer' href="https://github.com/cqxg/Culture-Portal">github.com/cqxg/Culture-Portal</a></p>
+                <a href="https://belarusian-directors.netlify.com/" target='_blank' rel='noopener noreferrer'><img src={Culture} alt="culture" /></a>
                 <p>{t('cultureDesc')}</p>
 
                 <p className="highlight ml5">{t('deployment')}</p>
@@ -72,8 +72,8 @@ const Projects = () => {
                 </div>
 
                 <h4 className="highlight">Work with arrays (2019)</h4>
-                <p>{t('repo')} <a className="project_link" target='_blank' href="https://github.com/cqxg/Work_with_arrays">github.com/cqxg/Work_with_arrays</a></p>
-                <a href="https://cqxg.github.io/Work_with_arrays/" target='_blank'><img src={ArrOfArr} alt="arrays" /></a>
+                <p>{t('repo')} <a className="project_link" target='_blank' rel='noopener noreferrer' href="https://github.com/cqxg/Work_with_arrays">github.com/cqxg/Work_with_arrays</a></p>
+                <a href="https://cqxg.github.io/Work_with_arrays/" target='_blank' rel='noopener noreferrer'><img src={ArrOfArr} alt="arrays" /></a>
                 <p>{t('arrDesc')}</p>
 
                 <p className="highlight ml5">{t('deployment')}</p>

@@ -37,21 +37,21 @@ const LeftCol = () => {
                 <h2>{t('social')}</h2>
                 <ul className="social_icons horizontal_list">
                     <li>
-                        <a className="github" target='_blank' href="https://github.com/cqxg">
-                            <img src={Github_icon} />
+                        <a className="telegram" target='_blank' rel='noopener noreferrer' href="tg://resolve?domain=cqxxxg">
+                            <img alt='telegram' src={Telegram_icon} />
+                            <span className="invisible">Telegram</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a className="github" target='_blank' rel='noopener noreferrer' href="https://github.com/cqxg">
+                            <img alt='github' src={Github_icon} />
                             <span className="invisible">GitHub</span>
                         </a>
                     </li>
                     <li>
-                        <a className="linkedin" target='_blank' href="https://www.linkedin.com/in/ihar-ivaniuk/">
-                            <img src={Linkedin_icon} />
+                        <a className="linkedin" target='_blank' rel='noopener noreferrer' href="https://www.linkedin.com/in/ihar-ivaniuk/">
+                            <img alt='linkedin' src={Linkedin_icon} />
                             <span className="invisible">LinkedIn</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a className="telegram" target='_blank' href="tg://resolve?domain=cqxxxg">
-                            <img src={Telegram_icon} />
-                            <span className="invisible">Telegram</span>
                         </a>
                     </li>
                 </ul>

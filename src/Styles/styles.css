@@ -458,17 +458,17 @@ li:before {
     background: rgba(255,255,255, 0.15);
 }
 
-.social_icons .github:hover {
+.social_icons .telegram:hover {
     border-top-right-radius: 50px;
 	border-bottom-left-radius: 50px;
 }
 
-.social_icons .linkedin:hover {
+.social_icons .github:hover {
     border-top-left-radius: 50px;
 	border-bottom-right-radius: 50px;
 }
 
-.social_icons .telegram:hover {
+.social_icons .linkedin:hover {
     border-top-right-radius: 50px;
 	border-bottom-left-radius: 50px;
 }
