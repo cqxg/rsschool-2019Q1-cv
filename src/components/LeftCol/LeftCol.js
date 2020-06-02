@@ -1,6 +1,10 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 
+import Github_icon from '../../assets/icon/github.svg';
+import Linkedin_icon from '../../assets/icon/linkedin.svg'
+import Telegram_icon from '../../assets/icon/telegram.svg';
+
 const LeftCol = () => {
     const { t } = useTranslation();
 
@@ -34,14 +38,20 @@ const LeftCol = () => {
                 <ul className="social_icons horizontal_list">
                     <li>
                         <a className="github" target='_blank' href="https://github.com/cqxg">
-                            <span className="entypo-github-circled" />
+                            <img src={Github_icon} />
                             <span className="invisible">GitHub</span>
                         </a>
                     </li>
                     <li>
                         <a className="linkedin" target='_blank' href="https://www.linkedin.com/in/ihar-ivaniuk/">
-                            <span className="entypo-linkedin-circled" />
+                            <img src={Linkedin_icon} />
                             <span className="invisible">LinkedIn</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a className="telegram" target='_blank' href="tg://resolve?domain=cqxxxg">
+                            <img src={Telegram_icon} />
+                            <span className="invisible">Telegram</span>
                         </a>
                     </li>
                 </ul>

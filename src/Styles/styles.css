@@ -449,17 +449,27 @@ li:before {
 	display:none;
 }
 
+.social_icons .github:hover,
+.social_icons .linkedin:hover,
+.social_icons .telegram:hover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255,255,255, 0.15);
+}
+
 .social_icons .github:hover {
-    background: var(--main-color);
-	color: #fff;
-	border-top-left-radius: 50px;
-	border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px;
+	border-bottom-left-radius: 50px;
 }
 
 .social_icons .linkedin:hover {
-	background: var(--main-color);
-	color: #fff;
-	border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+	border-bottom-right-radius: 50px;
+}
+
+.social_icons .telegram:hover {
+    border-top-right-radius: 50px;
 	border-bottom-left-radius: 50px;
 }
 
