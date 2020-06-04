@@ -282,33 +282,30 @@ li:before {
 }
 
 .download_print_buttons a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 	text-decoration: none;
 	font-size: 12px;
 	font-family: 'Lato', Helvetica, sans-serif;
 	font-style: italic;
-	line-height: 45px;
 	padding: 16px 17px;
 	background: #353638;
 }
     
 .download_print_buttons a:hover {
-	background: #020609;
-}
-        
-.download_print_buttons .icon {
-	color: #02070a;
-	padding-right: 6px;
-	font-style: normal;
-	font-size: 18px;
+	background: rgba(255,255,255, 0.150);
 }
         
 .icon-angle-double-right {
 	position: relative;
 	top: 2px;
 }
-        
-.download_print_buttons a:hover .icon {
-	color: #e4e3e8;
+
+.download_print_icons {
+    height: 16px;
+    width: 16px;
+    margin-right: 5px;
 }
 			
 .header_menu {
