@@ -5,6 +5,7 @@ import Chat from '../../assets/projectScreens/chat.gif';
 import Editor from '../../assets/projectScreens/editor.gif';
 import Culture from '../../assets/projectScreens/culture.gif';
 import ArrOfArr from '../../assets/projectScreens/arr.gif';
+import Joke from '../../assets/projectScreens/joke.png';
 
 const Projects = () => {
     const { t } = useTranslation();
@@ -20,6 +21,15 @@ const Projects = () => {
                         <br />
                         {t('notyDesc')}
                     </p>
+                </div>
+
+                <div className='joke'>
+                    <img src={Joke} />
+                    <div className='joke__desc'>
+                        <span>
+                            {t('joke')}
+                        </span>
+                    </div>
                 </div>
 
                 <h2>{t('projects')}</h2>

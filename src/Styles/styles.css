@@ -408,6 +408,31 @@ li:before {
     border-bottom: 1px solid #403F44;
 }
 
+.joke {
+    position: fixed;
+    top: 50%;
+    right: 10%;
+    max-width: 253px;
+    font-size: 18px;
+    color: #48DA9B;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'MyFont';
+    border: 2px solid #353638;
+    border-radius: 5px;
+    background: url('../assets/dark_wall.webp') repeat;
+}
+
+.joke__desc {
+    padding: 15px;
+    margin-top: -5px;
+}
+
+.joke__desc::after {
+    position: absolute;
+    content: url('../assets/projectScreens/omg.png');
+}
+
 .send_message_button:hover,
 .special_button:hover {
 	background: var(--second-color);
@@ -580,7 +605,7 @@ li:before {
   transform: rotate(90deg);
 }
 
-.cbox:checked ~ .back_highlight{
+.cbox:checked ~ .back_highlight {
     display: block;
     animation-name: back_highlight;
     -webkit-animation-name: back_highlight;  
@@ -590,7 +615,7 @@ li:before {
  
     animation-timing-function: ease;    
     -webkit-animation-timing-function: ease;    
- }
+}
  
 @keyframes back_highlight {
     0% {

@@ -49,8 +49,8 @@ const Header = () => {
                     <div className='ru' onClick={(e) => activateRu(e)}>RU</div>
                 </div>
                 <ul className="download_print_buttons horizontal_list">
-                    <li><a href="./assets/Ihar_Ivaniuk_CV.pdf" download><img className='download_print_icons' src={Download} />{t('dwnloadCV')}</a></li>
-                    <li onClick={() => goPrint()}><a className="print" href="#"><img className="download_print_icons" src={Print} />{t('printCV')}</a></li>
+                    <li><a href="./assets/Ihar_Ivaniuk_CV.pdf" download><img alt='dwnloadCV' className='download_print_icons' src={Download} />{t('dwnloadCV')}</a></li>
+                    <li onClick={() => goPrint()}><a className="print"><img alt='printCV' className="download_print_icons" src={Print} />{t('printCV')}</a></li>
                 </ul>
                 <div className="clear" />
                 <Navbar />
