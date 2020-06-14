@@ -408,24 +408,29 @@ li:before {
     border-bottom: 1px solid #403F44;
 }
 
-.joke {
+.joke__wrapper {
     position: fixed;
     top: 50%;
-    right: 10%;
-    max-width: 253px;
+    right: 5%;
     font-size: 18px;
     color: #48DA9B;
     font-weight: bold;
-    text-align: center;
+    text-align: end;
     font-family: 'MyFont';
+}
+
+.joke {
+    width: 253px;
+    height: 176px;
     border: 2px solid #353638;
-    border-radius: 5px;
-    background: url('../assets/dark_wall.webp') repeat;
+    border-radius: 10px 10px 0;
+    background: url('../assets/projectScreens/joke.png') repeat;
 }
 
 .joke__desc {
     padding: 15px;
     margin-top: -5px;
+    font-weight: bold;
 }
 
 .joke__desc::after {

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 
 import Chat from '../../assets/projectScreens/chat.gif';
@@ -10,8 +10,26 @@ import Joke from '../../assets/projectScreens/joke.png';
 const Projects = () => {
     const { t } = useTranslation();
 
+    const [state, setState] = useState(false);
+
+    const renderJoke1 = (
+        <div className='joke__wrapper'>
+            <div className='joke'></div>
+            <div className='joke__desc'>
+                <span>
+                    {t('joke')}
+                </span>
+            </div>
+        </div>);
+
+    setTimeout(() => {
+        setState(true)
+    }, 5000)
+
+
     return (
         <div id="content_container">
+            {state ? renderJoke1 : null}
             <div className="last block">
                 <div className="input__content">
                     <input className="cbox" type="checkbox" />
@@ -21,15 +39,6 @@ const Projects = () => {
                         <br />
                         {t('notyDesc')}
                     </p>
-                </div>
-
-                <div className='joke'>
-                    <img src={Joke} />
-                    <div className='joke__desc'>
-                        <span>
-                            {t('joke')}
-                        </span>
-                    </div>
                 </div>
 
                 <h2>{t('projects')}</h2>
@@ -93,7 +102,7 @@ const Projects = () => {
                     <p>HTML, CSS, JavaScript, Webpack, Youtube API.</p>
                 </div>
             </div>
-        </div>
+        </div >
     )
 };
 
