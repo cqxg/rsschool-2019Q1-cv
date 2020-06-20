@@ -410,13 +410,25 @@ li:before {
 
 .joke__wrapper {
     position: fixed;
-    top: 50%;
-    right: 5%;
+    bottom: 5%;
+    right: -255px;
     font-size: 18px;
     color: #48DA9B;
     font-weight: bold;
     text-align: end;
     font-family: 'MyFont';
+}
+
+.activate__joke {
+    animation-fill-mode: forwards;
+    animation-name: joke__showed;
+    animation-duration: 0.3s;
+}
+
+.deactivate__joke {
+    animation-fill-mode: forwards;
+    animation-name: joke__close;
+    animation-duration: 0.3s;
 }
 
 .joke {
@@ -436,6 +448,24 @@ li:before {
 .joke__desc::after {
     position: absolute;
     content: url('../assets/projectScreens/omg.png');
+}
+
+@keyframes joke__showed {
+  from {
+    right: -255px;
+  }
+  to {
+    right: 35px;
+  }
+}
+
+@keyframes joke__close {
+  from {
+    right: 35px;
+  }
+  to {
+    right: -255px;
+  }
 }
 
 .send_message_button:hover,

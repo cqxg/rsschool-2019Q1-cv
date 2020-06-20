@@ -1,35 +1,33 @@
-import React, { useState } from 'react';
+import React, { useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 
 import Chat from '../../assets/projectScreens/chat.gif';
 import Editor from '../../assets/projectScreens/editor.gif';
 import Culture from '../../assets/projectScreens/culture.gif';
 import ArrOfArr from '../../assets/projectScreens/arr.gif';
-import Joke from '../../assets/projectScreens/joke.png';
 
 const Projects = () => {
     const { t } = useTranslation();
 
-    const [state, setState] = useState(false);
-
-    const renderJoke1 = (
-        <div className='joke__wrapper'>
-            <div className='joke'></div>
-            <div className='joke__desc'>
-                <span>
-                    {t('joke')}
-                </span>
-            </div>
-        </div>);
-
-    setTimeout(() => {
-        setState(true)
-    }, 5000)
-
+    useEffect(() => {
+        setTimeout(() => {
+            document.querySelector('.joke__wrapper').classList.add('activate__joke');
+        }, 500)
+        setTimeout(() => {
+            document.querySelector('.joke__wrapper').classList.add('deactivate__joke');
+        }, 2000)
+    }, []);
 
     return (
         <div id="content_container">
-            {state ? renderJoke1 : null}
+            <div className='joke__wrapper'>
+                <div className='joke'></div>
+                <div className='joke__desc'>
+                    <span>
+                        {t('joke')}
+                    </span>
+                </div>
+            </div>
             <div className="last block">
                 <div className="input__content">
                     <input className="cbox" type="checkbox" />
@@ -102,7 +100,7 @@ const Projects = () => {
                     <p>HTML, CSS, JavaScript, Webpack, Youtube API.</p>
                 </div>
             </div>
-        </div >
+        </div>
     )
 };
 
