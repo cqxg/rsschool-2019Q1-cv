@@ -34,6 +34,12 @@ const Education = () => {
                     <div className="line_left" />
                 </div>
 
+                <p>{t('languageLevelCertificate')}</p>
+
+                <div className="horizontal_line">
+                    <div className="line_left" />
+                </div>
+
                 <p>{t('linkedInCertificate')}</p>
 
                 <p>({t('linkedInMore')} <a className="education_link" rel='noopener noreferrer' target='_blank' href="https://www.linkedin.com/in/ihar-ivaniuk/">
