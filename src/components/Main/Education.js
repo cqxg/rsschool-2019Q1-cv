@@ -3,6 +3,7 @@ import { useTranslation } from 'react-i18next';
 
 import Certificate from '../../assets/educationScreens/Certificate.png';
 import University from '../../assets/educationScreens/university.png';
+import English  from '../../assets/educationScreens/english.png';
 import BecomeJS from '../../assets/educationScreens/become.png';
 import ImproveJS from '../../assets/educationScreens/improve.png';
 import ReactJS from '../../assets/educationScreens/react.png';
@@ -35,6 +36,7 @@ const Education = () => {
                 </div>
 
                 <p>{t('languageLevelCertificate')}</p>
+                <a href="https://drive.google.com/file/d/1rUjNZc8Jxas-Be3kdV1z_gBOU5TYi6NZ/view?usp=sharing" rel='noopener noreferrer' target='_blank'><img src={English} alt="" /></a>
 
                 <div className="horizontal_line">
                     <div className="line_left" />
