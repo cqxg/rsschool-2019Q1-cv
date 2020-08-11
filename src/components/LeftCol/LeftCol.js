@@ -21,10 +21,6 @@ const LeftCol = () => {
                 <a style={{ textDecoration: 'none' }} href="tel: +375 29 327 4039" type="tel">+375 29 327 4039</a>
                 <p className="purple">{t('mail')}</p>
                 <a style={{ textDecoration: 'none' }} href="mailto: cqxg@yandex.ru">cqxg@yandex.ru</a>
-                <p className="purple">{t('adress')}</p>
-                <p>{t('street')}</p>
-                <p>{t('place')}</p>
-                <p>220095</p>
             </div>
             <a href="mailto:cqxg@yandex.ru" className="send_message_button">
                 <span className="cut1" />
