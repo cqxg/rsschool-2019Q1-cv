@@ -49,14 +49,14 @@ const Projects = () => {
 
                 <div className="env_wrap">
                     <p className="highlight">{t('env')}</p>
-                    <p>JavaScript, ReactJS, Redux, Bootstrap, SCSS etc.</p>
+                    <p>JavaScript, React, Redux, Bootstrap, SCSS etc.</p>
                 </div>
 
                 <div className="horizontal_line">
                     <div className="line_left" />
                 </div>
 
-                <h4 className="highlight">cqxg-chat (2020)</h4>
+                <h4 className="highlight">cqxg-chat</h4>
                 <p>{t('repo')}<a className="project_link" target='_blank' rel='noopener noreferrer' href="https://github.com/cqxg/cqxg_chat">github.com/cqxg/cqxg_chat</a></p>
                 <a href="https://cqxg-chat.netlify.com/" target='_blank' rel='noopener noreferrer'><img src={Chat} alt="chat" /></a>
                 <p>{t('chatDesc')}</p>
@@ -65,7 +65,7 @@ const Projects = () => {
 
                 <div className="env_wrap">
                     <p className="highlight">{t('env')}</p>
-                    <p>JavaScript, ReactJS, SCSS, Websocket.</p>
+                    <p>JavaScript, Node.js, React, SCSS, WebSocket.</p>
                 </div>
 
                 <div className="horizontal_line">
