@@ -23,34 +23,28 @@ const Profile = () => {
                 <div className="line_right" />
             </div>
 
-            <div className="block">
+            <div className='block'>
                 <h2>{t('skills')}</h2>
-                <div className="philosophy_content">
-                    <p>{t('languages')}</p>
-                    <ul>
-                        <li>{t('languagesDesc')}</li>
-                    </ul>
-
-                    <p>{t('frameworks')}</p>
-                    <ul>
-                        <li>{t('frameworksDesc')}</li>
-                    </ul>
-
-                    <p>{t('other')}</p>
-                    <ul>
-                        <li>{t('otherDesc')}</li>
-                    </ul>
-
-                    <p>{t('tools')}</p>
-                    <ul>
-                        <li>{t('toolsDesc')}</li>
-                    </ul>
-
-                    <p>{t('practices')}</p>
-                    <ul>
-                        <li>{t('practicesDesc')}</li>
-                    </ul>
-                    <div className="clear" />
+                <div className='skills_wrap'>
+                    <p className='skill_wrap'>HTML</p>
+                    <p className='skill_wrap'>CSS</p>
+                    <p className='skill_wrap'>SCSS</p>
+                    <p className='skill_wrap'>JavaScript</p>
+                    <p className='skill_wrap'>Webpack</p>
+                    <p className='skill_wrap'>React</p>
+                    <p className='skill_wrap'>Redux</p>
+                    <p className='skill_wrap'>Jest</p>
+                    <p className='skill_wrap'>Enzyme</p>
+                    <p className='skill_wrap'>Node.js</p>
+                    <p className='skill_wrap'>Express</p>
+                    <p className='skill_wrap'>WebSocket</p>
+                    <p className='skill_wrap'>REST</p>
+                    <p className='skill_wrap'>Scrum</p>
+                    <p className='skill_wrap'>Agile</p>
+                    <p className='skill_wrap'>Git</p>
+                    <p className='skill_wrap'>Jira</p>
+                    <p className='skill_wrap'>Confluence</p>
+                    <p className='skill_wrap'>Code review</p>
                 </div>
             </div>
 

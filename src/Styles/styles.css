@@ -526,9 +526,27 @@ li:before {
     margin-right: 10px;
 }
 
-.env_wrap {
+.env_wrap,
+.skills_wrap  {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
+}
+
+.skill_wrap {
+    margin: 5px;
+    cursor: pointer;
+    font-size: 12px;
+    padding: 5px 10px;
+    width: fit-content;
+    border-radius: 3px;
+    border: 1px solid #29C782;
+    box-shadow: 1px 0px 2px 1px #00000052;
+}
+
+.skill_wrap:hover {
+    background-color: #22a96e;
+    border: 1px solid #000;
 }
 
 .project_link {
@@ -562,21 +580,6 @@ li:before {
 .profile_quote p {
 	font-size: 17px;
 	width: 455px;
-}
-
-.philosophy_content {
-	margin-top: 20px;
-}
-
-.philosophy_content p {
-	margin: 0;
-	width: 370px;
-	float: left;
-}
-    
-.philosophy_content ul {
-	float: left;
-	padding-left: 40px;
 }
 
 .cbox,

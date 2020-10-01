@@ -112,7 +112,7 @@ const Projects = () => {
 
                 <div className="env_wrap">
                     <p className="highlight">{t('env')}</p>
-                    <p>HTML, CSS, JavaScript, Webpack, Youtube API.</p>
+                    <p>HTML, CSS, JavaScript.</p>
                 </div>
             </div>
         </div>
