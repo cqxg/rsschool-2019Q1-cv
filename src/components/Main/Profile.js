@@ -1,7 +1,7 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 
-import Intelico from '../../assets/jobScreens/intelico.png';
+import Intelico from '../../assets/jobScreens/Intelico.png';
 
 const Profile = () => {
     const { t } = useTranslation();
