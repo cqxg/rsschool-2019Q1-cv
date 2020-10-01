@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 
+import Plat from '../../assets/projectScreens/plat.png';
 import Chat from '../../assets/projectScreens/chat.gif';
 import Editor from '../../assets/projectScreens/editor.gif';
 import Culture from '../../assets/projectScreens/culture.gif';
@@ -40,6 +41,20 @@ const Projects = () => {
                 </div>
 
                 <h2>{t('projects')}</h2>
+
+                <h4 className="highlight">Plat | Lead Distribution Platform  (Feb 2020 - Present)</h4>
+                <a href="https://dot818.com/plat/" target='_blank' rel='noopener noreferrer'><img src={Plat} alt="chat" /></a>
+                <p>{t('platDesc')}</p>
+                <p>{t('platMoreDesc')}</p>
+
+                <div className="env_wrap">
+                    <p className="highlight">{t('env')}</p>
+                    <p>JavaScript, ReactJS, Redux, Bootstrap, SCSS etc.</p>
+                </div>
+
+                <div className="horizontal_line">
+                    <div className="line_left" />
+                </div>
 
                 <h4 className="highlight">cqxg-chat (2020)</h4>
                 <p>{t('repo')}<a className="project_link" target='_blank' rel='noopener noreferrer' href="https://github.com/cqxg/cqxg_chat">github.com/cqxg/cqxg_chat</a></p>
