@@ -711,12 +711,12 @@ li:before {
 
 .back_highlight {
     display: none;
-    padding: 10px;
+    padding: 5px 10px;
     font-size: 17px;
     color: #303c2d;
     font-weight: bold;
     text-align: center;
-    border-radius: 10px;
-    border: 3px solid #212121e8;
+    border-radius: 3px;
+    border: 1px solid #000;
     background-color: #dcfffb;
 }
