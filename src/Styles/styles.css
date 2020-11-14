@@ -324,8 +324,8 @@ li:before {
 .profile_frame{
 	width: 230px;
 	height: 340px;
-	background: url('../assets/Photo.jpg');
-	border: 1px solid #403F44;
+	background: url('../assets/anotherphoto.jpg');
+	/* border: 1px solid #403F44; */
 	margin-top: 20px;
 }
 
