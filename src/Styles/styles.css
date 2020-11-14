@@ -547,6 +547,7 @@ li:before {
 .skill_wrap:hover {
     background-color: #22a96e;
     border: 1px solid #000;
+    transform: translateY(-2px);
 }
 
 .project_link {
