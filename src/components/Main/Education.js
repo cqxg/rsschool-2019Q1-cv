@@ -1,11 +1,12 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 
-import Certificate from '../../assets/educationScreens/Certificate.png';
 import University from '../../assets/educationScreens/university.png';
+import ImproveJS from '../../assets/educationScreens/improve.png';
+import RssNodeJS from '../../assets/educationScreens/rssnode.png';
 import English  from '../../assets/educationScreens/english.png';
 import BecomeJS from '../../assets/educationScreens/become.png';
-import ImproveJS from '../../assets/educationScreens/improve.png';
+import RssJsFe from '../../assets/educationScreens/rssfe.png'
 import ReactJS from '../../assets/educationScreens/react.png';
 
 const Education = () => {
@@ -25,11 +26,17 @@ const Education = () => {
                     <div className="line_left" />
                 </div>
 
-                <p>{t('rss')}<a className="education_link" target='_blank' rel='noopener noreferrer' href="https://school.rollingscopes.com/">
+                <p>{t('rssFE')}<a className="education_link" target='_blank' rel='noopener noreferrer' href="https://school.rollingscopes.com/">
                     {t('rssLink')}</a>, 02.2019 – 08.2019</p>
 
                 <p>{t('rssCertificate')}</p>
-                <a href="https://app.rs.school/certificate/cc6pbvqf" rel='noopener noreferrer' target='_blank'><img src={Certificate} alt="" /></a>
+                <a href="https://app.rs.school/certificate/cc6pbvqf" rel='noopener noreferrer' target='_blank'><img src={RssJsFe} alt="RSS JS/FE" /></a>
+
+                <p>{t('rssNode')}<a className="education_link" target='_blank' rel='noopener noreferrer' href="https://school.rollingscopes.com/">
+                    {t('rssLink')}</a>, 09.2020 – 11.2020</p>
+
+                <p>{t('rssCertificate')}</p>
+                <a href="https://app.rs.school/certificate/9gqtiad8" rel='noopener noreferrer' target='_blank'><img src={RssNodeJS} alt="RSS NodeJS" /></a>
 
                 <div className="horizontal_line">
                     <div className="line_left" />
