@@ -59,7 +59,7 @@ const Profile = () => {
             <div className="block">
                 <h2>{t('job')}</h2>
                 <p>{t('intelico')}</p>
-                <a href="https://intelico.pro/" target='_blank' rel='noopener noreferrer'><img src={Intelico} alt="" /></a>
+                <a href="https://intelico.pro/" target='_blank' rel='noopener noreferrer'><img className='border' src={Intelico} alt="" /></a>
             </div>
         </div>
     )
