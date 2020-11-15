@@ -2,6 +2,7 @@ import React from 'react';
 import { useTranslation } from 'react-i18next';
 
 import Intelico from '../../assets/jobScreens/intelic.png';
+import RSS from '../../assets/jobScreens/rssorganization.png';
 
 const Profile = () => {
     const { t } = useTranslation();
@@ -59,7 +60,17 @@ const Profile = () => {
             <div className="block">
                 <h2>{t('job')}</h2>
                 <p>{t('intelico')}</p>
-                <a href="https://intelico.pro/" target='_blank' rel='noopener noreferrer'><img className='border' src={Intelico} alt="" /></a>
+                <a href="https://intelico.pro/" target='_blank' rel='noopener noreferrer'><img className='border' src={Intelico} alt="intelico systems" /></a>
+            </div>
+
+            <div className="horizontal_line">
+                <div className="line_left"></div>
+            </div>
+
+            <div className="block">
+                <h2>{t('volunteer')}</h2>
+                <p>{t('rssVolunteer')}</p>
+                <a href="https://rs.school/" target='_blank' rel='noopener noreferrer'><img className='border' src={RSS} alt="RSS Organization" /></a>
             </div>
         </div>
     )
