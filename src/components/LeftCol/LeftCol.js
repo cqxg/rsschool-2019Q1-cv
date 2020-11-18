@@ -4,13 +4,16 @@ import { useTranslation } from 'react-i18next';
 import Github_icon from '../../assets/icon/github.svg';
 import Linkedin_icon from '../../assets/icon/linkedin.svg'
 import Telegram_icon from '../../assets/icon/telegram.svg';
+import Ihar from '../../assets/ihar.jpg';
 
 const LeftCol = () => {
     const { t } = useTranslation();
 
     return (
         <div id="left_col">
-            <div className="profile_frame" />
+                <div className="profile_frame">
+                    <img alt='Ihar' src={Ihar} />
+                </div>
             <div className="hello_content">
                 <h2>{t('hello')}</h2>
                 <p>{t('greeting')}</p>
