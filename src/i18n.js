@@ -3,8 +3,8 @@ import { initReactI18next } from "react-i18next";
 
 import Backend from "i18next-xhr-backend";
 
-import RU from "./utils/locale/pl.json";
-import EN from "./utils/locale/en.json";
+import RU from "./utils/locales/ru.json";
+import EN from "./utils/locales/en.json";
 
 const resources = {
   ru: {
