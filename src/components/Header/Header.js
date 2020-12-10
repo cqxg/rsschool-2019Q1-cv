@@ -52,6 +52,15 @@ const Header = ({ t, i18n, activeLocale, changeLocale }) => {
         <div className="menu-container__locale">
           {EN} {RU}
         </div>
+        <div className="menu-container__buttons">
+          <div>
+            <img src={downloader} />
+            <span></span>
+          </div>
+          <div>
+
+          </div>
+        </div>
         <div className="clear" />
       </div>
     </header>

@@ -50,4 +50,11 @@ header {
   &__ru:hover {
     color: #48da9b;
   }
+
+  &__buttons {
+    display: flex;
+    width: 225px;
+    height: 45px;
+    float: right;
+  }
 }
