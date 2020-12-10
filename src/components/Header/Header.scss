@@ -26,3 +26,28 @@ header {
     letter-spacing: 2px;
   }
 }
+
+.menu-container {
+  float: left;
+  width: 699px;
+  height: 130px;
+
+  &__locale {
+    display: flex;
+    font-size: 12px;
+    cursor: pointer;
+    margin-left: 20px;
+    position: absolute;
+  }
+
+  &__en,
+  &__ru {
+    margin: 5px;
+    color: #837c9a;
+  }
+
+  &__en:hover,
+  &__ru:hover {
+    color: #48da9b;
+  }
+}

@@ -13,6 +13,32 @@ const Header = ({ t, i18n, activeLocale, changeLocale }) => {
     changeLocale(language);
   };
 
+  const RU = (
+    <span
+      className={
+        activeLocale === "ru"
+          ? "menu-container__ru active"
+          : "menu-container__ru"
+      }
+      onClick={() => setLanguage("ru")}
+    >
+      RU
+    </span>
+  );
+
+  const EN = (
+    <span
+      className={
+        activeLocale === "en"
+          ? "menu-container__en active"
+          : "menu-container__en"
+      }
+      onClick={() => setLanguage("en")}
+    >
+      EN
+    </span>
+  );
+
   return (
     <header>
       <div className="title-container">
@@ -24,18 +50,7 @@ const Header = ({ t, i18n, activeLocale, changeLocale }) => {
       </div>
       <div className="menu-container">
         <div className="menu-container__locale">
-          <div
-            className={activeLocale === "en" ? "active" : ""}
-            onClick={() => setLanguage("en")}
-          >
-            EN
-          </div>
-          <div
-            className={activeLocale === "ru" ? "active" : ""}
-            onClick={() => setLanguage("ru")}
-          >
-            RU
-          </div>
+          {EN} {RU}
         </div>
         <div className="clear" />
       </div>
