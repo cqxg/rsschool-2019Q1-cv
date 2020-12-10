@@ -2,3 +2,27 @@ header {
   height: 130px;
   border-bottom: 1px solid #403f44;
 }
+
+.title-container {
+  float: left;
+  width: 260px;
+  height: 130px;
+  border-right: 1px solid #403f44;
+
+  &__name {
+    font-size: 32px;
+    margin: 43px 0 0;
+  }
+
+  &__surname {
+    color: #837c9a;
+  }
+
+  &__position {
+    margin-top: 5px;
+    font-size: 14px;
+    color: #5ce2af;
+    padding-left: 7px;
+    letter-spacing: 2px;
+  }
+}
