@@ -1,5 +1,6 @@
 import React from "react";
 
+import cv from "../../assets/pdf/ivaniuk.pdf";
 import printer from "../../assets/icons/print.svg";
 import downloader from "../../assets/icons/download.svg";
 
@@ -53,13 +54,13 @@ const Header = ({ t, i18n, activeLocale, changeLocale }) => {
           {EN} {RU}
         </div>
         <div className="menu-container__buttons">
-          <a href="./assets/Ihar_Ivaniuk_CV.pdf" download>
-            <img src={downloader} />
-            <span> {t("dwnloadCV")}</span>
+          <a href={cv} download>
+            <img src={downloader} alt={t("dwnloadCV")} />
+            <span>{t("dwnloadCV")}</span>
           </a>
-          <a href="#" download>
-            <img src={printer} />
-            <span> {t("printCV")}</span>
+          <a href="#" onClick={() => print()}>
+            <img src={printer} alt={t("printCV")} />
+            <span>{t("printCV")}</span>
           </a>
         </div>
         <div className="clear" />
