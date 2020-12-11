@@ -15,6 +15,69 @@
   &__hello {
     width: 230px;
   }
+
+  &__contacts {
+    p {
+      margin: 20px 0 0 0;
+      color: #837c9a;
+    }
+
+    a {
+      text-decoration: none;
+    }
+  }
+
+  &__sendmessage {
+    z-index: 1;
+    width: 230px;
+    height: 50px;
+    display: block;
+    margin-top: 25px;
+    position: relative;
+    background: #48da9b;
+
+    :nth-child(1):after,
+    :nth-child(2):before {
+      z-index: 3;
+      width: 30px;
+      height: 30px;
+      position: absolute;
+      transform: rotate(45deg);
+      background-image: url("../../assets/backgrounds/dark.png");
+    }
+
+    :nth-child(1):after {
+      content: "";
+      left: -20px;
+      bottom: -19px;
+    }
+
+    :nth-child(2):before {
+      content: "";
+      top: -19px;
+      right: -20px;
+    }
+
+    :nth-child(3) {
+      top: -4px;
+      margin: 0;
+      z-index: 2;
+      width: 100%;
+      height: 40px;
+      bottom: 10px;
+      font-size: 18px;
+      color: #04080b;
+      position: absolute;
+      padding: 16px 0 0;
+      text-align: center;
+      border-top: 1px solid #403f44;
+      border-bottom: 1px solid #403f44;
+    }
+    
+    &:hover {
+      background: #29c782;
+    }
+  }
 }
 
 @keyframes left-col {

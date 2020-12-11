@@ -19,27 +19,23 @@ const LeftCol = ({ t }) => {
         <p>{t("greeting")}</p>
       </div>
 
-      {/* 
       <div className="left-col__contacts">
         <h2>{t("contact")}</h2>
-        <p className="purple">{t("phone")}</p>
-        <a
-          style={{ textDecoration: "none" }}
-          href="tel: +375 29 327 4039"
-          type="tel"
-        >
+        <p>{t("phone")}</p>
+        <a href="tel: +375 29 327 4039" type="tel">
           +375 29 327 4039
         </a>
-        <p className="purple">{t("mail")}</p>
-        <a style={{ textDecoration: "none" }} href="mailto: cqxg@yandex.ru">
-          cqxg@yandex.ru
-        </a>
+        <p>{t("mail")}</p>
+        <a href="mailto: cqxg@yandex.ru">cqxg@yandex.ru</a>
       </div>
+
       <a href="mailto:cqxg@yandex.ru" className="left-col__sendmessage">
-        <span className="cut1" />
-        <span className="cut2" />
-        <span className="content">{t("sendMeMess")}</span>
+        <span />
+        <span />
+        <span>{t("sendMeMess")}</span>
       </a>
+
+      {/* 
       <div className="left-col__social">
         <h2>{t("social")}</h2>
         <ul className="social_icons horizontal_list">

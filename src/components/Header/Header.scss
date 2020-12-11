@@ -47,11 +47,10 @@ header {
   &__ru {
     margin: 5px;
     color: #837c9a;
-  }
-
-  &__en:hover,
-  &__ru:hover {
-    color: #48da9b;
+    
+    &:hover {
+      color: #48da9b;
+    }
   }
 
   &__buttons {
@@ -72,10 +71,10 @@ header {
       text-decoration: none;
       background: #353638;
       justify-content: center;
-    }
 
-    a:hover {
-      background: rgba(255, 255, 255, 0.15);
+      &:hover {
+        background: rgba(255, 255, 255, 0.15);
+      }
     }
 
     img {
