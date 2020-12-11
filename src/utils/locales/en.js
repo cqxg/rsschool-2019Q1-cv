@@ -5,4 +5,7 @@ export default {
   position: "WEB DEVELOPER",
   dwnloadCV: "Download CV",
   printCV: "Print CV",
+  profile: "Profile",
+  projects: "Projects",
+  education: "Education",
 };

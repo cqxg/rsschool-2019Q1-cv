@@ -1,5 +1,7 @@
 import React from "react";
 
+import Navbar from "../Navbar/Navbar";
+
 import cv from "../../assets/pdf/ivaniuk.pdf";
 import printer from "../../assets/icons/print.svg";
 import downloader from "../../assets/icons/download.svg";
@@ -64,6 +66,7 @@ const Header = ({ t, i18n, activeLocale, changeLocale }) => {
           </a>
         </div>
         <div className="clear" />
+        <Navbar t={t} />
       </div>
     </header>
   );

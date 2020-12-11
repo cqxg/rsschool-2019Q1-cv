@@ -5,10 +5,10 @@
 
 body {
   margin: 0;
-  background: url("./assets/backgrounds/dark.png") repeat;
-  font-family: "MyFont", Helvetica, sans-serif;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
+  font-family: "MyFont", Helvetica, sans-serif;
+  background: url("./assets/backgrounds/dark.png") repeat;
 }
 
 #root {
