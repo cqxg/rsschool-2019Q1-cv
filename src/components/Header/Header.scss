@@ -1,5 +1,8 @@
 header {
+  opacity: 0;
   height: 130px;
+  animation: header 0.5s 1 1.5s;
+  animation-fill-mode: forwards;
   border-bottom: 1px solid #403f44;
 }
 
@@ -79,5 +82,14 @@ header {
       width: 15px;
       margin: 0 7px 2px 0;
     }
+  }
+}
+
+@keyframes header {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
   }
 }

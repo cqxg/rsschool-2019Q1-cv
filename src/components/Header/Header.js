@@ -1,6 +1,6 @@
 import React from "react";
 
-import Navbar from "../Navbar/Navbar";
+import Navbar from "./Navbar/Navbar";
 
 import cv from "../../assets/pdf/ivaniuk.pdf";
 import printer from "../../assets/icons/print.svg";
