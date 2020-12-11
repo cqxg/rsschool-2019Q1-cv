@@ -5,6 +5,7 @@
 
 body {
   margin: 0;
+  padding: 0 5px 0 5px;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   font-family: "MyFont", Helvetica, sans-serif;

@@ -73,9 +73,51 @@
       border-top: 1px solid #403f44;
       border-bottom: 1px solid #403f44;
     }
-    
+
     &:hover {
       background: #29c782;
+    }
+  }
+
+  &__social {
+    h2 {
+      margin-bottom: 10px;
+    }
+  }
+
+  &__icons {
+    display: flex;
+    align-items: center;
+    .github,
+    .linkedin,
+    .telegram {
+      &:hover {
+        display: flex;
+        align-items: center;
+        background: rgba(255, 255, 255, 0.15);
+      }
+    }
+
+    .telegram {
+      &:hover {
+        border-top-right-radius: 50px;
+        border-bottom-left-radius: 50px;
+      }
+    }
+
+    .github {
+      margin: 0 15px 0 15px;
+      &:hover {
+        border-top-left-radius: 50px;
+        border-bottom-right-radius: 50px;
+      }
+    }
+
+    .linkedin {
+      &:hover {
+        border-top-right-radius: 50px;
+        border-bottom-left-radius: 50px;
+      }
     }
   }
 }
