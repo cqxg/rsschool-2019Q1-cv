@@ -3,13 +3,14 @@ import { useTranslation } from "react-i18next";
 import { BrowserRouter } from "react-router-dom";
 
 import Header from "./components/Header/Header";
+import Footer from "./components/Footer/Footer";
 import LeftCol from "./components/LeftCol/LeftCol";
 
 const App = () => {
   const { t, i18n } = useTranslation();
   const [activeLocale, setActiveLocale] = useState("en");
-
   const changeLocale = (e) => setActiveLocale(e);
+
   return (
     <BrowserRouter>
       <Header
@@ -19,6 +20,7 @@ const App = () => {
         activeLocale={activeLocale}
       />
       <LeftCol t={t} />
+      <Footer t={t} />
     </BrowserRouter>
   );
 };

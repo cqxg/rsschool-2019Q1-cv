@@ -22,4 +22,7 @@ export default {
   place: "Минск, Беларусь",
   sendMeMess: "Отправить мне письмо ",
   social: "",
+
+  // FOOTER
+  footer: "Игорь Иванюк CV 2020",
 };

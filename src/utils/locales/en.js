@@ -21,4 +21,7 @@ export default {
   place: "Minsk, Belarus",
   sendMeMess: "Send me a message",
   social: "Get social",
+
+  // FOOTER 
+  footer: "Ihar Ivaniuk CV 2020",
 };

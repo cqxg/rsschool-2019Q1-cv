@@ -1,0 +1,26 @@
+footer {
+  opacity: 0;
+  height: 60px;
+  width: 960px;
+  display: inline-block;
+  animation: footer 0.6s 1 2s;
+  animation-fill-mode: forwards;
+  border-top: 1px solid #403f44;
+
+  p {
+    font-size: 15px;
+    margin-top: 20px;
+    font-weight: 300;
+    color: #e4e3e8;
+    font-style: italic;
+  }
+}
+
+@keyframes footer {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
