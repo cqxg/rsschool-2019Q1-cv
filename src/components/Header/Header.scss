@@ -56,5 +56,27 @@ header {
     width: 225px;
     height: 45px;
     float: right;
+
+    a {
+      width: 100%;
+      display: flex;
+      font-size: 12px;
+      padding: 15px 15px;
+      font-style: italic;
+      white-space: nowrap;
+      align-items: center;
+      text-decoration: none;
+      background: #353638;
+      justify-content: center;
+    }
+
+    a:hover {
+      background: rgba(255, 255, 255, 0.15);
+    }
+
+    img {
+      width: 15px;
+      margin: 0 15px 2px 0;
+    }
   }
 }

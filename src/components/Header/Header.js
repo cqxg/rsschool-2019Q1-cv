@@ -53,13 +53,14 @@ const Header = ({ t, i18n, activeLocale, changeLocale }) => {
           {EN} {RU}
         </div>
         <div className="menu-container__buttons">
-          <div>
+          <a href="./assets/Ihar_Ivaniuk_CV.pdf" download>
             <img src={downloader} />
-            <span></span>
-          </div>
-          <div>
-
-          </div>
+            <span> {t("dwnloadCV")}</span>
+          </a>
+          <a href="#" download>
+            <img src={printer} />
+            <span> {t("printCV")}</span>
+          </a>
         </div>
         <div className="clear" />
       </div>

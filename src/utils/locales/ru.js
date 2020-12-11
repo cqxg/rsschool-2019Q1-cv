@@ -3,6 +3,6 @@ export default {
   name: "Игорь",
   surname: " Иванюк",
   position: "ВEБ РАЗРАБОТЧИК",
-  dwnloadCV: "Скачать",
-  printCV: "Печать",
+  dwnloadCV: "Скачать CV",
+  printCV: "Печать CV",
 };
