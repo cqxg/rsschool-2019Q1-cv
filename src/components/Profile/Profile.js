@@ -1,5 +1,7 @@
 import React from "react";
 
+import Cubes from "../../utils/cubes/Cubes";
+
 import "./Profile.scss";
 
 const Profile = ({ t }) => {
@@ -22,6 +24,7 @@ const Profile = ({ t }) => {
 
       <div className="content-container__block">
         <h2>{t("skills")}</h2>
+        <Cubes />
       </div>
 
       <div className="horizontal-line">

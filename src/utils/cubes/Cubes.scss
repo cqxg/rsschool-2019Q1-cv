@@ -1,0 +1,51 @@
+.first-line,
+.second-line {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.stage {
+  position: relative;
+  margin: 0 13px 25px 13px;
+  transform-style: preserve-3d;
+}
+
+.side {
+  min-height: 118px;
+  min-width: 118px;
+  max-width: 118px;
+  max-height: 118px;
+  border-radius: 25px;
+  position: absolute;
+  background-repeat: repeat;
+  background-position: center;
+  background: url("../../assets/backgrounds/dark.png");
+  box-shadow: 0px 2px 5px 0px rgba(130, 130, 130, 0.2);
+}
+
+.cubespinner {
+  min-height: 118px;
+  min-width: 118px;
+  max-width: 118px;
+  max-height: 118px;
+}
+
+.top {
+  transform: translateY(-1.75em) rotateX(90deg);
+}
+.front {
+  transform: translateZ(1.75em);
+}
+.right {
+  transform: translateX(1.75em) rotateY(90deg);
+}
+.back {
+  transform: translateZ(-1.75em);
+}
+.left {
+  transform: translateX(-1.75em) rotateY(90deg);
+}
+.bottom {
+  transform: translateY(1.75em) rotateX(90deg);
+}
