@@ -22,6 +22,15 @@ export default {
   sendMeMess: "Send me a message",
   social: "Get social",
 
-  // FOOTER 
+  // FOOTER
   footer: "Ihar Ivaniuk CV 2020",
+
+  //PROFILE
+  summary: "Summary of Qualifications",
+  summaryDesc:
+    "Results- oriented, meticulous and innovative Web Developer with more than 1+ year experience building various types of web application using HTML, CSS, JavaScript, React, Redux and other technology.",
+  skills: "Technical Skills",
+  job: "Work Experience",
+  intelico:
+    "Participation in projects based on advanced technologies. Development of complex, dynamic interfaces with complex logic and dependencies. Participation in the discussion of architectural solutions.",
 };
