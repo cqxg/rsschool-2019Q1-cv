@@ -12,15 +12,15 @@ const Profile = ({ t }) => {
         </blockquote>
       </div>
 
-      {/* <div className="horizontal_line">
-                <div className="line_left" />
-                <div className="left_circle" />
-                <div className="central_circle" />
-                <div className="right_circle" />
-                <div className="line_right" />
-            </div>
+      <div className="horizontal-line">
+        <div className="line-left" />
+        <div className="left-circle" />
+        <div className="central-circle" />
+        <div className="right-circle" />
+        <div className="line-right" />
+      </div>
 
-            <div className='block'>
+      {/*     <div className='block'>
                 <h2>{t('skills')}</h2>
                 <div className='skills_wrap'>
                     <p className='skill_wrap'>HTML</p>

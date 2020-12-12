@@ -78,3 +78,55 @@ a:focus {
 .clear {
   clear: both;
 }
+
+.horizontal-line {
+  height: 26px;
+  position: relative;
+  margin: 34px 0 0 30px;
+}
+
+.line-left,
+.line-right {
+  width: 305px;
+  margin-top: 13px;
+  border-top: 1px solid #434247;
+}
+
+.line-left {
+  float: left;
+}
+
+.line-right {
+  float: right;
+}
+
+.left-circle,
+.central-circle,
+.right-circle {
+  position: absolute;
+  border-radius: 50px;
+  background: rgb(69, 68, 73);
+  background: rgba(255, 255, 255, 0.15);
+}
+
+.left-circle,
+.right-circle {
+  top: 7px;
+  width: 13px;
+  height: 13px;
+}
+
+.left-circle {
+  left: 314px;
+}
+
+.central-circle {
+  top: 0px;
+  width: 26px;
+  left: 322px;
+  height: 26px;
+}
+
+.right-circle {
+  left: 343px;
+}
