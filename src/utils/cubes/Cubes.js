@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 
-import bootstrap from "../../assets/icons/bootstrap.svg";
+import less from "../../assets/icons/less.svg";
 import css from "../../assets/icons/css.svg";
 import html from "../../assets/icons/html.svg";
 import sass from "../../assets/icons/sass.svg";
@@ -15,15 +15,25 @@ import redux from "../../assets/icons/redux.svg";
 import jest from "../../assets/icons/jest.svg";
 import airbnb from "../../assets/icons/airbnb.svg";
 
-import node from "../../assets/icons/node.svg";
-import express from "../../assets/icons/express.svg";
+import nodejs from "../../assets/icons/nodejs.svg";
+import mongo from "../../assets/icons/mongo.svg";
 import npm from "../../assets/icons/npm.svg";
 import yarn from "../../assets/icons/yarn.svg";
 
 import gh from "../../assets/icons/gh.svg";
 import git from "../../assets/icons/git.svg";
 import bitbucket from "../../assets/icons/bitbucket.svg";
-import e from "../../assets/icons/gh.svg";
+import gitlab from "../../assets/icons/gitlab.svg";
+
+import trello from "../../assets/icons/trello.svg";
+import heroku from "../../assets/icons/heroku.svg";
+import atlassian from "../../assets/icons/atlassian.svg";
+import netlify from "../../assets/icons/netlify.svg";
+
+import vs from "../../assets/icons/vs.svg";
+import chrome from "../../assets/icons/chrome.svg";
+import figma from "../../assets/icons/figma.svg";
+import e from "../../assets/icons/vs.svg";
 
 import a from "../../assets/icons/telegram.svg";
 
@@ -93,7 +103,7 @@ const Cubes = () => {
           <div className="cubespinner cube0">
             <div className="top side"></div>
             <div className="front side">
-              <img src={bootstrap} />
+              <img src={less} />
             </div>
             <div className="right side">
               <img src={sass} />
@@ -156,11 +166,11 @@ const Cubes = () => {
             </div>
             <div className="right side"></div>
             <div className="back side">
-              <img src={express} />
+              <img src={mongo} />
             </div>
             <div className="left side"></div>
             <div className="bottom side">
-              <img src={node} />
+              <img src={nodejs} />
             </div>
           </div>
         </div>
@@ -177,7 +187,7 @@ const Cubes = () => {
             </div>
             <div className="right side"></div>
             <div className="back side">
-              <img src={git} />
+              <img src={gitlab} />
             </div>
             <div className="left side"></div>
             <div className="bottom side">
@@ -190,16 +200,16 @@ const Cubes = () => {
           <div className="cubespinner cube6">
             <div className="top side"></div>
             <div className="front side">
-              <img src={a} />
+              <img src={atlassian} />
             </div>
             <div className="right side">
-              <img src={a} />
+              <img src={trello} />
             </div>
             <div className="back side">
-              <img src={a} />
+              <img src={heroku} />
             </div>
             <div className="left side">
-              <img src={a} />
+              <img src={netlify} />
             </div>
             <div className="bottom side"></div>
           </div>
@@ -209,16 +219,16 @@ const Cubes = () => {
           <div className="cubespinner cube5">
             <div className="top side"></div>
             <div className="front side">
-              <img src={a} />
+              <img src={vs} />
             </div>
             <div className="right side">
-              <img src={a} />
+              <img src={chrome} />
             </div>
             <div className="back side">
-              <img src={a} />
+              <img src={chrome} />
             </div>
             <div className="left side">
-              <img src={a} />
+              <img src={figma} />
             </div>
             <div className="bottom side"></div>
           </div>
@@ -228,16 +238,16 @@ const Cubes = () => {
           <div className="cubespinner cube4">
             <div className="top side"></div>
             <div className="front side">
-              <img src={a} />
+              <img src={vs} />
             </div>
             <div className="right side">
-              <img src={a} />
+              <img src={chrome} />
             </div>
             <div className="back side">
-              <img src={a} />
+              <img src={vs} />
             </div>
             <div className="left side">
-              <img src={a} />
+              <img src={chrome} />
             </div>
             <div className="bottom side"></div>
           </div>
