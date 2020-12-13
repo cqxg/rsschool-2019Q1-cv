@@ -1,5 +1,30 @@
 import React, { useEffect } from "react";
 
+import bootstrap from "../../assets/icons/bootstrap.svg";
+import css from "../../assets/icons/css.svg";
+import html from "../../assets/icons/html.svg";
+import sass from "../../assets/icons/sass.svg";
+
+import js from "../../assets/icons/js.svg";
+import ts from "../../assets/icons/ts.svg";
+import lint from "../../assets/icons/lint.svg";
+import webpack from "../../assets/icons/webpack.svg";
+
+import react from "../../assets/icons/react.svg";
+import redux from "../../assets/icons/redux.svg";
+import jest from "../../assets/icons/jest.svg";
+import airbnb from "../../assets/icons/airbnb.svg";
+
+import node from "../../assets/icons/node.svg";
+import express from "../../assets/icons/express.svg";
+import npm from "../../assets/icons/npm.svg";
+import yarn from "../../assets/icons/yarn.svg";
+
+import gh from "../../assets/icons/gh.svg";
+import git from "../../assets/icons/git.svg";
+import bitbucket from "../../assets/icons/bitbucket.svg";
+import e from "../../assets/icons/gh.svg";
+
 import a from "../../assets/icons/telegram.svg";
 
 import "./Cubes.scss";
@@ -12,19 +37,19 @@ const Cubes = () => {
 
     const rotateY = (a) => {
       a.style.transform = `rotateY(${cubeDeg}deg)`;
-      setTimeout(nextCube, 1500);
+      setTimeout(nextCube, 1000);
     };
     const rotateX = (a) => {
       a.style.transform = `rotateX(${cube2Deg}deg)`;
-      setTimeout(nextCube, 1500);
+      setTimeout(nextCube, 1000);
     };
     const rotateYm = (a) => {
       a.style.transform = `rotateY(${cube2Deg}deg)`;
-      setTimeout(nextCube, 1500);
+      setTimeout(nextCube, 1000);
     };
     const rotateXm = (a) => {
       a.style.transform = `rotateX(${cubeDeg}deg)`;
-      setTimeout(nextCube, 1500);
+      setTimeout(nextCube, 1000);
     };
     const nextCube = () => {
       let tCube = document.querySelector(`.cube${cubeN}`);
@@ -68,16 +93,16 @@ const Cubes = () => {
           <div className="cubespinner cube0">
             <div className="top side"></div>
             <div className="front side">
-              <img src={a} />
+              <img src={bootstrap} />
             </div>
             <div className="right side">
-              <img src={a} />
+              <img src={sass} />
             </div>
             <div className="back side">
-              <img src={a} />
+              <img src={css} />
             </div>
             <div className="left side">
-              <img src={a} />
+              <img src={html} />
             </div>
             <div className="bottom side"></div>
           </div>
@@ -87,16 +112,16 @@ const Cubes = () => {
           <div className="cubespinner cube1">
             <div className="top side"></div>
             <div className="front side">
-              <img src={a} />
+              <img src={lint} />
             </div>
             <div className="right side">
-              <img src={a} />
+              <img src={webpack} />
             </div>
             <div className="back side">
-              <img src={a} />
+              <img src={ts} />
             </div>
             <div className="left side">
-              <img src={a} />
+              <img src={js} />
             </div>
             <div className="bottom side"></div>
           </div>
@@ -106,16 +131,16 @@ const Cubes = () => {
           <div className="cubespinner cube2">
             <div className="top side"></div>
             <div className="front side">
-              <img src={a} />
+              <img src={airbnb} />
             </div>
             <div className="right side">
-              <img src={a} />
+              <img src={jest} />
             </div>
             <div className="back side">
-              <img src={a} />
+              <img src={redux} />
             </div>
             <div className="left side">
-              <img src={a} />
+              <img src={react} />
             </div>
             <div className="bottom side"></div>
           </div>
@@ -124,18 +149,18 @@ const Cubes = () => {
         <div className="stage">
           <div className="cubespinner cube3">
             <div className="top side">
-              <img src={a} />
+              <img src={yarn} />
             </div>
             <div className="front side">
-              <img src={a} />
+              <img src={npm} />
             </div>
             <div className="right side"></div>
             <div className="back side">
-              <img src={a} />
+              <img src={express} />
             </div>
             <div className="left side"></div>
             <div className="bottom side">
-              <img src={a} />
+              <img src={node} />
             </div>
           </div>
         </div>
@@ -145,18 +170,18 @@ const Cubes = () => {
         <div className="stage">
           <div className="cubespinner cube7">
             <div className="top side">
-              <img src={a} />
+              <img src={bitbucket} />
             </div>
             <div className="front side">
-              <img src={a} />
+              <img src={gh} />
             </div>
             <div className="right side"></div>
             <div className="back side">
-              <img src={a} />
+              <img src={git} />
             </div>
             <div className="left side"></div>
             <div className="bottom side">
-              <img src={a} />
+              <img src={git} />
             </div>
           </div>
         </div>

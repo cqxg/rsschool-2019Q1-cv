@@ -1,6 +1,6 @@
 .first-line,
 .second-line {
-  width: 100%;
+  width: 70%;
   display: flex;
   justify-content: space-between;
 }
@@ -12,40 +12,44 @@
 }
 
 .side {
-  min-height: 118px;
-  min-width: 118px;
-  max-width: 118px;
-  max-height: 118px;
-  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 65px;
+  max-width: 65px;
+  max-height: 65px;
+  min-height: 65px;
   position: absolute;
-  background-repeat: repeat;
-  background-position: center;
+  border-radius: 2px;
+  border: 1px solid #48da9b42;
+  box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.2);
   background: url("../../assets/backgrounds/dark.png");
-  box-shadow: 0px 2px 5px 0px rgba(130, 130, 130, 0.2);
+  img {
+    min-width: 80%;
+    max-width: 80%;
+  }
 }
 
 .cubespinner {
-  min-height: 118px;
-  min-width: 118px;
-  max-width: 118px;
-  max-height: 118px;
+  height: 65px;
+  width: 65px;
 }
 
 .top {
-  transform: translateY(-1.75em) rotateX(90deg);
+  transform: translateY(-2em) rotateX(90deg);
 }
 .front {
-  transform: translateZ(1.75em);
+  transform: translateZ(2em);
 }
 .right {
-  transform: translateX(1.75em) rotateY(90deg);
+  transform: translateX(2em) rotateY(90deg);
 }
 .back {
-  transform: translateZ(-1.75em);
+  transform: translateZ(-2em);
 }
 .left {
-  transform: translateX(-1.75em) rotateY(90deg);
+  transform: translateX(-2em) rotateY(90deg);
 }
 .bottom {
-  transform: translateY(1.75em) rotateX(90deg);
+  transform: translateY(2em) rotateX(90deg);
 }
