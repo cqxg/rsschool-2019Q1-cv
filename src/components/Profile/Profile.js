@@ -1,6 +1,6 @@
 import React from "react";
 
-import Cubes from "../../utils/cubes/Cubes";
+import Cubes from "./Cubes/Cubes";
 
 import "./Profile.scss";
 
