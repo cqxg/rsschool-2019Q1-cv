@@ -3,8 +3,29 @@
   width: 45%;
   align-items: center;
   justify-content: space-between;
+}
 
-  img {
-    width: 25px;
+.stars {
+  font-size: 0;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.stars > span:before {
+  content: "★";
+}
+
+.stars span {
+  padding: 0;
+  font-size: 30px;
+  line-height: 1;
+  color: #000000;
+
+  &:hover {
+    color: rgba(255, 217, 0, 0.925);
   }
+}
+
+.stars > span.filled {
+  color: rgba(255, 217, 0, 0.891);
 }

@@ -1,8 +1,5 @@
 import React from "react";
 
-import empty from "../../../assets/icons/emptystar.svg";
-import filled from "../../../assets/icons/filledstar.svg";
-
 import "./Stars.scss";
 
 const Stars = ({ filledStars, emptyStars }) => {
@@ -17,11 +14,18 @@ const Stars = ({ filledStars, emptyStars }) => {
   }
 
   const renderedFilledStars = filledStarsArr.map((item) => (
-    <img src={filled} key={`filled star ${item}`} alt={`filled star ${item}`} />
+    <div className="stars" key={`filled star ${item}`}>
+      <span
+        onClick={(e) => console.log(e.target.classList.toggle("filled"))}
+        className="filled"
+      />
+    </div>
   ));
 
   const renderedEmptyStars = emptyStarsArr.map((item) => (
-    <img src={empty} key={`empty star ${item}`} alt={`empty star ${item}`} />
+    <div className="stars" key={`empty star ${item}`}>
+      <span onClick={(e) => console.log(e.target.classList.toggle("filled"))} />
+    </div>
   ));
 
   return (
