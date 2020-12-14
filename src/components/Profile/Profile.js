@@ -1,6 +1,7 @@
 import React from "react";
 
 import Cubes from "./Cubes/Cubes";
+import Stars from "./Stars/Stars";
 
 import "./Profile.scss";
 
@@ -25,6 +26,32 @@ const Profile = ({ t }) => {
       <div className="content-container__block">
         <h2>{t("skills")}</h2>
         <Cubes />
+
+        <h2>{t("anotherSkills")}</h2>
+        <div className="content-container__another">
+          <p>{t("research")}</p>
+          <Stars filledStars={4} emptyStars={1} />
+        </div>
+
+        <div className="content-container__another">
+          <p>{t("modeling")}</p>
+          <Stars filledStars={3} emptyStars={2} />
+        </div>
+
+        <div className="content-container__another">
+          <p>{t("management")}</p>
+          <Stars filledStars={4} emptyStars={1} />
+        </div>
+
+        <div className="content-container__another">
+          <p>{t("communication")}</p>
+          <Stars filledStars={4} emptyStars={1} />
+        </div>
+
+        <div className="content-container__another">
+          <p>{t("processes")}</p>
+          <Stars filledStars={3} emptyStars={2} />
+        </div>
       </div>
 
       <div className="horizontal-line">

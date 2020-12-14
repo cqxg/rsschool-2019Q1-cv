@@ -26,6 +26,17 @@
       }
     }
   }
+
+  &__another {
+    display: flex;
+    max-width: 70%;
+    align-items: center;
+    justify-content: space-between;
+    p {
+      margin: 8px;
+      line-height: 100%;
+    }
+  }
 }
 
 @keyframes content-container {

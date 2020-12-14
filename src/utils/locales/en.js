@@ -30,6 +30,12 @@ export default {
   summaryDesc:
     "Results- oriented, meticulous and innovative Web Developer with more than 1+ year experience building various types of web application using HTML, CSS, JavaScript, React, Redux and other technology.",
   skills: "Technical Skills",
+  anotherSkills: "Another Skills",
+  modeling: "Modeling & Design",
+  research: "Research & Analysis",
+  processes: "Processes Engineering",
+  management: "Management",
+  communication: "Communication",
   job: "Work Experience",
   intelico:
     "Participation in projects based on advanced technologies. Development of complex, dynamic interfaces with complex logic and dependencies. Participation in the discussion of architectural solutions.",
