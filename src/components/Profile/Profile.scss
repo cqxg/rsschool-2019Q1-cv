@@ -48,6 +48,14 @@
       line-height: 100%;
     }
   }
+
+  &__experience {
+    img {
+      max-width: 250px;
+      border-radius: 2px;
+      border: 2px solid #48da9b;
+    }
+  }
 }
 
 @keyframes content-container {

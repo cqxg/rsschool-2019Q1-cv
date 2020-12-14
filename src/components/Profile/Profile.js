@@ -3,6 +3,10 @@ import React from "react";
 import Cubes from "./Cubes/Cubes";
 import Stars from "./Stars/Stars";
 
+import freelance from "../../assets/screenshots/Work/freelance.svg";
+import intelico from "../../assets/screenshots/Work/intelico.svg";
+import rss from "../../assets/screenshots/Work/rss.svg";
+
 import "./Profile.scss";
 
 const Profile = ({ t }) => {
@@ -62,17 +66,42 @@ const Profile = ({ t }) => {
         <div className="line-right" />
       </div>
 
-      {/*       <div className="block">
-                <h2>{t('job')}</h2>
-                <p>{t('intelico')}</p>
-                <a href="https://intelico.pro/" target='_blank' rel='noopener noreferrer'><img className='border' src={Intelico} alt="intelico systems" /></a>
-            </div>
+      <div className="content-container__block">
+        <div className="content-container__experience">
+          <h2>{t("experience")}</h2>
+          <h3>2014 - 2018</h3>
+          <p>
+            Research of the relationship between social, socio-economic,
+            cultural and ideological processes, their impact on politics and
+            economics;
+          </p>
+          <p>
+            Practical research of interaction between business and government in
+            the Republic of Belarus, conducting small own projects.
+          </p>
+          <p>
+            Participation in projects of the Department of Entrepreneurship of
+            the Ministry of Economy of the Republic of Belarus;
+          </p>
+          <p> Social activity.</p>
 
-            <div className="horizontal_line">
-                <div className="line_left"></div>
-            </div>
+          <h3>2019 - 2020</h3>
+          <img src={freelance} alt="freelance" />
+          <p>
+            Development of small commercial solutions and CRM integration.
+            Development of small web applications using modern technologies.
+          </p>
 
-            <div className="block">
+          <h3>2020 - Present</h3>
+          <img src={intelico} alt="intelico" />
+          <p>{t("intelico")}</p>
+          <img src={rss} alt="rss" />
+          <p>rss</p>
+          <p>And also work on my own projects.</p>
+        </div>
+      </div>
+
+      {/*     <div className="block">
                 <h2>{t('volunteer')}</h2>
                 <p>{t('rssVolunteer')}</p>
                 <a href="https://rs.school/" target='_blank' rel='noopener noreferrer'><img className='border' src={RSS} alt="RSS Organization" /></a>

@@ -36,7 +36,7 @@ export default {
   processes: "Processes Engineering",
   management: "Management",
   communication: "Communication",
-  job: "Work Experience",
+  experience: "Work & Volunteer",
   intelico:
     "Participation in projects based on advanced technologies. Development of complex, dynamic interfaces with complex logic and dependencies. Participation in the discussion of architectural solutions.",
 };

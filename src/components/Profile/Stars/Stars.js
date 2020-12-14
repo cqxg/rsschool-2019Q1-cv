@@ -9,6 +9,7 @@ const Stars = ({ filledStars, emptyStars }) => {
   for (let i = 0; i < filledStars; i++) {
     filledStarsArr.push(i);
   }
+
   for (let i = 0; i < emptyStars; i++) {
     emptyStarsArr.push(i);
   }
