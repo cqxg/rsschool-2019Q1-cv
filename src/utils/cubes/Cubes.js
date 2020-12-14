@@ -12,8 +12,8 @@ import webpack from "../../assets/icons/webpack.svg";
 
 import react from "../../assets/icons/react.svg";
 import redux from "../../assets/icons/redux.svg";
+import mobx from "../../assets/icons/mobx.svg";
 import jest from "../../assets/icons/jest.svg";
-import airbnb from "../../assets/icons/airbnb.svg";
 
 import nodejs from "../../assets/icons/nodejs.svg";
 import mongo from "../../assets/icons/mongo.svg";
@@ -31,9 +31,14 @@ import atlassian from "../../assets/icons/atlassian.svg";
 import netlify from "../../assets/icons/netlify.svg";
 
 import vs from "../../assets/icons/vs.svg";
-import chrome from "../../assets/icons/chrome.svg";
+import airbnb from "../../assets/icons/airbnb.svg";
 import figma from "../../assets/icons/figma.svg";
-import e from "../../assets/icons/vs.svg";
+import webstorm from "../../assets/icons/webstorm.svg";
+
+import chrome from "../../assets/icons/chrome.svg";
+import safari from "../../assets/icons/safari.svg";
+import mozilla from "../../assets/icons/mozilla.svg";
+import yandex from "../../assets/icons/yandex.svg";
 
 import a from "../../assets/icons/telegram.svg";
 
@@ -141,7 +146,7 @@ const Cubes = () => {
           <div className="cubespinner cube2">
             <div className="top side"></div>
             <div className="front side">
-              <img src={airbnb} />
+              <img src={mobx} />
             </div>
             <div className="right side">
               <img src={jest} />
@@ -222,10 +227,10 @@ const Cubes = () => {
               <img src={vs} />
             </div>
             <div className="right side">
-              <img src={chrome} />
+              <img src={webstorm} />
             </div>
             <div className="back side">
-              <img src={chrome} />
+              <img src={airbnb} />
             </div>
             <div className="left side">
               <img src={figma} />
@@ -238,16 +243,16 @@ const Cubes = () => {
           <div className="cubespinner cube4">
             <div className="top side"></div>
             <div className="front side">
-              <img src={vs} />
+              <img src={safari} />
             </div>
             <div className="right side">
               <img src={chrome} />
             </div>
             <div className="back side">
-              <img src={vs} />
+              <img src={mozilla} />
             </div>
             <div className="left side">
-              <img src={chrome} />
+              <img src={yandex} />
             </div>
             <div className="bottom side"></div>
           </div>
