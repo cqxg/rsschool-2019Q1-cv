@@ -3,7 +3,7 @@ export default {
 
   name: "Игорь",
   surname: "Иванюк",
-  position: "ВEБ РАЗРАБОТЧИК",
+  position: "Инженер & Антрепренер",
   dwnloadCV: "Скачать CV",
   printCV: "Печать CV",
   profile: "Профиль",

@@ -2,7 +2,7 @@ export default {
   // HEADER
   name: "IHAR",
   surname: "IVANIUK",
-  position: "WEB DEVELOPER",
+  position: "Engineer & Entrepreneur",
   dwnloadCV: "Download CV",
   printCV: "Print CV",
   profile: "Profile",

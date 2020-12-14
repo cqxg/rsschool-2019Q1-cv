@@ -5,7 +5,6 @@
 
 body {
   margin: 0;
-  padding: 0 5px 0 5px;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   font-family: "MyFont", Helvetica, sans-serif;
@@ -13,6 +12,7 @@ body {
 }
 
 #root {
+  padding: 0 15px 0 15px;
   width: 960px;
   margin: 0 auto;
 }
@@ -87,7 +87,7 @@ a:focus {
 
 .line-left,
 .line-right {
-  width: 305px;
+  width: 205px;
   margin-top: 13px;
   border-top: 1px solid #434247;
 }
@@ -97,7 +97,8 @@ a:focus {
 }
 
 .line-right {
-  float: right;
+  margin-left: 58px;
+  float: left;
 }
 
 .left-circle,
@@ -117,16 +118,16 @@ a:focus {
 }
 
 .left-circle {
-  left: 314px;
+  left: 214px;
 }
 
 .central-circle {
   top: 0px;
   width: 26px;
-  left: 322px;
+  left: 222px;
   height: 26px;
 }
 
 .right-circle {
-  left: 343px;
+  left: 243px;
 }

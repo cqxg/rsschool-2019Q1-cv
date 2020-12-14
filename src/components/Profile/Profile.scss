@@ -31,7 +31,18 @@
     display: flex;
     max-width: 70%;
     align-items: center;
+    border-radius: 10px;
     justify-content: space-between;
+    box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.2);
+
+    &:last-child {
+      box-shadow: none;
+    }
+
+    &:hover {
+      box-shadow: 1px 1px 0px 0px rgba(0, 0, 0, 0.4);
+    }
+
     p {
       margin: 8px;
       line-height: 100%;
