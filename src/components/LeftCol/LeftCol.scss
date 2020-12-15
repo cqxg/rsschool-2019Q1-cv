@@ -99,7 +99,7 @@
     }
 
     .telegram {
-      margin: 0 15px 0 10px;
+      margin: 0 15px 0 15px;
 
       &:hover {
         border-top-left-radius: 50px;
@@ -119,6 +119,13 @@
         border-top-right-radius: 50px;
         border-bottom-left-radius: 50px;
       }
+    }
+
+    img {
+      padding: 3px;
+      border-radius: 20px;
+      border: 1px solid #43424778;
+      box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.2);
     }
   }
 }
