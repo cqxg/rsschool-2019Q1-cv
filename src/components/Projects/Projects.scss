@@ -6,6 +6,10 @@
   animation: projects-container 1s 1 0.3s;
   animation-fill-mode: forwards;
 
+  &__block {
+    margin: 25px 30px;
+  }
+
   &__cbox {
     position: relative;
     input {
@@ -16,6 +20,7 @@
       right: -10px;
       display: flex;
       outline: none;
+      cursor: pointer;
       appearance: none;
       position: absolute;
       border-radius: 50%;
@@ -32,6 +37,7 @@
       position: absolute;
       transition: 0.4s all;
       background: rgb(65, 65, 65);
+      box-shadow: 0px 0px 50px 5px rgb(255, 255, 255, 1);
     }
 
     input:after {
@@ -60,21 +66,18 @@
 
     p {
       display: none;
-      font-size: 17px;
-      color: #303c2d;
       padding: 5px 10px;
       font-weight: bold;
       text-align: center;
       border-radius: 3px;
-      border: 1px solid #000;
-      background-color: #dcfffb;
+      border: 2px solid #48da9b;
+      box-shadow: 0px 0px 30px 5px rgba(0, 0, 0, 0.5) inset;
     }
 
     a {
-      font-size: 16px;
-      font-weight: 500;
+      font-weight: 600;
       text-decoration: none;
-      color: rgb(133, 132, 132);
+      color: #48da9b;
     }
   }
 }

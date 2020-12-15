@@ -30,23 +30,25 @@ const Projects = ({ t }) => {
           <span>{t("joke")}</span>
         </div>
       </div>
-
-      <div className="projects-container__cbox">
-        <input type="checkbox" />
-        <p>
-          {t("notyEnc")}
-          <a
-            className="education_link"
-            target="_blank"
-            rel="noopener noreferrer"
-            href="https://github.com/cqxg"
-          >
-            Github
-          </a>
-          !
-          <br />
-          {t("notyDesc")}
-        </p>
+      <div className="projects-container__block">
+        <div className="projects-container__cbox">
+          <input type="checkbox" />
+          <p>
+            {t("notyEnc")}
+            <a
+              className="education_link"
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://github.com/cqxg"
+            >
+              {" "}
+              github
+            </a>
+            !
+            <br />
+            {t("notyDesc")}
+          </p>
+        </div>
       </div>
     </div>
   );
