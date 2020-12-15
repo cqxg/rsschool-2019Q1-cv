@@ -45,8 +45,27 @@ export default {
   experience2015p4: "Social activity.",
   experience2019p1:
     "Development of small commercial solutions and CRM integration. Development of small web applications using modern technologies.",
-  experienceRss: "Teaching students the basics of JS front-end & back-end development. Mentoring. Code review.",
+  experienceRss:
+    "Teaching students the basics of JS front-end & back-end development. Mentoring. Code review.",
   ownExperience: "And also work on my own projects.",
   experienceIntelico:
     "Participation in projects based on advanced technologies. Development of complex, dynamic interfaces with complex logic and dependencies. Participation in the discussion of architectural solutions.",
+
+  // PROJECTS
+  repo: "Repository:",
+  env: "Environment:",
+  deployment: "(Click on the pic, to see deployment)",
+  platDesc:
+    "Plat is a fully customizable, turnkey solution for end-to-end lead generation. Used to capture, validate, and distribute leads in real-time through a convenient SaaS. Plat offers multiple distribution methods, including ping post, ping tree, JSON, XML, and SOAP.",
+  platMoreDesc: "In this project, I am a front-end developer.",
+  chatDesc: "This is a small chat I made using React, Ant Design, Node.js.",
+  editorDesc:
+    "The goal of the project is to create an application that will include tools for drawing, animation then and creating .gif or .png images for download.",
+  cultureDesc:
+    "A small cultural portal about Belarusian directors. The goal of this project was to try collaboration for the first time using a version control system and all collaboration methods. Made in a team with my friends.",
+  arrDesc:
+    "This is a small, but rather entertaining application, was once created as a test task. Its purpose is to show the ability to work with arrays, and not impress the appearance of the interface. In this application, I read information (abstractly, pseudo-coordinates) from the input.txt file, parsing them according to certain rules, and accordingly fill the arrays. By displaying them on the screen, I get a picture.",
+  notyEnc: "You can find many more interesting examples of my own code on my",
+  notyDesc: "You can also subscribe to updates and leave stars ^^,)",
+  joke: "Oh my God !",
 };
