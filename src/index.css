@@ -12,9 +12,12 @@ body {
 }
 
 #root {
-  padding: 0 15px 0 15px;
+  opacity: 0;
   width: 960px;
   margin: 0 auto;
+  padding: 0 15px 0 15px;
+  animation: root 0.5s 1 1s;
+  animation-fill-mode: forwards;
 }
 
 h1,
@@ -130,4 +133,13 @@ a:focus {
 
 .right-circle {
   left: 243px;
+}
+
+@keyframes root {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }

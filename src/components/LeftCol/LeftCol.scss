@@ -1,9 +1,6 @@
 .left-col {
-  opacity: 0;
   float: left;
   width: 260px;
-  animation: left-col 0.6s 1 1.6s;
-  animation-fill-mode: forwards;
 
   &__photo {
     width: 230px;
@@ -122,14 +119,5 @@
         border-bottom-left-radius: 50px;
       }
     }
-  }
-}
-
-@keyframes left-col {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
   }
 }
