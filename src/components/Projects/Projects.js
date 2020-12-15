@@ -1,12 +1,8 @@
 import React, { useEffect } from "react";
 
-import joke from "../../assets/icons/joke.svg";
+import Notify from "./Notify/Notify";
 
-// import Plat from "../../assets/projectScreens/plat.png";
-// import Chat from "../../assets/projectScreens/chat.gif";
-// import Editor from "../../assets/projectScreens/editor.gif";
-// import Culture from "../../assets/projectScreens/culture.gif";
-// import ArrOfArr from "../../assets/projectScreens/arr.gif";
+import joke from "../../assets/icons/joke.svg";
 
 import "./Projects.scss";
 
@@ -31,24 +27,7 @@ const Projects = ({ t }) => {
         </div>
       </div>
       <div className="projects-container__block">
-        <div className="projects-container__cbox">
-          <input type="checkbox" />
-          <p>
-            {t("notyEnc")}
-            <a
-              className="education_link"
-              target="_blank"
-              rel="noopener noreferrer"
-              href="https://github.com/cqxg"
-            >
-              {" "}
-              github
-            </a>
-            !
-            <br />
-            {t("notyDesc")}
-          </p>
-        </div>
+        <Notify t={t} />
       </div>
     </div>
   );

@@ -9,77 +9,6 @@
   &__block {
     margin: 25px 30px;
   }
-
-  &__cbox {
-    position: relative;
-    input {
-      top: -10px;
-      z-index: 3;
-      width: 30px;
-      height: 30px;
-      right: -10px;
-      display: flex;
-      outline: none;
-      cursor: pointer;
-      appearance: none;
-      position: absolute;
-      border-radius: 50%;
-      align-items: center;
-      background: #48da9b;
-      justify-content: center;
-    }
-
-    input:before,
-    input:after {
-      content: "";
-      width: 20px;
-      height: 2px;
-      position: absolute;
-      transition: 0.4s all;
-      background: rgb(65, 65, 65);
-      box-shadow: 0px 0px 50px 5px rgb(255, 255, 255, 1);
-    }
-
-    input:after {
-      transform: rotate(90deg);
-    }
-
-    input:checked ~ p {
-      display: block;
-      animation-name: dropping;
-      animation-duration: 1s;
-      animation-timing-function: ease;
-    }
-
-    input:checked:before,
-    input:checked:after {
-      transform: rotate(360deg);
-      transition: 0.4s all;
-    }
-
-    input:checked ~ .add {
-      font-size: 15px;
-      font-weight: bold;
-      transition: 0.3s all;
-      transform: translateY(-16px);
-    }
-
-    p {
-      display: none;
-      padding: 5px 10px;
-      font-weight: bold;
-      text-align: center;
-      border-radius: 3px;
-      border: 2px solid #48da9b;
-      box-shadow: 0px 0px 30px 5px rgba(0, 0, 0, 0.5) inset;
-    }
-
-    a {
-      font-weight: 600;
-      text-decoration: none;
-      color: #48da9b;
-    }
-  }
 }
 
 .joke-wrapper {
@@ -141,26 +70,5 @@
   }
   to {
     right: -255px;
-  }
-}
-
-@keyframes dropping {
-  0% {
-    transform: translateY(-100%);
-  }
-  50% {
-    transform: translateY(8%);
-  }
-  65% {
-    transform: translateY(-4%);
-  }
-  80% {
-    transform: translateY(4%);
-  }
-  95% {
-    transform: translateY(-2%);
-  }
-  100% {
-    transform: translateY(0%);
   }
 }
