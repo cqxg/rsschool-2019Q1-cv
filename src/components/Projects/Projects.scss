@@ -2,22 +2,84 @@
   opacity: 0;
   float: left;
   width: 699px;
+  border-left: 1px solid #403f44;
   animation: projects-container 1s 1 0.3s;
   animation-fill-mode: forwards;
-  border-left: 1px solid #403f44;
+
+  &__cbox {
+    position: relative;
+    input {
+      top: -10px;
+      z-index: 3;
+      width: 30px;
+      height: 30px;
+      right: -10px;
+      display: flex;
+      outline: none;
+      appearance: none;
+      position: absolute;
+      border-radius: 50%;
+      align-items: center;
+      background: #48da9b;
+      justify-content: center;
+    }
+
+    input:before,
+    input:after {
+      content: "";
+      width: 20px;
+      height: 2px;
+      position: absolute;
+      transition: 0.4s all;
+      background: rgb(65, 65, 65);
+    }
+
+    input:after {
+      transform: rotate(90deg);
+    }
+
+    input:checked ~ .dropping {
+      display: block;
+      animation-name: dropping 1.5s ease;
+    }
+
+    input:checked:before,
+    input:checked:after {
+      transform: rotate(360deg);
+      transition: 0.4s all;
+    }
+
+    input:checked ~ .add {
+      font-size: 15px;
+      font-weight: bold;
+      transition: 0.3s all;
+      transform: translateY(-16px);
+    }
+
+    p {
+      display: none;
+      font-size: 17px;
+      color: #303c2d;
+      padding: 5px 10px;
+      font-weight: bold;
+      text-align: center;
+      border-radius: 3px;
+      border: 1px solid #000;
+      background-color: #dcfffb;
+    }
+
+    a {
+      font-size: 16px;
+      font-weight: 500;
+      text-decoration: none;
+      color: rgb(133, 132, 132);
+    }
+  }
 }
 
-@keyframes projects-container {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
 .joke-wrapper {
   bottom: 5%;
-  //   right: -255px;
+  right: -255px;
   font-size: 18px;
   text-align: end;
   position: fixed;
@@ -50,6 +112,15 @@
   content: url("../../assets/icons/omg.svg");
 }
 
+@keyframes projects-container {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 @keyframes joke-showed {
   from {
     right: -255px;
@@ -65,5 +136,26 @@
   }
   to {
     right: -255px;
+  }
+}
+
+@keyframes dropping {
+  0% {
+    transform: translateY(-100%);
+  }
+  50% {
+    transform: translateY(8%);
+  }
+  65% {
+    transform: translateY(-4%);
+  }
+  80% {
+    transform: translateY(4%);
+  }
+  95% {
+    transform: translateY(-2%);
+  }
+  100% {
+    transform: translateY(0%);
   }
 }

@@ -11,14 +11,16 @@ import joke from "../../assets/icons/joke.svg";
 import "./Projects.scss";
 
 const Projects = ({ t }) => {
-  //   useEffect(() => {
-  //     setTimeout(() => {
-  //       document.querySelector(".joke-wrapper").classList.add("activate-joke");
-  //     }, 3000);
-  //     setTimeout(() => {
-  //       document.querySelector(".joke-wrapper").classList.add("deactivate-joke");
-  //     }, 5000);
-  //   }, []);
+  useEffect(() => {
+    setTimeout(() => {
+      document?.querySelector(".joke-wrapper")?.classList?.add("activate-joke");
+    }, 2700);
+    setTimeout(() => {
+      document
+        ?.querySelector(".joke-wrapper")
+        ?.classList?.add("deactivate-joke");
+    }, 4700);
+  }, []);
 
   return (
     <div className="projects-container">
@@ -27,6 +29,24 @@ const Projects = ({ t }) => {
         <div className="joke-desc">
           <span>{t("joke")}</span>
         </div>
+      </div>
+
+      <div className="projects-container__cbox">
+        <input type="checkbox" />
+        <p>
+          {t("notyEnc")}
+          <a
+            className="education_link"
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://github.com/cqxg"
+          >
+            Github
+          </a>
+          !
+          <br />
+          {t("notyDesc")}
+        </p>
       </div>
     </div>
   );
