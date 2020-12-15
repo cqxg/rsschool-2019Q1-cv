@@ -12,9 +12,6 @@
 }
 
 .side {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   min-width: 65px;
   max-width: 65px;
   max-height: 65px;
@@ -32,8 +29,9 @@
 }
 
 .cubespinner {
-  height: 65px;
   width: 65px;
+  height: 65px;
+  pointer-events: none;
 }
 
 .top {

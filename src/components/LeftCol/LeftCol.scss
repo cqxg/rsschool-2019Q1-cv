@@ -9,6 +9,9 @@
     width: 230px;
     height: 340px;
     margin-top: 20px;
+    border-radius: 2px;
+    pointer-events: none;
+    border: 2px solid #48da9b;
     box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.2);
   }
 
