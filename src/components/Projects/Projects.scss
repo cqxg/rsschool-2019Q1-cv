@@ -38,9 +38,11 @@
       transform: rotate(90deg);
     }
 
-    input:checked ~ .dropping {
+    input:checked ~ p {
       display: block;
-      animation-name: dropping 1.5s ease;
+      animation-name: dropping;
+      animation-duration: 1s;
+      animation-timing-function: ease;
     }
 
     input:checked:before,
