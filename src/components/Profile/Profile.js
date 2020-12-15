@@ -10,8 +10,8 @@ import rss from "../../assets/screenshots/Work/rss.svg";
 import "./Profile.scss";
 
 const Profile = ({ t }) => (
-  <div className="content-container">
-    <div className="content-container__block">
+  <div className="profile-container">
+    <div className="profile-container__block">
       <h2>{t("summary")}</h2>
       <blockquote>
         <p>{t("summaryDesc")}</p>
@@ -26,32 +26,32 @@ const Profile = ({ t }) => (
       <div className="line-right" />
     </div>
 
-    <div className="content-container__block">
+    <div className="profile-container__block">
       <h2>{t("skills")}</h2>
       <Cubes />
 
       <h2>{t("anotherSkills")}</h2>
-      <div className="content-container__another">
+      <div className="profile-container__another">
         <p>{t("research")}</p>
         <Stars filledStars={4} emptyStars={1} />
       </div>
 
-      <div className="content-container__another">
+      <div className="profile-container__another">
         <p>{t("modeling")}</p>
         <Stars filledStars={3} emptyStars={2} />
       </div>
 
-      <div className="content-container__another">
+      <div className="profile-container__another">
         <p>{t("management")}</p>
         <Stars filledStars={4} emptyStars={1} />
       </div>
 
-      <div className="content-container__another">
+      <div className="profile-container__another">
         <p>{t("communication")}</p>
         <Stars filledStars={4} emptyStars={1} />
       </div>
 
-      <div className="content-container__another">
+      <div className="profile-container__another">
         <p>{t("processes")}</p>
         <Stars filledStars={3} emptyStars={2} />
       </div>
@@ -65,8 +65,8 @@ const Profile = ({ t }) => (
       <div className="line-right" />
     </div>
 
-    <div className="content-container__block">
-      <div className="content-container__experience">
+    <div className="profile-container__block">
+      <div className="profile-container__experience">
         <h2>{t("experience")}</h2>
         <h3>2015 - 2018</h3>
         <p>{t("experience2015p1")}</p>

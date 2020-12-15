@@ -4,8 +4,9 @@ import { BrowserRouter, Redirect, Route } from "react-router-dom";
 
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
-import Profile from "./components/Profile/Profile";
 import LeftCol from "./components/LeftCol/LeftCol";
+import Profile from "./components/Profile/Profile";
+import Projects from "./components/Projects/Projects";
 
 const App = () => {
   const { t, i18n } = useTranslation();
@@ -22,6 +23,7 @@ const App = () => {
       />
       <LeftCol t={t} />
       <Route path="/profile" render={() => <Profile t={t} />} />
+      <Route path="/projects" render={() => <Projects t={t} />} />
       <Redirect to="/profile" />
       <Footer t={t} />
     </BrowserRouter>

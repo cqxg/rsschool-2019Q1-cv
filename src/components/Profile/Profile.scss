@@ -1,8 +1,8 @@
-.content-container {
+.profile-container {
   opacity: 0;
   float: left;
   width: 699px;
-  animation: content-container 1s 1 0.3s;
+  animation: profile-container 1s 1 0.3s;
   animation-fill-mode: forwards;
   border-left: 1px solid #403f44;
 
@@ -59,7 +59,7 @@
   }
 }
 
-@keyframes content-container {
+@keyframes profile-container {
   0% {
     opacity: 0;
   }
