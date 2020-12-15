@@ -28,9 +28,9 @@ export default {
   //PROFILE
   summary: "Summary of Qualifications",
   summaryDesc:
-    "Results- oriented, meticulous and innovative Web Developer with more than 1+ year experience building various types of web application using HTML, CSS, JavaScript, React, Redux and other technology.",
+    "Result-oriented, inquisitive and creative young man with a wide range of expertise & experience, including building various web applications using JavaScript and other technologies.",
   skills: "Technical Skills",
-  anotherSkills: "Another Skills",
+  anotherSkills: "Other Skills",
   modeling: "Modeling & Design",
   research: "Research & Analysis",
   processes: "Processes Engineering",

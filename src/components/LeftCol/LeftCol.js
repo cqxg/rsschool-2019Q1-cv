@@ -40,20 +40,20 @@ const LeftCol = ({ t }) => (
       <div className="left-col__icons">
         <a
           target="_blank"
-          className="telegram"
-          rel="noopener noreferrer"
-          href="tg://resolve?domain=cqxxxg"
-        >
-          <img alt="telegram" src={telegram} />
-        </a>
-
-        <a
-          target="_blank"
           className="github"
           rel="noopener noreferrer"
           href="https://github.com/cqxg"
         >
           <img alt="github" src={github} />
+        </a>
+
+        <a
+          target="_blank"
+          className="telegram"
+          rel="noopener noreferrer"
+          href="tg://resolve?domain=cqxxxg"
+        >
+          <img alt="telegram" src={telegram} />
         </a>
 
         <a

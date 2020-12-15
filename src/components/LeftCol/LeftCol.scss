@@ -99,17 +99,18 @@
     }
 
     .telegram {
+      margin: 0 15px 0 10px;
+
       &:hover {
-        border-top-right-radius: 50px;
-        border-bottom-left-radius: 50px;
+        border-top-left-radius: 50px;
+        border-bottom-right-radius: 50px;
       }
     }
 
     .github {
-      margin: 0 15px 0 15px;
       &:hover {
-        border-top-left-radius: 50px;
-        border-bottom-right-radius: 50px;
+        border-top-right-radius: 50px;
+        border-bottom-left-radius: 50px;
       }
     }
 
