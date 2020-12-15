@@ -20,10 +20,21 @@ const LeftCol = ({ t }) => (
 
     <div className="left-col__contacts">
       <h2>{t("contact")}</h2>
+
+      <p>{t("adress")}</p>
+      <a
+        target="_blank"
+        rel="noreferrer"
+        href="https://www.google.by/maps/place/Minsk/@53.8845585,27.453286,11z/data=!3m1!4b1!4m5!3m4!1s0x46dbcfd35b1e6ad3:0xb61b853ddb570d9!8m2!3d53.9006011!4d27.558972"
+      >
+        {t("place")}
+      </a>
+
       <p>{t("phone")}</p>
       <a href="tel: +375 29 327 4039" type="tel">
         +375 29 327 4039
       </a>
+
       <p>{t("mail")}</p>
       <a href="mailto: cqxg@yandex.ru">cqxg@yandex.ru</a>
     </div>
