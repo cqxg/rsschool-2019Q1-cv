@@ -19,6 +19,7 @@
 
   input:before,
   input:after {
+    z-index: 10;
     content: "";
     width: 20px;
     height: 2px;
@@ -26,6 +27,7 @@
     transition: 0.4s all;
     background: rgb(65, 65, 65);
     box-shadow: 0px 0px 50px 5px rgb(255, 255, 255, 1);
+    // animation: flashing 1s ease-in-out 3 forwards;
   }
 
   input:after {
@@ -41,9 +43,9 @@
 
   input:checked:before,
   input:checked:after {
-    box-shadow: none;
     transition: 0.4s all;
     transform: rotate(360deg);
+    box-shadow: none !important;
   }
 
   p {
@@ -83,3 +85,17 @@
     transform: translateY(0%);
   }
 }
+
+// @keyframes flashing {
+//   0% {
+//     box-shadow: 0px 0px 42px 5px rgb(255, 255, 255, 1);
+//   }
+
+//   50% {
+//     box-shadow: 0px 0px 50px 5px rgb(255, 255, 255, 1);
+//   }
+
+//   100% {
+//     box-shadow: 0px 0px 42px 5px rgb(255, 255, 255, 1);
+//   }
+// }
