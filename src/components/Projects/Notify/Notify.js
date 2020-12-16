@@ -8,7 +8,6 @@ const Notify = ({ t }) => (
     <p>
       {t("notyEnc")}
       <a
-        className="education_link"
         target="_blank"
         rel="noopener noreferrer"
         href="https://github.com/cqxg"

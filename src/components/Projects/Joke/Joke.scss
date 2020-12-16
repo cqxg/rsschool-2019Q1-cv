@@ -1,0 +1,52 @@
+.joke-wrapper {
+  bottom: 5%;
+  right: -255px;
+  font-size: 18px;
+  text-align: end;
+  position: fixed;
+  color: #48da9b;
+  font-weight: bold;
+}
+
+.activate-joke {
+  animation: joke-showed 0.3s;
+  animation-fill-mode: forwards;
+}
+
+.deactivate-joke {
+  animation: joke-close 0.3s;
+  animation-fill-mode: forwards;
+}
+
+.joke {
+  max-width: 200px;
+  border-radius: 10px;
+  border: 2px solid #48da9b;
+  background-color: blanchedalmond;
+  box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 1);
+}
+
+.joke-desc::after {
+  top: 2px;
+  right: -16px;
+  position: absolute;
+  content: url("../../../assets/icons/omg.svg");
+}
+
+@keyframes joke-showed {
+  from {
+    right: -255px;
+  }
+  to {
+    right: 35px;
+  }
+}
+
+@keyframes joke-close {
+  from {
+    right: 35px;
+  }
+  to {
+    right: -255px;
+  }
+}

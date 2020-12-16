@@ -1,8 +1,7 @@
 import React, { useEffect } from "react";
 
+import Joke from "./Joke/Joke";
 import Notify from "./Notify/Notify";
-
-import joke from "../../assets/icons/joke.svg";
 
 import "./Projects.scss";
 
@@ -20,12 +19,7 @@ const Projects = ({ t }) => {
 
   return (
     <div className="projects-container">
-      <div className="joke-wrapper">
-        <img className="joke" src={joke} />
-        <div className="joke-desc">
-          <span>{t("joke")}</span>
-        </div>
-      </div>
+      <Joke t={t} />
       <div className="projects-container__block">
         <Notify t={t} />
       </div>
