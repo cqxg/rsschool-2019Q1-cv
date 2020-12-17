@@ -26,8 +26,8 @@
     position: absolute;
     transition: 0.4s all;
     background: rgb(65, 65, 65);
+    animation: flashing 1s ease-in-out infinite;
     box-shadow: 0px 0px 50px 5px rgb(255, 255, 255, 1);
-    // animation: flashing 1s ease-in-out 3 forwards;
   }
 
   input:after {
@@ -60,8 +60,13 @@
 
   a {
     font-weight: 600;
+    width: fit-content;
     text-decoration: none;
     color: #48da9b;
+    &:hover {
+      animation: swing 0.6s ease;
+      animation-iteration-count: 1;
+    }
   }
 }
 
@@ -86,16 +91,16 @@
   }
 }
 
-// @keyframes flashing {
-//   0% {
-//     box-shadow: 0px 0px 42px 5px rgb(255, 255, 255, 1);
-//   }
+@keyframes flashing {
+  0% {
+    box-shadow: 0px 0px 42px 5px rgb(255, 255, 255, 1);
+  }
 
-//   50% {
-//     box-shadow: 0px 0px 50px 5px rgb(255, 255, 255, 1);
-//   }
+  50% {
+    box-shadow: 0px 0px 50px 5px rgb(255, 255, 255, 1);
+  }
 
-//   100% {
-//     box-shadow: 0px 0px 42px 5px rgb(255, 255, 255, 1);
-//   }
-// }
+  100% {
+    box-shadow: 0px 0px 42px 5px rgb(255, 255, 255, 1);
+  }
+}

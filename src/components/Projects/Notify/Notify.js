@@ -3,7 +3,7 @@ import React from "react";
 import "./Notify.scss";
 
 const Notify = ({ t }) => (
-  <div className="notify">
+  <section className="notify">
     <input type="checkbox" />
     <p>
       {t("notyEnc")}
@@ -19,7 +19,7 @@ const Notify = ({ t }) => (
       <br />
       {t("notyDesc")}
     </p>
-  </div>
+  </section>
 );
 
 export default Notify;

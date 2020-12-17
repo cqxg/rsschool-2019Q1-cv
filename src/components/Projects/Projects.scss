@@ -8,17 +8,26 @@
 
   &__block {
     margin: 25px 30px;
-    h4 {
-      color: #29c782;
-    }
-
     img {
       // width 1250, heigh 500
-      max-width: 400px;
+      max-width: 350px;
       border-radius: 2px;
-      border: 3px solid #29c782;
-      background-color: #29c782bd;
-      box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.2);
+      box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.5);
+    }
+
+    div {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+
+      p:nth-child(1) {
+        color: #48da9b;
+      }
+
+      p:nth-child(2) {
+        margin-left: 10px;
+        border-bottom: 1px dashed #48da9b;
+      }
     }
   }
 }

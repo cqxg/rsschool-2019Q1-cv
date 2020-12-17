@@ -60,7 +60,7 @@ export default {
   platMoreDesc: "In this project, I am a front-end developer.",
   chatDesc: "This is a small chat I made using React, Ant Design, Node.js.",
   editorDesc:
-    "The goal of the project is to create an application that will include tools for drawing, animation then and creating .gif or .png images for download.",
+    "The goal of the project is to create an application that will include tools for drawing, animation then and creating .gif or .png images for download, using only native JavaScript.",
   cultureDesc:
     "A small cultural portal about Belarusian directors. The goal of this project was to try collaboration for the first time using a version control system and all collaboration methods. Made in a team with my friends.",
   arrDesc:
