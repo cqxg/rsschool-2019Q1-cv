@@ -1,0 +1,57 @@
+.education-container {
+  opacity: 0;
+  float: left;
+  width: 699px;
+  border-left: 1px solid #403f44;
+  animation: education-container 1s 1 0.3s;
+  animation-fill-mode: forwards;
+
+  &__block {
+    margin: 25px 30px;
+
+    p {
+      a {
+        color: #858484;
+        text-decoration: none;
+        &:hover {
+          color: #48da9b;
+        }
+      }
+    }
+
+    .bseu {
+      width: 350px;
+      height: 70px;
+      border-radius: 2px;
+      background-color: darkblue;
+      border: 2px solid #48da9b;
+      box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.2);
+    }
+
+    .rssjs {
+      width: 350px;
+      border-radius: 2px;
+      background-color: black;
+      border: 2px solid #48da9b;
+      box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.2);
+    }
+
+    .rssnode {
+      width: 350px;
+      height: 249px;
+      border-radius: 2px;
+      background-color: black;
+      border: 2px solid #48da9b;
+      box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.2);
+    }
+  }
+}
+
+@keyframes education-container {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
