@@ -7,6 +7,7 @@ import Footer from "./components/Footer/Footer";
 import LeftCol from "./components/LeftCol/LeftCol";
 import Profile from "./components/Profile/Profile";
 import Projects from "./components/Projects/Projects";
+import Education from "./components/Education/Education";
 
 const App = () => {
   const { t, i18n } = useTranslation();
@@ -24,6 +25,7 @@ const App = () => {
       <LeftCol t={t} />
       <Route path="/profile" render={() => <Profile t={t} />} />
       <Route path="/projects" render={() => <Projects t={t} />} />
+      <Education path="/education" render={() => <Education t={t} />} />
       <Redirect to="/profile" />
       <Footer t={t} />
     </BrowserRouter>

@@ -1,6 +1,5 @@
 export default {
   //HEADER
-
   name: "Игорь",
   surname: "Иванюк",
   position: "Инженер & Антрепренер",
@@ -11,7 +10,6 @@ export default {
   education: "Образование",
 
   // LEFT COL
-
   hello: "Привет!",
   greeting:
     "Я увлечен технологиями и саморазвитием, трудолюбив и быстро учусь.",
@@ -24,11 +22,9 @@ export default {
   social: "",
 
   // FOOTER
-
   footer: "Игорь Иванюк CV 2020",
 
   //PROFILE
-
   summary: "О квалификации",
   summaryDesc:
     "Ориентированный на результат, любознательный и творческий молодой человек с широким спектром экспертизы и опыта, включая создание различных веб-приложений с использованием JavaScript и других технологий.",
@@ -74,4 +70,18 @@ export default {
   notyDesc:
     "А еще вы можете подписаться на обновления и оставить звездочки ^^,)",
   joke: "Святые угодники !",
+
+  //EDUCATION
+  university: "Белорусский Государственный Экономический Университет",
+  uniLocate: "(Минск, Беларусь)",
+  special: "Бакалавр политологии.",
+  rssFE: "The Rolling Scopes School JS/FE",
+  rssNode: "The Rolling Scopes School Node JS",
+  rssLink: " (school.rollingscopes)",
+  rssCertificate: "Сертификат об успешном завершенеии курса:",
+  languageLevelCertificate:
+    "Уровень английского языка и соответствующие сретификаты:",
+  linkedInCertificate: "LinkedIn Learning сертификаты:",
+  linkedInMore: "Больше сертификатов от ",
+  linkedInLink: "LinkedIn"
 };

@@ -68,4 +68,17 @@ export default {
   notyEnc: "You can find many more interesting examples of my own code on my",
   notyDesc: "You can also subscribe to updates and leave stars ^^,)",
   joke: "Oh my God !",
+
+  //EDUCATION
+  university: "Belarusian State Economic University",
+  uniLocate: "(Minsk, Belarus)",
+  special: "Specialist (Bachelor Degree) – Political science.",
+  rssFE: "The Rolling Scopes School JS/FE",
+  rssNode: "The Rolling Scopes School Node JS",
+  rssLink: " (school.rollingscopes)",
+  rssCertificate: "Certificate of Completion:",
+  languageLevelCertificate: "Level of English and corresponding certificates:",
+  linkedInCertificate: "LinkedIn Learning Certificates:",
+  linkedInMore: "More certificates from ",
+  linkedInLink: "LinkedIn",
 };
