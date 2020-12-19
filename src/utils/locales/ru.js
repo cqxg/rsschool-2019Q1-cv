@@ -77,11 +77,10 @@ export default {
   special: "Бакалавр политологии.",
   rssFE: "The Rolling Scopes School JS/FE",
   rssNode: "The Rolling Scopes School Node JS",
-  rssLink: " (school.rollingscopes)",
+  rssLink: " (rs.school)",
   rssCertificate: "Сертификат об успешном завершенеии курса:",
   languageLevelCertificate:
     "Уровень английского языка и соответствующие сретификаты:",
   linkedInCertificate: "LinkedIn Learning сертификаты:",
-  linkedInMore: "Больше сертификатов от ",
-  linkedInLink: "LinkedIn"
+  linkedInLink: "(больше сертификатов вы найдете на LinkedIn)",
 };

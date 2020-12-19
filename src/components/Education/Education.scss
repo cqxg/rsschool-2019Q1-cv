@@ -25,7 +25,7 @@
       border-radius: 2px;
       background-color: darkblue;
       border: 2px solid #48da9b;
-      box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.2);
+      box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.3);
     }
 
     .rssjs {
@@ -33,7 +33,7 @@
       border-radius: 2px;
       background-color: black;
       border: 2px solid #48da9b;
-      box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.2);
+      box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.3);
     }
 
     .rssnode {
@@ -42,7 +42,24 @@
       border-radius: 2px;
       background-color: black;
       border: 2px solid #48da9b;
-      box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.2);
+      box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.3);
+    }
+
+    .streamline {
+      width: 350px;
+      height: 514px;
+      border-radius: 2px;
+      border: 2px solid #48da9b;
+      box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.3);
+    }
+
+    .linkedin {
+      width: 350px;
+      height: 271px;
+      border-radius: 2px;
+      margin-bottom: 10px;
+      border: 2px solid #48da9b;
+      box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.3);
     }
   }
 }

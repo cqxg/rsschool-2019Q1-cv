@@ -75,10 +75,9 @@ export default {
   special: "Specialist (Bachelor Degree) – Political science.",
   rssFE: "The Rolling Scopes School JS/FE",
   rssNode: "The Rolling Scopes School Node JS",
-  rssLink: " (school.rollingscopes)",
+  rssLink: " (rs.school)",
   rssCertificate: "Certificate of Completion:",
   languageLevelCertificate: "Level of English and corresponding certificates:",
-  linkedInCertificate: "LinkedIn Learning Certificates:",
-  linkedInMore: "More certificates from ",
-  linkedInLink: "LinkedIn",
+  linkedInCertificate: "LinkedIn Learning Certificates ",
+  linkedInLink: "(you can find more certificates on LinkedIn)",
 };
