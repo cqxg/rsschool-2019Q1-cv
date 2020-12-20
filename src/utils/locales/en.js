@@ -65,8 +65,8 @@ export default {
     "A small cultural portal about Belarusian directors. The goal of this project was to try collaboration for the first time using a version control system and all collaboration methods. Made in a team with my friends.",
   arrDesc:
     "This is a small, but rather entertaining application, was once created as a test task. Its purpose is to show the ability to work with arrays, and not impress the appearance of the interface. In this application, I read information (abstractly, pseudo-coordinates) from the input.txt file, parsing them according to certain rules, and accordingly fill the arrays. By displaying them on the screen, I get a picture.",
-  notyEnc: "You can find many more interesting examples of my own code on my",
-  notyDesc: "You can also subscribe to updates and leave stars ^^,)",
+  notyEnc: "You can find many other interesting examples of my own code in my",
+  notyDesc: "Also, don't forget follow and give stars, it's always appreciated ^^,)",
   joke: "Oh my God !",
 
   //EDUCATION

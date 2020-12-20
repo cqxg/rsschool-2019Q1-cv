@@ -13,7 +13,7 @@ const Notify = ({ t }) => (
         href="https://github.com/cqxg"
       >
         {" "}
-        github
+        GitHub
       </a>
       !
       <br />
