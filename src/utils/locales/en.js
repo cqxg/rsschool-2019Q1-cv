@@ -54,7 +54,7 @@ export default {
   // PROJECTS
   repo: "Repository:",
   env: "Environment:",
-  deployment: "(Click on the pic, to see deployment)",
+  deployment: "Click on the pic, to open in new tab",
   platDesc:
     "Plat is a fully customizable, turnkey solution for end-to-end lead generation. Used to capture, validate, and distribute leads in real-time through a convenient SaaS. Plat offers multiple distribution methods, including ping post, ping tree, JSON, XML, and SOAP.",
   platMoreDesc: "In this project, I am a front-end developer.",

@@ -8,11 +8,26 @@
 
   &__block {
     margin: 25px 30px;
-    img {
+
+    .chat,
+    .plat,
+    .editor,
+    .arrays,
+    .culture {
       // width 1250, heigh 500
-      max-width: 350px;
+      width: 350px;
+      height: 142px;
       border-radius: 2px;
-      box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.5);
+      border: 2px solid #48da9b;
+      box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.3);
+    }
+
+    .culture {
+      height: auto;
+    }
+
+    .arrays {
+      height: 154px;
     }
 
     div {
