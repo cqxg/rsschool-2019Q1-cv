@@ -11,10 +11,6 @@ body {
   background: url('./assets/backgrounds/dark.png') repeat;
 }
 
-body.loaded {
-  overflow: auto;
-}
-
 #root {
   opacity: 0;
   width: 960px;
@@ -22,6 +18,10 @@ body.loaded {
   padding: 0 15px 0 15px;
   animation: root 0.5s 1 1s;
   animation-fill-mode: forwards;
+}
+
+.loader {
+  margin: 200px auto;
 }
 
 h1,

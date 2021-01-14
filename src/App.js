@@ -19,11 +19,17 @@ const App = () => {
   useEffect(() => {
     setTimeout(() => {
       setIsLoaded(true);
-    }, 2000);
+    }, 3000);
   }, []);
 
   return !isLoaded ? (
-    <ReactLoading color={'#48da9b'} type={'bars'} height={200} width={375} />
+    <ReactLoading
+      className="loader"
+      color={'#48da9b'}
+      type={'spin'}
+      height={150}
+      width={175}
+    />
   ) : (
     <BrowserRouter>
       <Header
