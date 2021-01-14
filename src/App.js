@@ -131,7 +131,6 @@ const App = () => {
 
   useEffect(() => {
     images.forEach((image) => {
-      console.log(image);
       const img = new Image();
       img.src = image;
     });
