@@ -1,14 +1,18 @@
 @font-face {
-  font-family: "MyFont";
-  src: local("MyFont"), url(./utils/fonts/Lato-Light.ttf) format("woff");
+  font-family: 'MyFont';
+  src: local('MyFont'), url(./utils/fonts/Lato-Light.ttf) format('woff');
 }
 
 body {
   margin: 0;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
-  font-family: "MyFont", Helvetica, sans-serif;
-  background: url("./assets/backgrounds/dark.png") repeat;
+  font-family: 'MyFont', Helvetica, sans-serif;
+  background: url('./assets/backgrounds/dark.png') repeat;
+}
+
+body.loaded {
+  overflow: auto;
 }
 
 #root {

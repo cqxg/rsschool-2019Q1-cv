@@ -1,20 +1,30 @@
-import React, { useState } from "react";
-import { useTranslation } from "react-i18next";
-import { BrowserRouter, Redirect, Route } from "react-router-dom";
+import React, { useState, useEffect } from 'react';
+import { BrowserRouter, Redirect, Route } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
+import ReactLoading from 'react-loading';
 
-import Header from "./components/Header/Header";
-import Footer from "./components/Footer/Footer";
-import LeftCol from "./components/LeftCol/LeftCol";
-import Profile from "./components/Profile/Profile";
-import Projects from "./components/Projects/Projects";
-import Education from "./components/Education/Education";
+import Header from './components/Header/Header';
+import Footer from './components/Footer/Footer';
+import LeftCol from './components/LeftCol/LeftCol';
+import Profile from './components/Profile/Profile';
+import Projects from './components/Projects/Projects';
+import Education from './components/Education/Education';
 
 const App = () => {
   const { t, i18n } = useTranslation();
-  const [activeLocale, setActiveLocale] = useState("en");
+  const [isLoaded, setIsLoaded] = useState(false);
+  const [activeLocale, setActiveLocale] = useState('en');
   const changeLocale = (e) => setActiveLocale(e);
 
-  return (
+  useEffect(() => {
+    setTimeout(() => {
+      setIsLoaded(true);
+    }, 2000);
+  }, []);
+
+  return !isLoaded ? (
+    <ReactLoading color={'#48da9b'} type={'bars'} height={200} width={375} />
+  ) : (
     <BrowserRouter>
       <Header
         t={t}
