@@ -8,6 +8,7 @@ import chat from "../../assets/screenshots/Projects/chat.svg";
 import editor from "../../assets/screenshots/Projects/editor.svg";
 import arrays from "../../assets/screenshots/Projects/arrays.svg";
 import culture from "../../assets/screenshots/Projects/culture.svg";
+import vidodo from "../../assets/screenshots/Projects/vidodo.png";
 
 import "./Projects.scss";
 
@@ -34,6 +35,17 @@ const Projects = ({ t }) => {
         <h4>Plat | Lead Distribution Platform (Feb 2020 - Present)</h4>
         <a href="https://dot818.com/plat/" target="_blank" rel="noreferrer">
           <img className="plat" src={plat} alt="Plat" title={t("deployment")} />
+        </a>
+        <p>{t("platDesc")}</p>
+        <p>{t("platMoreDesc")}</p>
+        <div>
+          <p>{t("env")}</p>
+          <p>JavaScript, React, Redux, Bootstrap, SCSS etc.</p>
+        </div>
+
+        <h4>Vidodo Guide (Oct 2020)</h4>
+        <a href="https://dot818.com/plat/" target="_blank" rel="noreferrer">
+          <img className="plat" src={vidodo} alt="vidodo" title={t("deployment")} />
         </a>
         <p>{t("platDesc")}</p>
         <p>{t("platMoreDesc")}</p>
