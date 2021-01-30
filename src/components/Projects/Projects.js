@@ -1,10 +1,10 @@
 import React, { useEffect } from "react";
 
+import { projectsData } from '../../utils/data';
+
 import Joke from "./Joke/Joke";
 import Notify from "./Notify/Notify";
-
 import ProjectItem from "./ProjectItem";
-import { projectsData } from './data';
 
 import "./Projects.scss";
 

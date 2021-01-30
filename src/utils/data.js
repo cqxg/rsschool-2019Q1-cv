@@ -1,9 +1,9 @@
-import plat from "../../assets/screenshots/Projects/plat.svg";
-import chat from "../../assets/screenshots/Projects/chat.svg";
-import editor from "../../assets/screenshots/Projects/editor.svg";
-import arrays from "../../assets/screenshots/Projects/arrays.svg";
-import culture from "../../assets/screenshots/Projects/culture.svg";
-import vidodo from "../../assets/screenshots/Projects/vidodo.svg";
+import plat from "../assets/screenshots/Projects/plat.svg";
+import chat from "../assets/screenshots/Projects/chat.svg";
+import editor from "../assets/screenshots/Projects/editor.svg";
+import arrays from "../assets/screenshots/Projects/arrays.svg";
+import culture from "../assets/screenshots/Projects/culture.svg";
+import vidodo from "../assets/screenshots/Projects/vidodo.svg";
 
 export const projectsData = [
     {
@@ -46,5 +46,13 @@ export const projectsData = [
         imgAlt: 'culture portal',
         description: 'cultureDesc',
         env: 'JavaScript, GatsbyJS, HTML, CSS, Bootstrap.',
+    },
+    {
+        title: 'Work with arrays (2019)',
+        deployLink: 'https://cqxg.github.io/Work_with_arrays/',
+        imgLink: arrays,
+        imgAlt: 'work with arrays',
+        description: 'arrDesc',
+        env: 'HTML, CSS, JavaScript.',
     },
 ];

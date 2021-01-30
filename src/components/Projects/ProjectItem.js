@@ -1,15 +1,15 @@
 import React from 'react';
 
-const ProjectItem = ({ t, item }) => <>
-    <h4>{item.title}</h4>
-    <a href={item.deployLink} target="_blank" rel="noreferrer">
-        <img src={item.imgLink} alt={item.imgAlt} title={t("deployment")} />
+const ProjectItem = ({ t, item: { title, deployLink, imgLink, imgAlt, description, moreDescription, env } }) => <>
+    <h4>{title}</h4>
+    <a href={deployLink} target="_blank" rel="noreferrer">
+        <img src={imgLink} alt={imgAlt} title={t("deployment")} />
     </a>
-    <p>{t(item.description)}</p>
-    <p>{t(item.moreDescription)}</p>
+    <p>{t(description)}</p>
+    <p>{t(moreDescription)}</p>
     <div>
         <p>{t("env")}</p>
-        <p>{item.env}</p>
+        <p>{env}</p>
     </div>
 </>
 
