@@ -59,6 +59,8 @@ export default {
     "Plat is a fully customizable, turnkey solution for end-to-end lead generation. Used to capture, validate, and distribute leads in real-time through a convenient SaaS. Plat offers multiple distribution methods, including ping post, ping tree, JSON, XML, and SOAP.",
   platMoreDesc: "In this project, I am a front-end developer.",
   chatDesc: "This is a small chat I made using React, Ant Design, Node.js.",
+  vidodoDesc:
+  "This is a small layout of a promo page for audio guides of the island of Lanzarote.",
   editorDesc:
     "The goal of the project is to create an application that will include tools for drawing, animation then and creating .gif or .png images for download, using only native JavaScript.",
   cultureDesc:
