@@ -27,7 +27,7 @@ export default {
   //PROFILE
   summary: "Summary of Qualifications",
   summaryDesc:
-    "Result-oriented, inquisitive and creative young man with a wide range of expertise & experience, including building various web applications using JavaScript and other technologies.",
+    "Result-oriented, inquisitive and creative young man with a wide range of knowledge & experience, including building various web applications using JavaScript and other technologies.",
   skills: "Technical Skills",
   anotherSkills: "Other Skills",
   modeling: "Modeling & Design",
@@ -60,14 +60,14 @@ export default {
   platMoreDesc: "In this project, I am a front-end developer.",
   chatDesc: "This is a small chat I made using React, Ant Design, Node.js.",
   vidodoDesc:
-  "This is a small layout of a promo website for audio guides of the island of Lanzarote.",
+    "This is a small layout of a promo website for audio guides of the island of Lanzarote.",
   editorDesc:
     "The goal of the project is to create an application that will include tools for drawing, animation then and creating .gif or .png images for download, using only native JavaScript.",
   cultureDesc:
     "A small cultural portal about Belarusian directors. The goal of this project was to try collaboration for the first time using a version control system and all collaboration methods. Made in a team with my friends.",
   arrDesc:
     "This is a small, but rather entertaining application, was once created as a test task. Its purpose is to show the ability to work with arrays, and not impress the appearance of the interface. In this application, I read information (abstractly, pseudo-coordinates) from the input.txt file, parsing them according to certain rules, and accordingly fill the arrays. By displaying them on the screen, I get a picture.",
-  notyEnc: "You can find many other interesting examples of my own code in my",
+  notyEnc: "You can find huge amount of awesome examples of my own code in my",
   notyDesc: "Also, don't forget follow and give stars, it's always appreciated ^^,)",
   joke: "Oh my God !",
 
