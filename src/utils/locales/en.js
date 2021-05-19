@@ -50,7 +50,8 @@ export default {
   ownExperience: "And also work on my own projects.",
   experienceIntelico:
     "Participation in projects based on advanced technologies. Development of complex, dynamic interfaces with complex logic and dependencies. Participation in the discussion of architectural solutions.",
-
+  rightNow: "Right now",
+  
   // PROJECTS
   repo: "Repository:",
   env: "Environment:",

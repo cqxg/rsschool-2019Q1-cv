@@ -90,6 +90,7 @@ const Profile = ({ t }) => (
         </a>
         <p>{t("experienceIntelico")}</p>
 
+        <h3>{t("rightNow")}</h3>
         <a href="https://rs.school/" target="_blank" rel="noreferrer">
           <img src={rss} alt="rss" />
         </a>
