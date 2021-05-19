@@ -68,13 +68,13 @@ const Profile = ({ t }) => (
     <div className="profile-container__block">
       <div className="profile-container__experience">
         <h2>{t("experience")}</h2>
-        <h3>2015 - 2018</h3>
+        <h3>2015 — 2018</h3>
         <p>{t("experience2015p1")}</p>
         <p>{t("experience2015p2")}</p>
         <p>{t("experience2015p3")}</p>
         <p>{t("experience2015p4")}</p>
 
-        <h3>2019 - 2020</h3>
+        <h3>2019 — 2020</h3>
         <a
           href="https://en.wikipedia.org/wiki/Freelancer"
           target="_blank"
@@ -84,7 +84,7 @@ const Profile = ({ t }) => (
         </a>
         <p>{t("experience2019p1")}</p>
 
-        <h3>2020 - Present</h3>
+        <h3>2020 — 2021</h3>
         <a href="https://intelico.pro/" target="_blank" rel="noreferrer">
           <img src={intelico} alt="intelico" />
         </a>
