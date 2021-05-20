@@ -56,3 +56,32 @@ export const projectsData = [
         env: 'HTML, CSS, JavaScript.',
     },
 ];
+
+export const profileAnotherSkillsData = [
+    {
+        title: 'research',
+        filledStars: 4,
+        emptyStars: 1,
+    },
+    {
+        title: 'modeling',
+        filledStars: 3,
+        emptyStars: 2,
+    },
+    {
+        title: 'management',
+        filledStars: 4,
+        emptyStars: 1,
+    },
+    {
+        title: 'communication',
+        filledStars: 4,
+        emptyStars: 1,
+    },
+    {
+        title: 'processes',
+        filledStars: 3,
+        emptyStars: 2,
+    },
+
+];

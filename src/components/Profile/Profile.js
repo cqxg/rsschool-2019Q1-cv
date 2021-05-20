@@ -1,11 +1,12 @@
 import React from "react";
 
 import Cubes from "./Cubes/Cubes";
-import Stars from "./Stars/Stars";
+import RenderStarsGroup from "./Stars/Stars";
+import Delimiter from "../../utils/delimiter";
 
-import freelance from "../../assets/screenshots/Work/freelance.svg";
-import intelico from "../../assets/screenshots/Work/intelico.svg";
 import rss from "../../assets/screenshots/Work/rss.svg";
+import intelico from "../../assets/screenshots/Work/intelico.svg";
+import freelance from "../../assets/screenshots/Work/freelance.svg";
 
 import "./Profile.scss";
 
@@ -18,52 +19,16 @@ const Profile = ({ t }) => (
       </blockquote>
     </div>
 
-    <div className="horizontal-line">
-      <div className="line-left" />
-      <div className="left-circle" />
-      <div className="central-circle" />
-      <div className="right-circle" />
-      <div className="line-right" />
-    </div>
+    <Delimiter />
 
     <div className="profile-container__block">
       <h2>{t("skills")}</h2>
       <Cubes />
-
       <h2>{t("anotherSkills")}</h2>
-      <div className="profile-container__another">
-        <p>{t("research")}</p>
-        <Stars filledStars={4} emptyStars={1} />
-      </div>
-
-      <div className="profile-container__another">
-        <p>{t("modeling")}</p>
-        <Stars filledStars={3} emptyStars={2} />
-      </div>
-
-      <div className="profile-container__another">
-        <p>{t("management")}</p>
-        <Stars filledStars={4} emptyStars={1} />
-      </div>
-
-      <div className="profile-container__another">
-        <p>{t("communication")}</p>
-        <Stars filledStars={4} emptyStars={1} />
-      </div>
-
-      <div className="profile-container__another">
-        <p>{t("processes")}</p>
-        <Stars filledStars={3} emptyStars={2} />
-      </div>
+      <RenderStarsGroup t={t} />
     </div>
 
-    <div className="horizontal-line">
-      <div className="line-left" />
-      <div className="left-circle" />
-      <div className="central-circle" />
-      <div className="right-circle" />
-      <div className="line-right" />
-    </div>
+    <Delimiter />
 
     <div className="profile-container__block">
       <div className="profile-container__experience">

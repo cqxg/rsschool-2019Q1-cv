@@ -1,31 +1,19 @@
 import React from "react";
 
+import { profileAnotherSkillsData } from "../../../utils/data";
+
 import "./Stars.scss";
 
 const Stars = ({ filledStars, emptyStars }) => {
-  const filledStarsArr = [];
-  const emptyStarsArr = [];
-
-  for (let i = 0; i < filledStars; i++) {
-    filledStarsArr.push(i);
-  }
-
-  for (let i = 0; i < emptyStars; i++) {
-    emptyStarsArr.push(i);
-  }
-
-  const renderedFilledStars = filledStarsArr.map((item) => (
-    <div className="stars" key={`filled star ${item}`}>
-      <span
-        onClick={(e) => console.log(e.target.classList.toggle("filled"))}
-        className="filled"
-      />
+  const renderedFilledStars = new Array(filledStars).join().split(',').map((item, index) => (
+    <div className="stars" key={`filled star ${item + index}`}>
+      <span onClick={e => e.target.classList.toggle("filled")} className="filled" />
     </div>
   ));
 
-  const renderedEmptyStars = emptyStarsArr.map((item) => (
-    <div className="stars" key={`empty star ${item}`}>
-      <span onClick={(e) => console.log(e.target.classList.toggle("filled"))} />
+  const renderedEmptyStars = new Array(emptyStars).join().split(',').map((item, index) => (
+    <div className="stars" key={`empty star ${item + index}`}>
+      <span onClick={e => e.target.classList.toggle("filled")} />
     </div>
   ));
 
@@ -37,4 +25,11 @@ const Stars = ({ filledStars, emptyStars }) => {
   );
 };
 
-export default Stars;
+const RenderStarsGroup = ({ t }) => profileAnotherSkillsData.map(({ title, filledStars, emptyStars }) => (
+  <div className="profile-container__another" key={title}>
+    <p>{t(title)}</p>
+    <Stars filledStars={filledStars} emptyStars={emptyStars} />
+  </div>
+));
+
+export default RenderStarsGroup;
