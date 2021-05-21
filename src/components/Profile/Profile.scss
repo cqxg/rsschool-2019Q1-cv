@@ -60,27 +60,6 @@
   }
 }
 
-.timeline__data {
-  color: #48da9b;
-  font-size: 17px !important;
-  font-weight: bold !important;
-}
-
-.vertical-timeline {
-  color: #000 !important;
-  width: 100% !important;
-}
-
-.vertical-timeline:before {
-  width: 1px !important;
-  background-color: #434247 !important;
-}
-
-.vertical-timeline-element-icon {
-  box-shadow: 0 0 0 1px #434247, inset 0 2px 0 rgb(0 0 0 / 8%),
-    0 3px 0 4px rgb(0 0 0 / 5%);
-}
-
 @keyframes profile-container {
   0% {
     opacity: 0;

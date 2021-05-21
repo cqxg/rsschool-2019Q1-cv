@@ -1,0 +1,20 @@
+.vertical-timeline {
+  width: 100% !important;
+  color: #000 !important;
+
+  &-element-icon {
+    box-shadow: 0 0 0 1px #434247, inset 0 2px 0 rgb(0 0 0 / 8%),
+      0 3px 0 4px rgb(0 0 0 / 5%);
+  }
+
+  &-element-date {
+    font-size: 17px !important;
+    color: #48da9b !important;
+    font-weight: bold !important;
+  }
+
+  &:before {
+    width: 1px !important;
+    background-color: #434247 !important;
+  }
+}
