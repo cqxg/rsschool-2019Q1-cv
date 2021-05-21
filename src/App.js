@@ -9,7 +9,7 @@ import Profile from './components/Profile/Profile';
 import Projects from './components/Projects/Projects';
 import Education from './components/Education/Education';
 
-import { images } from './utils/images';
+import { images } from './utils/data';
 
 const App = () => {
   const { t, i18n } = useTranslation();
