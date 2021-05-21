@@ -1,9 +1,12 @@
+import rss from "../assets/screenshots/Work/rss.svg";
 import plat from "../assets/screenshots/Projects/plat.svg";
 import chat from "../assets/screenshots/Projects/chat.svg";
 import editor from "../assets/screenshots/Projects/editor.svg";
 import arrays from "../assets/screenshots/Projects/arrays.svg";
-import culture from "../assets/screenshots/Projects/culture.svg";
+import intelico from "../assets/screenshots/Work/intelico.svg";
 import vidodo from "../assets/screenshots/Projects/vidodo.svg";
+import culture from "../assets/screenshots/Projects/culture.svg";
+import freelance from "../assets/screenshots/Work/freelance.svg";
 
 export const projectsData = [
     {
@@ -83,5 +86,12 @@ export const profileAnotherSkillsData = [
         filledStars: 3,
         emptyStars: 2,
     },
+];
 
+export const profileTimelineData = [
+    {
+        title: 'research',
+        filledStars: 4,
+        emptyStars: 1,
+    },
 ];
