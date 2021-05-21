@@ -200,16 +200,39 @@ export const profileTimelineData = [
         title: '2014 — 2018',
         p1: 'experience2015p1',
         p2: 'experience2015p2',
-        link: 'http://bseu.by/english/',
-        img: univer,
-        bottomImg: true
+        // link: 'http://bseu.by/english/',
+        // img: univer,
+        // bottomImg: true
     },
     {
         date: '2016 — 2018',
-        title: '',
         p1: 'experience2015p3',
         p2: 'experience2015p4',
-        link: 'http://www.economy.gov.by/ru/',
-        img: economy,
+        // link: 'http://www.economy.gov.by/ru/',
+        // img: economy,
+    },
+    {
+        date: '2019 — 2020',
+        title: '',
+        p1: 'experience2019p1',
+        link: 'https://en.wikipedia.org/wiki/Freelancer',
+        img: freelance,
+        bottomImg: true
+    },
+    {
+        date: '2020 — 2021',
+        title: 'INTELICO · Frontend developer',
+        p1: 'experienceIntelico',
+        link: 'https://intelico.pro/',
+        img: intelico,
+        bottomImg: true
+    },
+    {
+        title: 'rightNow',
+        p1: 'experienceRss',
+        p2: 'ownExperience',
+        link: 'https://rs.school/',
+        img: rss,
+        bottomImg: true
     },
 ];

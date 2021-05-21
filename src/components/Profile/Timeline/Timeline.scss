@@ -3,19 +3,8 @@
   width: 100% !important;
   color: #000 !important;
 
-  :first-child {
-      img {
-          margin-top: 25px;
-      }
-  }
-
   &-element {
     margin: 0 !important;
-
-    &:after {
-      content: none !important;
-      display: none !important;
-    }
   }
 
   &-element-content {
