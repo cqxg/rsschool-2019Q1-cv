@@ -13,7 +13,7 @@ const renderTimelineElements = (t) => profileTimelineData.map(({ date, title, p1
         </a>
 
     return (
-        <VerticalTimelineElement className="vertical-timeline-element--work" date={date}>
+        <VerticalTimelineElement key={p1} className="vertical-timeline-element--work" date={date}>
             <h3 className="vertical-timeline-element-title">{t(title)}</h3>
             {!bottomImg && linkRender}
             <p>{t(p1)}</p>

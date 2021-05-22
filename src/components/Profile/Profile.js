@@ -3,7 +3,6 @@ import React from "react";
 import Cubes from "./Cubes/Cubes";
 import Timeline from "./Timeline/Timeline";
 import RenderStarsGroup from "./Stars/Stars";
-import Delimiter from "../../utils/delimiter";
 
 import "./Profile.scss";
 
@@ -16,8 +15,6 @@ const Profile = ({ t }) => (
       </blockquote>
     </div>
 
-    <Delimiter />
-
     <div className="profile-container__block">
       <h2>{t("skills")}</h2>
       <Cubes />
@@ -29,37 +26,6 @@ const Profile = ({ t }) => (
       <div className="profile-container__experience">
         <h2>{t("experience")}</h2>
         <Timeline t={t} />
-        {/* <h3>2015 — 2018</h3>
-        <p>{t("experience2015p1")}</p>
-        <p>{t("experience2015p2")}</p>
-        <p>{t("experience2015p3")}</p>
-        <p>{t("experience2015p4")}</p>
-
-        <h3>2019 — 2020</h3>
-        <a
-          href="https://en.wikipedia.org/wiki/Freelancer"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <img src={freelance} alt="freelance" />
-        </a>
-        <p>{t("experience2019p1")}</p>
-
-        <h3>2020 — 2021</h3>
-        <a href="https://intelico.pro/" target="_blank" rel="noreferrer">
-          <img src={intelico} alt="intelico" />
-        </a>
-        <p>{t("experienceIntelico")}</p>
-
-        <h3>{t("rightNow")}</h3>
-        <a href="https://rs.school/" target="_blank" rel="noreferrer">
-          <img src={rss} alt="rss" />
-        </a>
-        <p>{t("experienceRss")}</p>
-        <p>{t("ownExperience")}</p> */}
-
-
-
       </div>
     </div>
   </div>
