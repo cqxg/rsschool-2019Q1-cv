@@ -73,13 +73,8 @@ const Cubes = () => {
 
   return (
     <>
-      <div className="first-line">
-        {renderFirstLine}
-      </div>
-
-      <div className="second-line">
-        {renderSecondLine}
-      </div>
+      <div className="first-line">{renderFirstLine}</div>
+      <div className="second-line">{renderSecondLine}</div>
     </>
   );
 };
