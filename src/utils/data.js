@@ -236,3 +236,42 @@ export const profileTimelineData = [
         bottomImg: true
     },
 ];
+
+export const firstLineCubesData = [
+    {
+        currentNumber: '0',
+        topSideImg: '',
+        frontSideImg: less,
+        rightSideImg: sass,
+        backSideImg: css,
+        leftSideImg: html,
+        bottomSideImg: '',
+    },
+    {
+        currentNumber: '1',
+        topSideImg: '',
+        frontSideImg: lint,
+        rightSideImg: webpack,
+        backSideImg: ts,
+        leftSideImg: js,
+        bottomSideImg: '',
+    },
+    {
+        currentNumber: '2',
+        topSideImg: '',
+        frontSideImg: mobx,
+        rightSideImg: jest,
+        backSideImg: redux,
+        leftSideImg: reacticon,
+        bottomSideImg: '',
+    },
+    {
+        currentNumber: '3',
+        topSideImg: yarn,
+        frontSideImg: npm,
+        rightSideImg: '',
+        backSideImg: mongo,
+        leftSideImg: '',
+        bottomSideImg: nodejs,
+    },
+]

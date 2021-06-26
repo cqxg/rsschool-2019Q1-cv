@@ -1,5 +1,9 @@
 import React, { useEffect } from "react";
 
+import Cube from "./Cube";
+
+import { firstLineCubesData } from "../../../utils/data";
+
 import css from "../../../assets/icons/css.svg";
 import less from "../../../assets/icons/less.svg";
 import html from "../../../assets/icons/html.svg";
@@ -104,84 +108,12 @@ const Cubes = () => {
     nextCube();
   }, []);
 
+  const renderFirstLine = firstLineCubesData.map((item) => <Cube item={item} />);
+
   return (
     <>
       <div className="first-line">
-        <div className="stage">
-          <div className="cubespinner cube0">
-            <div className="top side"></div>
-            <div className="front side">
-              <img alt="less" src={less} />
-            </div>
-            <div className="right side">
-              <img alt="sass" src={sass} />
-            </div>
-            <div className="back side">
-              <img alt="css" src={css} />
-            </div>
-            <div className="left side">
-              <img alt="html" src={html} />
-            </div>
-            <div className="bottom side"></div>
-          </div>
-        </div>
-
-        <div className="stage">
-          <div className="cubespinner cube1">
-            <div className="top side"></div>
-            <div className="front side">
-              <img alt="lint" src={lint} />
-            </div>
-            <div className="right side">
-              <img alt="webpack" src={webpack} />
-            </div>
-            <div className="back side">
-              <img alt="ts" src={ts} />
-            </div>
-            <div className="left side">
-              <img alt="js" src={js} />
-            </div>
-            <div className="bottom side"></div>
-          </div>
-        </div>
-
-        <div className="stage">
-          <div className="cubespinner cube2">
-            <div className="top side"></div>
-            <div className="front side">
-              <img alt="mobx" src={mobx} />
-            </div>
-            <div className="right side">
-              <img alt="jest" src={jest} />
-            </div>
-            <div className="back side">
-              <img alt="redux" src={redux} />
-            </div>
-            <div className="left side">
-              <img alt="react" src={react} />
-            </div>
-            <div className="bottom side"></div>
-          </div>
-        </div>
-
-        <div className="stage">
-          <div className="cubespinner cube3">
-            <div className="top side">
-              <img alt="yarn" src={yarn} />
-            </div>
-            <div className="front side">
-              <img alt="npm" src={npm} />
-            </div>
-            <div className="right side"></div>
-            <div className="back side">
-              <img alt="mongo" src={mongo} />
-            </div>
-            <div className="left side"></div>
-            <div className="bottom side">
-              <img alt="nodejs" src={nodejs} />
-            </div>
-          </div>
-        </div>
+        {renderFirstLine}
       </div>
 
       <div className="second-line">
