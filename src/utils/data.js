@@ -274,4 +274,43 @@ export const firstLineCubesData = [
         leftSideImg: '',
         bottomSideImg: nodejs,
     },
+];
+
+export const secondLineCubesData = [
+    {
+        currentNumber: '7',
+        topSideImg: bitbucket,
+        frontSideImg: gh,
+        rightSideImg: '',
+        backSideImg: gitlab,
+        leftSideImg: '',
+        bottomSideImg: git,
+    },
+    {
+        currentNumber: '6',
+        topSideImg: '',
+        frontSideImg: atlassian,
+        rightSideImg: trello,
+        backSideImg: heroku,
+        leftSideImg: netlify,
+        bottomSideImg: '',
+    },
+    {
+        currentNumber: '5',
+        topSideImg: '',
+        frontSideImg: vs,
+        rightSideImg: webstorm,
+        backSideImg: airbnb,
+        leftSideImg: figma,
+        bottomSideImg: '',
+    },
+    {
+        currentNumber: '4',
+        topSideImg: '',
+        frontSideImg: safari,
+        rightSideImg: chrome,
+        backSideImg: mozilla,
+        leftSideImg: yandex,
+        bottomSideImg: '',
+    },
 ]
