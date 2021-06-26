@@ -16,31 +16,11 @@ const Header = ({ t, i18n, activeLocale, changeLocale }) => {
     changeLocale(language);
   };
 
-  const RU = (
-    <span
-      className={
-        activeLocale === "ru"
-          ? "menu-container__ru active"
-          : "menu-container__ru"
-      }
-      onClick={() => setLanguage("ru")}
-    >
-      RU
-    </span>
-  );
+  const ruClasses = activeLocale === "ru" ? "menu-container__ru active" : "menu-container__ru";
+  const engClasses = activeLocale === "en" ? "menu-container__en active" : "menu-container__en";
 
-  const EN = (
-    <span
-      className={
-        activeLocale === "en"
-          ? "menu-container__en active"
-          : "menu-container__en"
-      }
-      onClick={() => setLanguage("en")}
-    >
-      EN
-    </span>
-  );
+  const RU = <span className={ruClasses} onClick={() => setLanguage("ru")}>RU</span>;
+  const EN = <span className={engClasses} onClick={() => setLanguage("en")}>EN</span>;
 
   return (
     <header>

@@ -7,11 +7,7 @@ const Notify = ({ t }) => (
     <input type="checkbox" />
     <p>
       {t("notyEnc")}
-      <a
-        target="_blank"
-        rel="noopener noreferrer"
-        href="https://github.com/cqxg"
-      >
+      <a target="_blank" rel="noopener noreferrer" href="https://github.com/cqxg">
         {" "}
         GitHub
       </a>

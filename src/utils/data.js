@@ -117,7 +117,7 @@ export const images = [
 
 export const projectsData = [
     {
-        title: 'Plat | Lead Distribution Platform (Feb 2020 - Present)',
+        title: 'Plat | Lead Distribution Platform (2020 - 2021)',
         deployLink: 'https://dot818.com/plat/',
         imgLink: plat,
         imgAlt: 'plat',
